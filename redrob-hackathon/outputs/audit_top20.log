@@ -1,0 +1,531 @@
+AUDIT DATA FOR TOP 20 CANDIDATES
+================================
+
+Candidate: Ela Singh (Rank: 1)
+Role Alignment Contribution: 45.23
+Supporting Dimensions Contribution: 19.38
+Final Score Decomposition:
+  * Final Score = 45.23 (Role Alignment) + 19.38 (Supporting Candidate Quality) = 64.61
+  * Stage 1 - Raw Capability Fit: 28.25
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 100.00 (Owner)
+    - Recruitability Score: 87.14
+    - Market Validation Score: 71.57
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 0.80 (Medium)
+Capability Coverage:
+  * Retrieval: 58.82
+  * Ranking: 75.81
+  * Recommendation: 56.44
+  * Search: 35.14
+Evidence Source:
+  * Career, Project, Assessment, Skills
+Evidence Depth:
+  * 3+ roles
+Reason candidate outranked next candidate: Outranked due to higher role relevance / capability fit band (45.23 vs 13.51), as role alignment dominates ranking decisions.
+--------------------------------------------------
+Candidate: Aarav Kapoor (Rank: 2)
+Role Alignment Contribution: 13.51
+Supporting Dimensions Contribution: 5.79
+Final Score Decomposition:
+  * Final Score = 13.51 (Role Alignment) + 5.79 (Supporting Candidate Quality) = 19.30
+  * Stage 1 - Raw Capability Fit: 9.71
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 15.00 (Contributor)
+    - Recruitability Score: 60.91
+    - Market Validation Score: 47.20
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 1.00 (High)
+Capability Coverage:
+  * Retrieval: 3.50
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * Skills
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked due to higher role relevance / capability fit band (13.51 vs 10.56), as role alignment dominates ranking decisions.
+--------------------------------------------------
+Candidate: Ira Vora (Rank: 3)
+Role Alignment Contribution: 10.56
+Supporting Dimensions Contribution: 4.53
+Final Score Decomposition:
+  * Final Score = 10.56 (Role Alignment) + 4.53 (Supporting Candidate Quality) = 15.09
+  * Stage 1 - Raw Capability Fit: 15.28
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 45.00 (Builder)
+    - Recruitability Score: 61.66
+    - Market Validation Score: 45.85
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 1.00 (High)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked due to higher role relevance / capability fit band (10.56 vs 2.44), as role alignment dominates ranking decisions.
+--------------------------------------------------
+Candidate: Vivaan Reddy (Rank: 4)
+Role Alignment Contribution: 2.44
+Supporting Dimensions Contribution: 1.04
+Final Score Decomposition:
+  * Final Score = 2.44 (Role Alignment) + 1.04 (Supporting Candidate Quality) = 3.48
+  * Stage 1 - Raw Capability Fit: 0.00
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 45.00 (Builder)
+    - Recruitability Score: 39.43
+    - Market Validation Score: 47.92
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 0.60 (Medium)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked due to higher role relevance / capability fit band (2.44 vs 2.22), as role alignment dominates ranking decisions.
+--------------------------------------------------
+Candidate: Vihaan Saxena (Rank: 5)
+Role Alignment Contribution: 2.22
+Supporting Dimensions Contribution: 0.95
+Final Score Decomposition:
+  * Final Score = 2.22 (Role Alignment) + 0.95 (Supporting Candidate Quality) = 3.17
+  * Stage 1 - Raw Capability Fit: 0.00
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 60.00 (Builder)
+    - Recruitability Score: 64.55
+    - Market Validation Score: 42.07
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 0.60 (Medium)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked due to higher role relevance / capability fit band (2.22 vs 1.34), as role alignment dominates ranking decisions.
+--------------------------------------------------
+Candidate: Aarav Sen (Rank: 6)
+Role Alignment Contribution: 1.34
+Supporting Dimensions Contribution: 0.58
+Final Score Decomposition:
+  * Final Score = 1.34 (Role Alignment) + 0.58 (Supporting Candidate Quality) = 1.92
+  * Stage 1 - Raw Capability Fit: 0.00
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 75.00 (Owner)
+    - Recruitability Score: 30.45
+    - Market Validation Score: 37.20
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 0.48 (Low)
+Capability Coverage:
+  * Retrieval: 3.50
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * Skills
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked due to higher role relevance / capability fit band (1.34 vs 1.27), as role alignment dominates ranking decisions.
+--------------------------------------------------
+Candidate: Myra Trivedi (Rank: 7)
+Role Alignment Contribution: 1.27
+Supporting Dimensions Contribution: 0.54
+Final Score Decomposition:
+  * Final Score = 1.27 (Role Alignment) + 0.54 (Supporting Candidate Quality) = 1.81
+  * Stage 1 - Raw Capability Fit: 0.00
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 60.00 (Builder)
+    - Recruitability Score: 67.03
+    - Market Validation Score: 75.00
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 0.48 (Low)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked due to higher role relevance / capability fit band (1.27 vs 1.17), as role alignment dominates ranking decisions.
+--------------------------------------------------
+Candidate: Riya Mukherjee (Rank: 8)
+Role Alignment Contribution: 1.17
+Supporting Dimensions Contribution: 0.50
+Final Score Decomposition:
+  * Final Score = 1.17 (Role Alignment) + 0.50 (Supporting Candidate Quality) = 1.67
+  * Stage 1 - Raw Capability Fit: 0.92
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 75.00 (Owner)
+    - Recruitability Score: 40.21
+    - Market Validation Score: 33.99
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 1.00 (High)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked due to higher role relevance / capability fit band (1.17 vs 0.85), as role alignment dominates ranking decisions.
+--------------------------------------------------
+Candidate: Kavya Nair (Rank: 9)
+Role Alignment Contribution: 0.85
+Supporting Dimensions Contribution: 0.36
+Final Score Decomposition:
+  * Final Score = 0.85 (Role Alignment) + 0.36 (Supporting Candidate Quality) = 1.21
+  * Stage 1 - Raw Capability Fit: 0.00
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 30.00 (Contributor)
+    - Recruitability Score: 62.09
+    - Market Validation Score: 60.61
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 0.80 (Medium)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked due to higher role relevance / capability fit band (0.85 vs 0.56), as role alignment dominates ranking decisions.
+--------------------------------------------------
+Candidate: Neha Rao (Rank: 10)
+Role Alignment Contribution: 0.56
+Supporting Dimensions Contribution: 0.24
+Final Score Decomposition:
+  * Final Score = 0.56 (Role Alignment) + 0.24 (Supporting Candidate Quality) = 0.80
+  * Stage 1 - Raw Capability Fit: 1.54
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 75.00 (Owner)
+    - Recruitability Score: 40.77
+    - Market Validation Score: 52.35
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 1.00 (High)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked due to higher role relevance / capability fit band (0.56 vs 0.36), as role alignment dominates ranking decisions.
+--------------------------------------------------
+Candidate: Rahul Agarwal (Rank: 11)
+Role Alignment Contribution: 0.36
+Supporting Dimensions Contribution: 0.16
+Final Score Decomposition:
+  * Final Score = 0.36 (Role Alignment) + 0.16 (Supporting Candidate Quality) = 0.52
+  * Stage 1 - Raw Capability Fit: 9.00
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 45.00 (Builder)
+    - Recruitability Score: 47.13
+    - Market Validation Score: 53.01
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 0.80 (Medium)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked due to higher role relevance / capability fit band (0.36 vs 0.18), as role alignment dominates ranking decisions.
+--------------------------------------------------
+Candidate: Dev Nair (Rank: 12)
+Role Alignment Contribution: 0.18
+Supporting Dimensions Contribution: 0.08
+Final Score Decomposition:
+  * Final Score = 0.18 (Role Alignment) + 0.08 (Supporting Candidate Quality) = 0.25
+  * Stage 1 - Raw Capability Fit: 0.00
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 100.00 (Owner)
+    - Recruitability Score: 50.90
+    - Market Validation Score: 50.79
+    - Career Consistency Score: 40.00
+    - Profile Confidence Score: 0.85 (Medium)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked due to higher role relevance / capability fit band (0.18 vs 0.06), as role alignment dominates ranking decisions.
+--------------------------------------------------
+Candidate: Atharv Joshi (Rank: 13)
+Role Alignment Contribution: 0.06
+Supporting Dimensions Contribution: 0.03
+Final Score Decomposition:
+  * Final Score = 0.06 (Role Alignment) + 0.03 (Supporting Candidate Quality) = 0.09
+  * Stage 1 - Raw Capability Fit: 0.00
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 60.00 (Builder)
+    - Recruitability Score: 59.06
+    - Market Validation Score: 7.82
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 0.80 (Medium)
+Capability Coverage:
+  * Retrieval: 13.39
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * Assessment, Skills
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked due to higher role relevance / capability fit band (0.06 vs 0.00), as role alignment dominates ranking decisions.
+--------------------------------------------------
+Candidate: Saanvi Sethi (Rank: 14)
+Role Alignment Contribution: 0.00
+Supporting Dimensions Contribution: 0.00
+Final Score Decomposition:
+  * Final Score = 0.00 (Role Alignment) + 0.00 (Supporting Candidate Quality) = 0.00
+  * Stage 1 - Raw Capability Fit: 1.24
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 100.00 (Owner)
+    - Recruitability Score: 32.66
+    - Market Validation Score: 33.71
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 1.00 (High)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked within the same relevance band due to higher supporting candidate quality (0.00 vs 0.00).
+--------------------------------------------------
+Candidate: Yash Agarwal (Rank: 15)
+Role Alignment Contribution: 0.00
+Supporting Dimensions Contribution: 0.00
+Final Score Decomposition:
+  * Final Score = 0.00 (Role Alignment) + 0.00 (Supporting Candidate Quality) = 0.00
+  * Stage 1 - Raw Capability Fit: 0.00
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 0.00 (User)
+    - Recruitability Score: 41.50
+    - Market Validation Score: 21.63
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 0.80 (Medium)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked within the same relevance band due to higher supporting candidate quality (0.00 vs 0.00).
+--------------------------------------------------
+Candidate: Aisha Sethi (Rank: 16)
+Role Alignment Contribution: 0.00
+Supporting Dimensions Contribution: 0.00
+Final Score Decomposition:
+  * Final Score = 0.00 (Role Alignment) + 0.00 (Supporting Candidate Quality) = 0.00
+  * Stage 1 - Raw Capability Fit: 0.00
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 90.00 (Owner)
+    - Recruitability Score: 37.85
+    - Market Validation Score: 20.20
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 0.60 (Medium)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked within the same relevance band due to higher supporting candidate quality (0.00 vs 0.00).
+--------------------------------------------------
+Candidate: Rajesh Desai (Rank: 17)
+Role Alignment Contribution: 0.00
+Supporting Dimensions Contribution: 0.00
+Final Score Decomposition:
+  * Final Score = 0.00 (Role Alignment) + 0.00 (Supporting Candidate Quality) = 0.00
+  * Stage 1 - Raw Capability Fit: 0.00
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 45.00 (Builder)
+    - Recruitability Score: 39.87
+    - Market Validation Score: 45.04
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 0.60 (Medium)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked within the same relevance band despite lower raw capability fit (0.00 vs 0.26) because of superior supporting candidate quality (supporting contribution 0.00 vs 0.00).
+--------------------------------------------------
+Candidate: Vihaan Bose (Rank: 18)
+Role Alignment Contribution: 0.00
+Supporting Dimensions Contribution: 0.00
+Final Score Decomposition:
+  * Final Score = 0.00 (Role Alignment) + 0.00 (Supporting Candidate Quality) = 0.00
+  * Stage 1 - Raw Capability Fit: 0.26
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 90.00 (Owner)
+    - Recruitability Score: 74.81
+    - Market Validation Score: 29.87
+    - Career Consistency Score: 40.00
+    - Profile Confidence Score: 0.85 (Medium)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked within the same relevance band due to higher supporting candidate quality (0.00 vs 0.00).
+--------------------------------------------------
+Candidate: Shaurya Chatterjee (Rank: 19)
+Role Alignment Contribution: 0.00
+Supporting Dimensions Contribution: 0.00
+Final Score Decomposition:
+  * Final Score = 0.00 (Role Alignment) + 0.00 (Supporting Candidate Quality) = 0.00
+  * Stage 1 - Raw Capability Fit: 0.09
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 45.00 (Builder)
+    - Recruitability Score: 32.11
+    - Market Validation Score: 27.51
+    - Career Consistency Score: 100.00
+    - Profile Confidence Score: 0.80 (Medium)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: Outranked within the same relevance band due to higher supporting candidate quality (0.00 vs 0.00).
+--------------------------------------------------
+Candidate: Amit Shah (Rank: 20)
+Role Alignment Contribution: 0.00
+Supporting Dimensions Contribution: 0.00
+Final Score Decomposition:
+  * Final Score = 0.00 (Role Alignment) + 0.00 (Supporting Candidate Quality) = 0.00
+  * Stage 1 - Raw Capability Fit: 0.00
+  * Stage 2 - Candidate Quality Breakdown:
+    - Ownership Score: 75.00 (Owner)
+    - Recruitability Score: 36.55
+    - Market Validation Score: 25.58
+    - Career Consistency Score: 40.00
+    - Profile Confidence Score: 0.85 (Medium)
+Capability Coverage:
+  * Retrieval: 0.00
+  * Ranking: 0.00
+  * Recommendation: 0.00
+  * Search: 0.00
+Evidence Source:
+  * None
+Evidence Depth:
+  * None
+Reason candidate outranked next candidate: N/A (End of Top 20)
+--------------------------------------------------
+
+CASES WHERE A LOWER-ALIGNMENT CANDIDATE OUTRANKED A HIGHER-ALIGNMENT CANDIDATE
+==========================================================================
+* Candidate 'Aarav Kapoor' (Rank 2, Alignment 9.71) outranked Candidate 'Ira Vora' (Rank 3, Alignment 15.28) within the same capability fit band (role alignment contribution: 13.51). Within this band, candidate quality (Stage 2) decides ordering. 'Aarav Kapoor' has stronger candidate quality (supporting contribution 5.79 vs 4.53), driven by: ownership (15.00 vs 45.00), recruitability (60.91 vs 61.66), market validation (47.20 vs 45.85), career consistency (100.00 vs 100.00), and profile confidence (1.00 vs 1.00).
+* Candidate 'Vivaan Reddy' (Rank 4, Alignment 0.00) outranked Candidate 'Riya Mukherjee' (Rank 8, Alignment 0.92) within the same capability fit band (role alignment contribution: 2.44). Within this band, candidate quality (Stage 2) decides ordering. 'Vivaan Reddy' has stronger candidate quality (supporting contribution 1.04 vs 0.50), driven by: ownership (45.00 vs 75.00), recruitability (39.43 vs 40.21), market validation (47.92 vs 33.99), career consistency (100.00 vs 100.00), and profile confidence (0.60 vs 1.00).
+* Candidate 'Vivaan Reddy' (Rank 4, Alignment 0.00) outranked Candidate 'Neha Rao' (Rank 10, Alignment 1.54) within the same capability fit band (role alignment contribution: 2.44). Within this band, candidate quality (Stage 2) decides ordering. 'Vivaan Reddy' has stronger candidate quality (supporting contribution 1.04 vs 0.24), driven by: ownership (45.00 vs 75.00), recruitability (39.43 vs 40.77), market validation (47.92 vs 52.35), career consistency (100.00 vs 100.00), and profile confidence (0.60 vs 1.00).
+* Candidate 'Vivaan Reddy' (Rank 4, Alignment 0.00) outranked Candidate 'Rahul Agarwal' (Rank 11, Alignment 9.00) within the same capability fit band (role alignment contribution: 2.44). Within this band, candidate quality (Stage 2) decides ordering. 'Vivaan Reddy' has stronger candidate quality (supporting contribution 1.04 vs 0.16), driven by: ownership (45.00 vs 45.00), recruitability (39.43 vs 47.13), market validation (47.92 vs 53.01), career consistency (100.00 vs 100.00), and profile confidence (0.60 vs 0.80).
+* Candidate 'Vivaan Reddy' (Rank 4, Alignment 0.00) outranked Candidate 'Saanvi Sethi' (Rank 14, Alignment 1.24) within the same capability fit band (role alignment contribution: 2.44). Within this band, candidate quality (Stage 2) decides ordering. 'Vivaan Reddy' has stronger candidate quality (supporting contribution 1.04 vs 0.00), driven by: ownership (45.00 vs 100.00), recruitability (39.43 vs 32.66), market validation (47.92 vs 33.71), career consistency (100.00 vs 100.00), and profile confidence (0.60 vs 1.00).
+* Candidate 'Vivaan Reddy' (Rank 4, Alignment 0.00) outranked Candidate 'Vihaan Bose' (Rank 18, Alignment 0.26) within the same capability fit band (role alignment contribution: 2.44). Within this band, candidate quality (Stage 2) decides ordering. 'Vivaan Reddy' has stronger candidate quality (supporting contribution 1.04 vs 0.00), driven by: ownership (45.00 vs 90.00), recruitability (39.43 vs 74.81), market validation (47.92 vs 29.87), career consistency (100.00 vs 40.00), and profile confidence (0.60 vs 0.85).
+* Candidate 'Vivaan Reddy' (Rank 4, Alignment 0.00) outranked Candidate 'Shaurya Chatterjee' (Rank 19, Alignment 0.09) within the same capability fit band (role alignment contribution: 2.44). Within this band, candidate quality (Stage 2) decides ordering. 'Vivaan Reddy' has stronger candidate quality (supporting contribution 1.04 vs 0.00), driven by: ownership (45.00 vs 45.00), recruitability (39.43 vs 32.11), market validation (47.92 vs 27.51), career consistency (100.00 vs 100.00), and profile confidence (0.60 vs 0.80).
+* Candidate 'Vihaan Saxena' (Rank 5, Alignment 0.00) outranked Candidate 'Riya Mukherjee' (Rank 8, Alignment 0.92) within the same capability fit band (role alignment contribution: 2.22). Within this band, candidate quality (Stage 2) decides ordering. 'Vihaan Saxena' has stronger candidate quality (supporting contribution 0.95 vs 0.50), driven by: ownership (60.00 vs 75.00), recruitability (64.55 vs 40.21), market validation (42.07 vs 33.99), career consistency (100.00 vs 100.00), and profile confidence (0.60 vs 1.00).
+* Candidate 'Vihaan Saxena' (Rank 5, Alignment 0.00) outranked Candidate 'Neha Rao' (Rank 10, Alignment 1.54) within the same capability fit band (role alignment contribution: 2.22). Within this band, candidate quality (Stage 2) decides ordering. 'Vihaan Saxena' has stronger candidate quality (supporting contribution 0.95 vs 0.24), driven by: ownership (60.00 vs 75.00), recruitability (64.55 vs 40.77), market validation (42.07 vs 52.35), career consistency (100.00 vs 100.00), and profile confidence (0.60 vs 1.00).
+* Candidate 'Vihaan Saxena' (Rank 5, Alignment 0.00) outranked Candidate 'Rahul Agarwal' (Rank 11, Alignment 9.00) within the same capability fit band (role alignment contribution: 2.22). Within this band, candidate quality (Stage 2) decides ordering. 'Vihaan Saxena' has stronger candidate quality (supporting contribution 0.95 vs 0.16), driven by: ownership (60.00 vs 45.00), recruitability (64.55 vs 47.13), market validation (42.07 vs 53.01), career consistency (100.00 vs 100.00), and profile confidence (0.60 vs 0.80).
+* Candidate 'Vihaan Saxena' (Rank 5, Alignment 0.00) outranked Candidate 'Saanvi Sethi' (Rank 14, Alignment 1.24) within the same capability fit band (role alignment contribution: 2.22). Within this band, candidate quality (Stage 2) decides ordering. 'Vihaan Saxena' has stronger candidate quality (supporting contribution 0.95 vs 0.00), driven by: ownership (60.00 vs 100.00), recruitability (64.55 vs 32.66), market validation (42.07 vs 33.71), career consistency (100.00 vs 100.00), and profile confidence (0.60 vs 1.00).
+* Candidate 'Vihaan Saxena' (Rank 5, Alignment 0.00) outranked Candidate 'Vihaan Bose' (Rank 18, Alignment 0.26) within the same capability fit band (role alignment contribution: 2.22). Within this band, candidate quality (Stage 2) decides ordering. 'Vihaan Saxena' has stronger candidate quality (supporting contribution 0.95 vs 0.00), driven by: ownership (60.00 vs 90.00), recruitability (64.55 vs 74.81), market validation (42.07 vs 29.87), career consistency (100.00 vs 40.00), and profile confidence (0.60 vs 0.85).
+* Candidate 'Vihaan Saxena' (Rank 5, Alignment 0.00) outranked Candidate 'Shaurya Chatterjee' (Rank 19, Alignment 0.09) within the same capability fit band (role alignment contribution: 2.22). Within this band, candidate quality (Stage 2) decides ordering. 'Vihaan Saxena' has stronger candidate quality (supporting contribution 0.95 vs 0.00), driven by: ownership (60.00 vs 45.00), recruitability (64.55 vs 32.11), market validation (42.07 vs 27.51), career consistency (100.00 vs 100.00), and profile confidence (0.60 vs 0.80).
+* Candidate 'Aarav Sen' (Rank 6, Alignment 0.00) outranked Candidate 'Riya Mukherjee' (Rank 8, Alignment 0.92) within the same capability fit band (role alignment contribution: 1.34). Within this band, candidate quality (Stage 2) decides ordering. 'Aarav Sen' has stronger candidate quality (supporting contribution 0.58 vs 0.50), driven by: ownership (75.00 vs 75.00), recruitability (30.45 vs 40.21), market validation (37.20 vs 33.99), career consistency (100.00 vs 100.00), and profile confidence (0.48 vs 1.00).
+* Candidate 'Aarav Sen' (Rank 6, Alignment 0.00) outranked Candidate 'Neha Rao' (Rank 10, Alignment 1.54) within the same capability fit band (role alignment contribution: 1.34). Within this band, candidate quality (Stage 2) decides ordering. 'Aarav Sen' has stronger candidate quality (supporting contribution 0.58 vs 0.24), driven by: ownership (75.00 vs 75.00), recruitability (30.45 vs 40.77), market validation (37.20 vs 52.35), career consistency (100.00 vs 100.00), and profile confidence (0.48 vs 1.00).
+* Candidate 'Aarav Sen' (Rank 6, Alignment 0.00) outranked Candidate 'Rahul Agarwal' (Rank 11, Alignment 9.00) within the same capability fit band (role alignment contribution: 1.34). Within this band, candidate quality (Stage 2) decides ordering. 'Aarav Sen' has stronger candidate quality (supporting contribution 0.58 vs 0.16), driven by: ownership (75.00 vs 45.00), recruitability (30.45 vs 47.13), market validation (37.20 vs 53.01), career consistency (100.00 vs 100.00), and profile confidence (0.48 vs 0.80).
+* Candidate 'Aarav Sen' (Rank 6, Alignment 0.00) outranked Candidate 'Saanvi Sethi' (Rank 14, Alignment 1.24) within the same capability fit band (role alignment contribution: 1.34). Within this band, candidate quality (Stage 2) decides ordering. 'Aarav Sen' has stronger candidate quality (supporting contribution 0.58 vs 0.00), driven by: ownership (75.00 vs 100.00), recruitability (30.45 vs 32.66), market validation (37.20 vs 33.71), career consistency (100.00 vs 100.00), and profile confidence (0.48 vs 1.00).
+* Candidate 'Aarav Sen' (Rank 6, Alignment 0.00) outranked Candidate 'Vihaan Bose' (Rank 18, Alignment 0.26) within the same capability fit band (role alignment contribution: 1.34). Within this band, candidate quality (Stage 2) decides ordering. 'Aarav Sen' has stronger candidate quality (supporting contribution 0.58 vs 0.00), driven by: ownership (75.00 vs 90.00), recruitability (30.45 vs 74.81), market validation (37.20 vs 29.87), career consistency (100.00 vs 40.00), and profile confidence (0.48 vs 0.85).
+* Candidate 'Aarav Sen' (Rank 6, Alignment 0.00) outranked Candidate 'Shaurya Chatterjee' (Rank 19, Alignment 0.09) within the same capability fit band (role alignment contribution: 1.34). Within this band, candidate quality (Stage 2) decides ordering. 'Aarav Sen' has stronger candidate quality (supporting contribution 0.58 vs 0.00), driven by: ownership (75.00 vs 45.00), recruitability (30.45 vs 32.11), market validation (37.20 vs 27.51), career consistency (100.00 vs 100.00), and profile confidence (0.48 vs 0.80).
+* Candidate 'Myra Trivedi' (Rank 7, Alignment 0.00) outranked Candidate 'Riya Mukherjee' (Rank 8, Alignment 0.92) within the same capability fit band (role alignment contribution: 1.27). Within this band, candidate quality (Stage 2) decides ordering. 'Myra Trivedi' has stronger candidate quality (supporting contribution 0.54 vs 0.50), driven by: ownership (60.00 vs 75.00), recruitability (67.03 vs 40.21), market validation (75.00 vs 33.99), career consistency (100.00 vs 100.00), and profile confidence (0.48 vs 1.00).
+* Candidate 'Myra Trivedi' (Rank 7, Alignment 0.00) outranked Candidate 'Neha Rao' (Rank 10, Alignment 1.54) within the same capability fit band (role alignment contribution: 1.27). Within this band, candidate quality (Stage 2) decides ordering. 'Myra Trivedi' has stronger candidate quality (supporting contribution 0.54 vs 0.24), driven by: ownership (60.00 vs 75.00), recruitability (67.03 vs 40.77), market validation (75.00 vs 52.35), career consistency (100.00 vs 100.00), and profile confidence (0.48 vs 1.00).
+* Candidate 'Myra Trivedi' (Rank 7, Alignment 0.00) outranked Candidate 'Rahul Agarwal' (Rank 11, Alignment 9.00) within the same capability fit band (role alignment contribution: 1.27). Within this band, candidate quality (Stage 2) decides ordering. 'Myra Trivedi' has stronger candidate quality (supporting contribution 0.54 vs 0.16), driven by: ownership (60.00 vs 45.00), recruitability (67.03 vs 47.13), market validation (75.00 vs 53.01), career consistency (100.00 vs 100.00), and profile confidence (0.48 vs 0.80).
+* Candidate 'Myra Trivedi' (Rank 7, Alignment 0.00) outranked Candidate 'Saanvi Sethi' (Rank 14, Alignment 1.24) within the same capability fit band (role alignment contribution: 1.27). Within this band, candidate quality (Stage 2) decides ordering. 'Myra Trivedi' has stronger candidate quality (supporting contribution 0.54 vs 0.00), driven by: ownership (60.00 vs 100.00), recruitability (67.03 vs 32.66), market validation (75.00 vs 33.71), career consistency (100.00 vs 100.00), and profile confidence (0.48 vs 1.00).
+* Candidate 'Myra Trivedi' (Rank 7, Alignment 0.00) outranked Candidate 'Vihaan Bose' (Rank 18, Alignment 0.26) within the same capability fit band (role alignment contribution: 1.27). Within this band, candidate quality (Stage 2) decides ordering. 'Myra Trivedi' has stronger candidate quality (supporting contribution 0.54 vs 0.00), driven by: ownership (60.00 vs 90.00), recruitability (67.03 vs 74.81), market validation (75.00 vs 29.87), career consistency (100.00 vs 40.00), and profile confidence (0.48 vs 0.85).
+* Candidate 'Myra Trivedi' (Rank 7, Alignment 0.00) outranked Candidate 'Shaurya Chatterjee' (Rank 19, Alignment 0.09) within the same capability fit band (role alignment contribution: 1.27). Within this band, candidate quality (Stage 2) decides ordering. 'Myra Trivedi' has stronger candidate quality (supporting contribution 0.54 vs 0.00), driven by: ownership (60.00 vs 45.00), recruitability (67.03 vs 32.11), market validation (75.00 vs 27.51), career consistency (100.00 vs 100.00), and profile confidence (0.48 vs 0.80).
+* Candidate 'Riya Mukherjee' (Rank 8, Alignment 0.92) outranked Candidate 'Neha Rao' (Rank 10, Alignment 1.54) within the same capability fit band (role alignment contribution: 1.17). Within this band, candidate quality (Stage 2) decides ordering. 'Riya Mukherjee' has stronger candidate quality (supporting contribution 0.50 vs 0.24), driven by: ownership (75.00 vs 75.00), recruitability (40.21 vs 40.77), market validation (33.99 vs 52.35), career consistency (100.00 vs 100.00), and profile confidence (1.00 vs 1.00).
+* Candidate 'Riya Mukherjee' (Rank 8, Alignment 0.92) outranked Candidate 'Rahul Agarwal' (Rank 11, Alignment 9.00) within the same capability fit band (role alignment contribution: 1.17). Within this band, candidate quality (Stage 2) decides ordering. 'Riya Mukherjee' has stronger candidate quality (supporting contribution 0.50 vs 0.16), driven by: ownership (75.00 vs 45.00), recruitability (40.21 vs 47.13), market validation (33.99 vs 53.01), career consistency (100.00 vs 100.00), and profile confidence (1.00 vs 0.80).
+* Candidate 'Riya Mukherjee' (Rank 8, Alignment 0.92) outranked Candidate 'Saanvi Sethi' (Rank 14, Alignment 1.24) within the same capability fit band (role alignment contribution: 1.17). Within this band, candidate quality (Stage 2) decides ordering. 'Riya Mukherjee' has stronger candidate quality (supporting contribution 0.50 vs 0.00), driven by: ownership (75.00 vs 100.00), recruitability (40.21 vs 32.66), market validation (33.99 vs 33.71), career consistency (100.00 vs 100.00), and profile confidence (1.00 vs 1.00).
+* Candidate 'Kavya Nair' (Rank 9, Alignment 0.00) outranked Candidate 'Neha Rao' (Rank 10, Alignment 1.54) within the same capability fit band (role alignment contribution: 0.85). Within this band, candidate quality (Stage 2) decides ordering. 'Kavya Nair' has stronger candidate quality (supporting contribution 0.36 vs 0.24), driven by: ownership (30.00 vs 75.00), recruitability (62.09 vs 40.77), market validation (60.61 vs 52.35), career consistency (100.00 vs 100.00), and profile confidence (0.80 vs 1.00).
+* Candidate 'Kavya Nair' (Rank 9, Alignment 0.00) outranked Candidate 'Rahul Agarwal' (Rank 11, Alignment 9.00) within the same capability fit band (role alignment contribution: 0.85). Within this band, candidate quality (Stage 2) decides ordering. 'Kavya Nair' has stronger candidate quality (supporting contribution 0.36 vs 0.16), driven by: ownership (30.00 vs 45.00), recruitability (62.09 vs 47.13), market validation (60.61 vs 53.01), career consistency (100.00 vs 100.00), and profile confidence (0.80 vs 0.80).
+* Candidate 'Kavya Nair' (Rank 9, Alignment 0.00) outranked Candidate 'Saanvi Sethi' (Rank 14, Alignment 1.24) within the same capability fit band (role alignment contribution: 0.85). Within this band, candidate quality (Stage 2) decides ordering. 'Kavya Nair' has stronger candidate quality (supporting contribution 0.36 vs 0.00), driven by: ownership (30.00 vs 100.00), recruitability (62.09 vs 32.66), market validation (60.61 vs 33.71), career consistency (100.00 vs 100.00), and profile confidence (0.80 vs 1.00).
+* Candidate 'Kavya Nair' (Rank 9, Alignment 0.00) outranked Candidate 'Vihaan Bose' (Rank 18, Alignment 0.26) within the same capability fit band (role alignment contribution: 0.85). Within this band, candidate quality (Stage 2) decides ordering. 'Kavya Nair' has stronger candidate quality (supporting contribution 0.36 vs 0.00), driven by: ownership (30.00 vs 90.00), recruitability (62.09 vs 74.81), market validation (60.61 vs 29.87), career consistency (100.00 vs 40.00), and profile confidence (0.80 vs 0.85).
+* Candidate 'Kavya Nair' (Rank 9, Alignment 0.00) outranked Candidate 'Shaurya Chatterjee' (Rank 19, Alignment 0.09) within the same capability fit band (role alignment contribution: 0.85). Within this band, candidate quality (Stage 2) decides ordering. 'Kavya Nair' has stronger candidate quality (supporting contribution 0.36 vs 0.00), driven by: ownership (30.00 vs 45.00), recruitability (62.09 vs 32.11), market validation (60.61 vs 27.51), career consistency (100.00 vs 100.00), and profile confidence (0.80 vs 0.80).
+* Candidate 'Neha Rao' (Rank 10, Alignment 1.54) outranked Candidate 'Rahul Agarwal' (Rank 11, Alignment 9.00) within the same capability fit band (role alignment contribution: 0.56). Within this band, candidate quality (Stage 2) decides ordering. 'Neha Rao' has stronger candidate quality (supporting contribution 0.24 vs 0.16), driven by: ownership (75.00 vs 45.00), recruitability (40.77 vs 47.13), market validation (52.35 vs 53.01), career consistency (100.00 vs 100.00), and profile confidence (1.00 vs 0.80).
+* Candidate 'Dev Nair' (Rank 12, Alignment 0.00) outranked Candidate 'Saanvi Sethi' (Rank 14, Alignment 1.24) within the same capability fit band (role alignment contribution: 0.18). Within this band, candidate quality (Stage 2) decides ordering. 'Dev Nair' has stronger candidate quality (supporting contribution 0.08 vs 0.00), driven by: ownership (100.00 vs 100.00), recruitability (50.90 vs 32.66), market validation (50.79 vs 33.71), career consistency (40.00 vs 100.00), and profile confidence (0.85 vs 1.00).
+* Candidate 'Dev Nair' (Rank 12, Alignment 0.00) outranked Candidate 'Vihaan Bose' (Rank 18, Alignment 0.26) within the same capability fit band (role alignment contribution: 0.18). Within this band, candidate quality (Stage 2) decides ordering. 'Dev Nair' has stronger candidate quality (supporting contribution 0.08 vs 0.00), driven by: ownership (100.00 vs 90.00), recruitability (50.90 vs 74.81), market validation (50.79 vs 29.87), career consistency (40.00 vs 40.00), and profile confidence (0.85 vs 0.85).
+* Candidate 'Dev Nair' (Rank 12, Alignment 0.00) outranked Candidate 'Shaurya Chatterjee' (Rank 19, Alignment 0.09) within the same capability fit band (role alignment contribution: 0.18). Within this band, candidate quality (Stage 2) decides ordering. 'Dev Nair' has stronger candidate quality (supporting contribution 0.08 vs 0.00), driven by: ownership (100.00 vs 45.00), recruitability (50.90 vs 32.11), market validation (50.79 vs 27.51), career consistency (40.00 vs 100.00), and profile confidence (0.85 vs 0.80).
+* Candidate 'Atharv Joshi' (Rank 13, Alignment 0.00) outranked Candidate 'Saanvi Sethi' (Rank 14, Alignment 1.24) within the same capability fit band (role alignment contribution: 0.06). Within this band, candidate quality (Stage 2) decides ordering. 'Atharv Joshi' has stronger candidate quality (supporting contribution 0.03 vs 0.00), driven by: ownership (60.00 vs 100.00), recruitability (59.06 vs 32.66), market validation (7.82 vs 33.71), career consistency (100.00 vs 100.00), and profile confidence (0.80 vs 1.00).
+* Candidate 'Atharv Joshi' (Rank 13, Alignment 0.00) outranked Candidate 'Vihaan Bose' (Rank 18, Alignment 0.26) within the same capability fit band (role alignment contribution: 0.06). Within this band, candidate quality (Stage 2) decides ordering. 'Atharv Joshi' has stronger candidate quality (supporting contribution 0.03 vs 0.00), driven by: ownership (60.00 vs 90.00), recruitability (59.06 vs 74.81), market validation (7.82 vs 29.87), career consistency (100.00 vs 40.00), and profile confidence (0.80 vs 0.85).
+* Candidate 'Atharv Joshi' (Rank 13, Alignment 0.00) outranked Candidate 'Shaurya Chatterjee' (Rank 19, Alignment 0.09) within the same capability fit band (role alignment contribution: 0.06). Within this band, candidate quality (Stage 2) decides ordering. 'Atharv Joshi' has stronger candidate quality (supporting contribution 0.03 vs 0.00), driven by: ownership (60.00 vs 45.00), recruitability (59.06 vs 32.11), market validation (7.82 vs 27.51), career consistency (100.00 vs 100.00), and profile confidence (0.80 vs 0.80).
+* Candidate 'Yash Agarwal' (Rank 15, Alignment 0.00) outranked Candidate 'Vihaan Bose' (Rank 18, Alignment 0.26) within the same capability fit band (role alignment contribution: 0.00). Within this band, candidate quality (Stage 2) decides ordering. 'Yash Agarwal' has stronger candidate quality (supporting contribution 0.00 vs 0.00), driven by: ownership (0.00 vs 90.00), recruitability (41.50 vs 74.81), market validation (21.63 vs 29.87), career consistency (100.00 vs 40.00), and profile confidence (0.80 vs 0.85).
+* Candidate 'Yash Agarwal' (Rank 15, Alignment 0.00) outranked Candidate 'Shaurya Chatterjee' (Rank 19, Alignment 0.09) within the same capability fit band (role alignment contribution: 0.00). Within this band, candidate quality (Stage 2) decides ordering. 'Yash Agarwal' has stronger candidate quality (supporting contribution 0.00 vs 0.00), driven by: ownership (0.00 vs 45.00), recruitability (41.50 vs 32.11), market validation (21.63 vs 27.51), career consistency (100.00 vs 100.00), and profile confidence (0.80 vs 0.80).
+* Candidate 'Aisha Sethi' (Rank 16, Alignment 0.00) outranked Candidate 'Vihaan Bose' (Rank 18, Alignment 0.26) within the same capability fit band (role alignment contribution: 0.00). Within this band, candidate quality (Stage 2) decides ordering. 'Aisha Sethi' has stronger candidate quality (supporting contribution 0.00 vs 0.00), driven by: ownership (90.00 vs 90.00), recruitability (37.85 vs 74.81), market validation (20.20 vs 29.87), career consistency (100.00 vs 40.00), and profile confidence (0.60 vs 0.85).
+* Candidate 'Aisha Sethi' (Rank 16, Alignment 0.00) outranked Candidate 'Shaurya Chatterjee' (Rank 19, Alignment 0.09) within the same capability fit band (role alignment contribution: 0.00). Within this band, candidate quality (Stage 2) decides ordering. 'Aisha Sethi' has stronger candidate quality (supporting contribution 0.00 vs 0.00), driven by: ownership (90.00 vs 45.00), recruitability (37.85 vs 32.11), market validation (20.20 vs 27.51), career consistency (100.00 vs 100.00), and profile confidence (0.60 vs 0.80).
+* Candidate 'Rajesh Desai' (Rank 17, Alignment 0.00) outranked Candidate 'Vihaan Bose' (Rank 18, Alignment 0.26) within the same capability fit band (role alignment contribution: 0.00). Within this band, candidate quality (Stage 2) decides ordering. 'Rajesh Desai' has stronger candidate quality (supporting contribution 0.00 vs 0.00), driven by: ownership (45.00 vs 90.00), recruitability (39.87 vs 74.81), market validation (45.04 vs 29.87), career consistency (100.00 vs 40.00), and profile confidence (0.60 vs 0.85).
+* Candidate 'Rajesh Desai' (Rank 17, Alignment 0.00) outranked Candidate 'Shaurya Chatterjee' (Rank 19, Alignment 0.09) within the same capability fit band (role alignment contribution: 0.00). Within this band, candidate quality (Stage 2) decides ordering. 'Rajesh Desai' has stronger candidate quality (supporting contribution 0.00 vs 0.00), driven by: ownership (45.00 vs 45.00), recruitability (39.87 vs 32.11), market validation (45.04 vs 27.51), career consistency (100.00 vs 100.00), and profile confidence (0.60 vs 0.80).
+--------------------------------------------------
+
+RECRUITER REVIEW EXPECTATION STATUS
+===================================
+Actual Order: Ela Singh (Rank 1) > Ira Vora (Rank 3) > Aarav Kapoor (Rank 2)
+
+Detailed Score Decomposition for Recruiter Review:
+1. Ela Singh (Rank 1, Final Score 64.61):
+   * Capability Fit: 28.25 (Role Alignment Band Contribution: 45.23)
+   * Supporting Contribution: 19.38
+
+2. Ira Vora (Rank 3, Final Score 15.09):
+   * Capability Fit: 15.28 (Role Alignment Band Contribution: 10.56)
+   * Supporting Contribution: 4.53
+
+3. Aarav Kapoor (Rank 2, Final Score 19.30):
+   * Capability Fit: 9.71 (Role Alignment Band Contribution: 13.51)
+   * Supporting Contribution: 5.79
+--------------------------------------------------

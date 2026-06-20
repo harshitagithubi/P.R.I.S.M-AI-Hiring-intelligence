@@ -1,0 +1,1343 @@
+[
+  {
+    "candidate_id": "CAND_0000031",
+    "candidate_name": "Ela Singh",
+    "qualification_tier": "Strong Match",
+    "final_score": 64.61,
+    "strengths": [
+      "Production ranking or recommendation-system evidence appears in career history.",
+      "Role alignment is strong relative to the JD."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence"
+    ],
+    "risks": [
+      "No major PRISM reliability risk detected."
+    ],
+    "evidence_found": [
+      "Recommendation Systems Engineer at Swiggy: Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. Designed features across three families: content metadata, user behavior signals, and item engagement history. Owne",
+      "Search Engineer at Mad Street Den: Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. Designed features across three families: content metadata, user behavior signals, and item engagement history. Owne",
+      "NLP Engineer at Uber: Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. Designed features across three families: content metadata, user behavior signals, and item engagement history. Owne",
+      "Applied ML Engineer at Zomato: Owned the ranking layer for an e-commerce search product, evolving it from a hand-tuned scoring function to a learning-to-rank model over 9 months. Designed the relevance labeling pipeline (mix of click-through data and "
+    ],
+    "recruitability_summary": "Recruitability 87.1: last active 2026-05-24, 91% recruiter response rate, 60-day notice period.",
+    "market_summary": "Market validation 71.6: 13 recruiter saves, 194 views, 778 search appearances.",
+    "decision_reason": "Evidence:\n- Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. as Recommendation Systems Engineer at Swiggy.\n- Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. as Search Engineer at Mad Street Den.\n- Trained and shipped multiple ranking models for our product's discovery feed using XGBoost and LightGBM. as NLP Engineer at Uber.\n- Owned the ranking layer for an e-commerce search product, evolving it from a hand-tuned scoring function to a learning-to-rank model over 9 months. as Applied ML Engineer at Zomato.\n\nJD Match:\nMatches ranking, recommendation requirements.\n\nConcern:\n- 60-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000010",
+    "candidate_name": "Aarav Kapoor",
+    "qualification_tier": "Near Match",
+    "final_score": 19.3,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 60.9: last active 2026-04-29, 40% recruiter response rate, 120-day notice period.",
+    "market_summary": "Market validation 47.2: 2 recruiter saves, 60 views, 256 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Data Engineer at Ola.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 120-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000001",
+    "candidate_name": "Ira Vora",
+    "qualification_tier": "Weak Signal",
+    "final_score": 15.09,
+    "strengths": [
+      "Python or backend/data pipeline evidence supports technical execution."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Current profile is in IT services; JD prefers product-company applied ML depth."
+    ],
+    "evidence_found": [
+      "Analytics Engineer at Dunder Mifflin: Built and maintained data pipelines on Apache Airflow processing ~500GB of daily transactional data across 12 source systems. Worked extensively with Spark (PySpark) for batch processing and dbt for the transformation/mo"
+    ],
+    "recruitability_summary": "Recruitability 61.7: last active 2026-05-20, 34% recruiter response rate, 60-day notice period.",
+    "market_summary": "Market validation 45.9: 4 recruiter saves, 23 views, 249 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Backend Engineer at Mindtree.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 60-day notice period.\n- Low recruiter response rate (34%)."
+  },
+  {
+    "candidate_id": "CAND_0000018",
+    "candidate_name": "Vivaan Reddy",
+    "qualification_tier": "Weak Signal",
+    "final_score": 3.48,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Recruiter response rate is low."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 39.4: last active 2026-02-18, 16% recruiter response rate, 120-day notice period.",
+    "market_summary": "Market validation 47.9: 16 recruiter saves, 88 views, 41 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Frontend Engineer at Acme Corp.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 120-day notice period.\n- Low recruiter response rate (16%)."
+  },
+  {
+    "candidate_id": "CAND_0000048",
+    "candidate_name": "Vihaan Saxena",
+    "qualification_tier": "Weak Signal",
+    "final_score": 3.17,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "No major PRISM reliability risk detected."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 64.5: last active 2026-04-06, 65% recruiter response rate, 120-day notice period.",
+    "market_summary": "Market validation 42.1: 5 recruiter saves, 58 views, 131 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Mobile Developer at CRED.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 120-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000043",
+    "candidate_name": "Aarav Sen",
+    "qualification_tier": "Weak Signal",
+    "final_score": 1.92,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Recruiter response rate is low."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 30.4: last active 2026-01-01, 4% recruiter response rate, 120-day notice period.",
+    "market_summary": "Market validation 37.2: 2 recruiter saves, 38 views, 167 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Cloud Engineer at Swiggy.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 120-day notice period.\n- Low recruiter response rate (4%)."
+  },
+  {
+    "candidate_id": "CAND_0000038",
+    "candidate_name": "Myra Trivedi",
+    "qualification_tier": "Weak Signal",
+    "final_score": 1.81,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Recruiter response rate is low."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 67.0: last active 2026-03-31, 20% recruiter response rate, 90-day notice period.",
+    "market_summary": "Market validation 75.0: 18 recruiter saves, 102 views, 300 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Java Developer at Swiggy.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 90-day notice period.\n- Low recruiter response rate (20%)."
+  },
+  {
+    "candidate_id": "CAND_0000042",
+    "candidate_name": "Riya Mukherjee",
+    "qualification_tier": "Not Qualified",
+    "final_score": 1.67,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence"
+    ],
+    "risks": [
+      "No major PRISM reliability risk detected."
+    ],
+    "evidence_found": [
+      "Business Analyst at Wipro: Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, t"
+    ],
+    "recruitability_summary": "Recruitability 40.2: last active 2025-10-23, 58% recruiter response rate, 30-day notice period.",
+    "market_summary": "Market validation 34.0: 9 recruiter saves, 57 views, 34 search appearances.",
+    "decision_reason": "Evidence:\n- Wrote longform articles on developer tools, cloud platforms, and AI/ML topics \u2014 including some that ranked on the first page of search for high-competition keywords. as HR Manager at Wayne Enterprises.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 30-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000023",
+    "candidate_name": "Kavya Nair",
+    "qualification_tier": "Weak Signal",
+    "final_score": 1.21,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 62.1: last active 2026-04-06, 57% recruiter response rate, 30-day notice period.",
+    "market_summary": "Market validation 60.6: 14 recruiter saves, 10 views, 239 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Software Engineer at Acme Corp.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 30-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000026",
+    "candidate_name": "Neha Rao",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.8,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent."
+    ],
+    "evidence_found": [
+      "Project Manager at Acme Corp: Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, t"
+    ],
+    "recruitability_summary": "Recruitability 40.8: last active 2025-10-03, 59% recruiter response rate, 30-day notice period.",
+    "market_summary": "Market validation 52.4: 11 recruiter saves, 75 views, 154 search appearances.",
+    "decision_reason": "Evidence:\n- Wrote longform articles on developer tools, cloud platforms, and AI/ML topics \u2014 including some that ranked on the first page of search for high-competition keywords. as Accountant at Acme Corp.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 30-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000015",
+    "candidate_name": "Rahul Agarwal",
+    "qualification_tier": "Weak Signal",
+    "final_score": 0.52,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 47.1: last active 2026-02-12, 32% recruiter response rate, 90-day notice period.",
+    "market_summary": "Market validation 53.0: 8 recruiter saves, 93 views, 164 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Software Engineer at Razorpay.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 90-day notice period.\n- Low recruiter response rate (32%)."
+  },
+  {
+    "candidate_id": "CAND_0000046",
+    "candidate_name": "Dev Nair",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.25,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Domain gate applied because retrieval/ranking career relevance is absent."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 50.9: last active 2026-02-20, 41% recruiter response rate, 30-day notice period.",
+    "market_summary": "Market validation 50.8: 7 recruiter saves, 80 views, 166 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Mechanical Engineer at Hooli.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 30-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000014",
+    "candidate_name": "Atharv Joshi",
+    "qualification_tier": "Weak Signal",
+    "final_score": 0.09,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 59.1: last active 2026-04-12, 80% recruiter response rate, 90-day notice period.",
+    "market_summary": "Market validation 7.8: 0 recruiter saves, 21 views, 12 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Frontend Engineer at Zomato.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 90-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000002",
+    "candidate_name": "Saanvi Sethi",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth.",
+      "Recruiter response rate is low."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 32.7: last active 2025-11-12, 29% recruiter response rate, 60-day notice period.",
+    "market_summary": "Market validation 33.7: 10 recruiter saves, 7 views, 107 search appearances.",
+    "decision_reason": "Evidence:\n- Wrote longform articles on developer tools, cloud platforms, and AI/ML topics \u2014 including some that ranked on the first page of search for high-competition keywords. as Marketing Manager at Acme Corp.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 60-day notice period.\n- Low recruiter response rate (29%)."
+  },
+  {
+    "candidate_id": "CAND_0000003",
+    "candidate_name": "Yash Agarwal",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Current profile is in IT services; JD prefers product-company applied ML depth."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 41.5: last active 2026-03-21, 46% recruiter response rate, 150-day notice period.",
+    "market_summary": "Market validation 21.6: 4 recruiter saves, 1 views, 28 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Customer Support at TCS.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 150-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000005",
+    "candidate_name": "Aisha Sethi",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "No major PRISM reliability risk detected."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 37.9: last active 2025-10-01, 37% recruiter response rate, 30-day notice period.",
+    "market_summary": "Market validation 20.2: 1 recruiter saves, 12 views, 67 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Accountant at Stark Industries.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 30-day notice period.\n- Low recruiter response rate (37%)."
+  },
+  {
+    "candidate_id": "CAND_0000006",
+    "candidate_name": "Rajesh Desai",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Recruiter response rate is low."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 39.9: last active 2026-02-28, 12% recruiter response rate, 150-day notice period.",
+    "market_summary": "Market validation 45.0: 9 recruiter saves, 53 views, 131 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Business Analyst at Wayne Enterprises.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 150-day notice period.\n- Low recruiter response rate (12%)."
+  },
+  {
+    "candidate_id": "CAND_0000007",
+    "candidate_name": "Vihaan Bose",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 74.8: last active 2026-05-25, 62% recruiter response rate, 30-day notice period.",
+    "market_summary": "Market validation 29.9: 8 recruiter saves, 2 views, 104 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Civil Engineer at Wipro.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 30-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000008",
+    "candidate_name": "Shaurya Chatterjee",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 32.1: last active 2025-12-13, 42% recruiter response rate, 90-day notice period.",
+    "market_summary": "Market validation 27.5: 0 recruiter saves, 28 views, 91 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Operations Manager at Wipro.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 90-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000009",
+    "candidate_name": "Amit Shah",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence"
+    ],
+    "risks": [
+      "Domain gate applied because retrieval/ranking career relevance is absent."
+    ],
+    "evidence_found": [
+      "Project Manager at Acme Corp: Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, t"
+    ],
+    "recruitability_summary": "Recruitability 36.5: last active 2026-01-27, 53% recruiter response rate, 150-day notice period.",
+    "market_summary": "Market validation 25.6: 1 recruiter saves, 50 views, 74 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Mechanical Engineer at Dunder Mifflin.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 150-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000011",
+    "candidate_name": "Deepak Desai",
+    "qualification_tier": "Weak Signal",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 41.8: last active 2026-01-19, 56% recruiter response rate, 90-day notice period.",
+    "market_summary": "Market validation 51.4: 13 recruiter saves, 112 views, 200 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as QA Engineer at Pied Piper.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 90-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000013",
+    "candidate_name": "Pari Nair",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Recruiter response rate is low."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 59.1: last active 2026-03-26, 28% recruiter response rate, 30-day notice period.",
+    "market_summary": "Market validation 39.6: 12 recruiter saves, 16 views, 40 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Civil Engineer at Globex Inc.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 30-day notice period.\n- Low recruiter response rate (28%)."
+  },
+  {
+    "candidate_id": "CAND_0000016",
+    "candidate_name": "Aanya Malhotra",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth."
+    ],
+    "evidence_found": [
+      "Accountant at Infosys: Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, t"
+    ],
+    "recruitability_summary": "Recruitability 41.2: last active 2025-12-21, 64% recruiter response rate, 60-day notice period.",
+    "market_summary": "Market validation 42.7: 5 recruiter saves, 76 views, 126 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Accountant at Infosys.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 60-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000017",
+    "candidate_name": "Anil Pandey",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence"
+    ],
+    "risks": [
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth.",
+      "Recruiter response rate is low."
+    ],
+    "evidence_found": [
+      "Mechanical Engineer at Initech: Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, t"
+    ],
+    "recruitability_summary": "Recruitability 25.4: last active 2025-11-04, 27% recruiter response rate, 90-day notice period.",
+    "market_summary": "Market validation 31.2: 2 recruiter saves, 3 views, 110 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Accountant at Wipro.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 90-day notice period.\n- Low recruiter response rate (27%)."
+  },
+  {
+    "candidate_id": "CAND_0000019",
+    "candidate_name": "Myra Mishra",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Domain gate applied because retrieval/ranking career relevance is absent."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 65.2: last active 2026-05-21, 34% recruiter response rate, 60-day notice period.",
+    "market_summary": "Market validation 32.6: 0 recruiter saves, 61 views, 141 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Project Manager at Wayne Enterprises.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 60-day notice period.\n- Low recruiter response rate (34%)."
+  },
+  {
+    "candidate_id": "CAND_0000020",
+    "candidate_name": "Aditya Iyengar",
+    "qualification_tier": "Weak Signal",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 34.5: last active 2025-10-05, 55% recruiter response rate, 30-day notice period.",
+    "market_summary": "Market validation 35.5: 11 recruiter saves, 38 views, 31 search appearances.",
+    "decision_reason": "Evidence:\n- Wrote longform articles on developer tools, cloud platforms, and AI/ML topics \u2014 including some that ranked on the first page of search for high-competition keywords. as Civil Engineer at Dunder Mifflin.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 30-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000022",
+    "candidate_name": "Shaurya Chatterjee",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Recruiter response rate is low."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 58.7: last active 2026-05-03, 27% recruiter response rate, 150-day notice period.",
+    "market_summary": "Market validation 36.4: 5 recruiter saves, 39 views, 136 search appearances.",
+    "decision_reason": "Evidence:\n- Wrote longform articles on developer tools, cloud platforms, and AI/ML topics \u2014 including some that ranked on the first page of search for high-competition keywords. as Mechanical Engineer at Hooli.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 150-day notice period.\n- Low recruiter response rate (27%)."
+  },
+  {
+    "candidate_id": "CAND_0000024",
+    "candidate_name": "Rajesh Arora",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 48.0: last active 2026-01-20, 78% recruiter response rate, 60-day notice period.",
+    "market_summary": "Market validation 40.6: 7 recruiter saves, 71 views, 84 search appearances.",
+    "decision_reason": "Evidence:\n- Wrote longform articles on developer tools, cloud platforms, and AI/ML topics \u2014 including some that ranked on the first page of search for high-competition keywords. as Accountant at Infosys.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 60-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000025",
+    "candidate_name": "Anika Kumar",
+    "qualification_tier": "Weak Signal",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 67.0: last active 2026-03-30, 74% recruiter response rate, 120-day notice period.",
+    "market_summary": "Market validation 42.0: 9 recruiter saves, 107 views, 74 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Frontend Engineer at Tech Mahindra.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 120-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000027",
+    "candidate_name": "Avni Pandey",
+    "qualification_tier": "Weak Signal",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 71.0: last active 2026-05-07, 58% recruiter response rate, 90-day notice period.",
+    "market_summary": "Market validation 46.3: 6 recruiter saves, 89 views, 136 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as DevOps Engineer at Infosys.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 90-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000028",
+    "candidate_name": "Rohan Krishnan",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth.",
+      "Recruiter response rate is low."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 53.3: last active 2026-03-31, 14% recruiter response rate, 60-day notice period.",
+    "market_summary": "Market validation 26.6: 4 recruiter saves, 6 views, 68 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Operations Manager at Wipro.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 60-day notice period.\n- Low recruiter response rate (14%)."
+  },
+  {
+    "candidate_id": "CAND_0000029",
+    "candidate_name": "Priya Sethi",
+    "qualification_tier": "Weak Signal",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth.",
+      "Recruiter response rate is low."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 35.4: last active 2025-09-29, 12% recruiter response rate, 60-day notice period.",
+    "market_summary": "Market validation 45.5: 8 recruiter saves, 51 views, 150 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Business Analyst at Wipro.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 60-day notice period.\n- Low recruiter response rate (12%)."
+  },
+  {
+    "candidate_id": "CAND_0000030",
+    "candidate_name": "Ritu Pillai",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Domain gate applied because retrieval/ranking career relevance is absent."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 31.9: last active 2025-10-27, 66% recruiter response rate, 60-day notice period.",
+    "market_summary": "Market validation 11.8: 1 recruiter saves, 58 views, 54 search appearances.",
+    "decision_reason": "Evidence:\n- Wrote longform articles on developer tools, cloud platforms, and AI/ML topics \u2014 including some that ranked on the first page of search for high-competition keywords. as Content Writer at Hooli.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 60-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000032",
+    "candidate_name": "Pranav Agarwal",
+    "qualification_tier": "Weak Signal",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 45.8: last active 2025-12-29, 69% recruiter response rate, 150-day notice period.",
+    "market_summary": "Market validation 33.2: 4 recruiter saves, 80 views, 56 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as .NET Developer at Cognizant.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 150-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000034",
+    "candidate_name": "Yash Chatterjee",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth.",
+      "Recruiter response rate is low."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 33.4: last active 2026-01-03, 15% recruiter response rate, 90-day notice period.",
+    "market_summary": "Market validation 33.5: 2 recruiter saves, 25 views, 143 search appearances.",
+    "decision_reason": "Evidence:\n- Wrote longform articles on developer tools, cloud platforms, and AI/ML topics \u2014 including some that ranked on the first page of search for high-competition keywords. as Business Analyst at Wipro.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 90-day notice period.\n- Low recruiter response rate (15%)."
+  },
+  {
+    "candidate_id": "CAND_0000035",
+    "candidate_name": "Vikram Verma",
+    "qualification_tier": "Weak Signal",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 41.0: last active 2026-02-06, 34% recruiter response rate, 60-day notice period.",
+    "market_summary": "Market validation 37.2: 1 recruiter saves, 7 views, 173 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Full Stack Developer at Globex Inc.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 60-day notice period.\n- Low recruiter response rate (34%)."
+  },
+  {
+    "candidate_id": "CAND_0000036",
+    "candidate_name": "Ananya Bose",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Domain gate applied because retrieval/ranking career relevance is absent."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 33.0: last active 2025-12-12, 40% recruiter response rate, 60-day notice period.",
+    "market_summary": "Market validation 40.1: 0 recruiter saves, 70 views, 175 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Project Manager at Initech.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 60-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000037",
+    "candidate_name": "Ved Sen",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 36.8: last active 2025-12-11, 78% recruiter response rate, 30-day notice period.",
+    "market_summary": "Market validation 42.7: 1 recruiter saves, 80 views, 178 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Business Analyst at Stark Industries.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 30-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000039",
+    "candidate_name": "Sai Saxena",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Domain gate applied because retrieval/ranking career relevance is absent."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 63.5: last active 2026-04-18, 52% recruiter response rate, 30-day notice period.",
+    "market_summary": "Market validation 28.0: 6 recruiter saves, 22 views, 146 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Marketing Manager at Acme Corp.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 30-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000041",
+    "candidate_name": "Anjali Khanna",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Recruiter response rate is low."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 48.8: last active 2026-03-16, 7% recruiter response rate, 90-day notice period.",
+    "market_summary": "Market validation 39.1: 6 recruiter saves, 3 views, 150 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Operations Manager at Hooli.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 90-day notice period.\n- Low recruiter response rate (7%)."
+  },
+  {
+    "candidate_id": "CAND_0000044",
+    "candidate_name": "Vihaan Naidu",
+    "qualification_tier": "Weak Signal",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 34.0: last active 2025-12-11, 66% recruiter response rate, 90-day notice period.",
+    "market_summary": "Market validation 73.6: 18 recruiter saves, 78 views, 288 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Frontend Engineer at Tech Mahindra.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 90-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000045",
+    "candidate_name": "Vikram Mittal",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent."
+    ],
+    "evidence_found": [
+      "Project Manager at Initech: Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, t",
+      "Graphic Designer at Wayne Enterprises: Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, t",
+      "Operations Manager at Stark Industries: Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, t"
+    ],
+    "recruitability_summary": "Recruitability 75.1: last active 2026-04-24, 62% recruiter response rate, 60-day notice period.",
+    "market_summary": "Market validation 14.6: 6 recruiter saves, 37 views, 23 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Project Manager at Initech.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 60-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000049",
+    "candidate_name": "Tanya Chowdary",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence"
+    ],
+    "risks": [
+      "Domain gate applied because retrieval/ranking career relevance is absent."
+    ],
+    "evidence_found": [
+      "Mechanical Engineer at Wayne Enterprises: Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, t"
+    ],
+    "recruitability_summary": "Recruitability 55.2: last active 2026-05-13, 59% recruiter response rate, 120-day notice period.",
+    "market_summary": "Market validation 31.5: 6 recruiter saves, 6 views, 100 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Mechanical Engineer at Wayne Enterprises.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 120-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000050",
+    "candidate_name": "Naina Bose",
+    "qualification_tier": "Not Qualified",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Current profile is in IT services; JD prefers product-company applied ML depth."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 30.6: last active 2025-10-22, 42% recruiter response rate, 90-day notice period.",
+    "market_summary": "Market validation 25.6: 2 recruiter saves, 34 views, 87 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Business Analyst at Infosys.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 90-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000004",
+    "candidate_name": "Anil Bose",
+    "qualification_tier": "Honeypot",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Recruiter response rate is low."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 49.7: last active 2026-03-25, 26% recruiter response rate, 120-day notice period.",
+    "market_summary": "Market validation 25.4: 8 recruiter saves, 3 views, 5 search appearances.",
+    "decision_reason": "Evidence:\n- Wrote longform articles on developer tools, cloud platforms, and AI/ML topics \u2014 including some that ranked on the first page of search for high-competition keywords. as Operations Manager at Infosys.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 120-day notice period.\n- Low recruiter response rate (26%)."
+  },
+  {
+    "candidate_id": "CAND_0000012",
+    "candidate_name": "Anjali Krishnan",
+    "qualification_tier": "Honeypot",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Recruiter response rate is low."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 29.0: last active 2025-10-28, 16% recruiter response rate, 60-day notice period.",
+    "market_summary": "Market validation 20.9: 3 recruiter saves, 60 views, 61 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Operations Manager at Stark Industries.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 60-day notice period.\n- Low recruiter response rate (16%)."
+  },
+  {
+    "candidate_id": "CAND_0000021",
+    "candidate_name": "Rahul Joshi",
+    "qualification_tier": "Honeypot",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 33.0: last active 2025-11-21, 49% recruiter response rate, 60-day notice period.",
+    "market_summary": "Market validation 17.7: 3 recruiter saves, 1 views, 8 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Project Manager at Wipro.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 60-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000033",
+    "candidate_name": "Shreya Nair",
+    "qualification_tier": "Honeypot",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth.",
+      "Recruiter response rate is low."
+    ],
+    "evidence_found": [
+      "Content Writer at Acme Corp: Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, t"
+    ],
+    "recruitability_summary": "Recruitability 59.0: last active 2026-03-27, 8% recruiter response rate, 30-day notice period.",
+    "market_summary": "Market validation 29.4: 2 recruiter saves, 42 views, 98 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Graphic Designer at Wipro.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 30-day notice period.\n- Low recruiter response rate (8%)."
+  },
+  {
+    "candidate_id": "CAND_0000040",
+    "candidate_name": "Dev Vora",
+    "qualification_tier": "Honeypot",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent."
+    ],
+    "evidence_found": [
+      "Customer Support at Globex Inc: Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, t"
+    ],
+    "recruitability_summary": "Recruitability 39.3: last active 2026-01-31, 46% recruiter response rate, 90-day notice period.",
+    "market_summary": "Market validation 31.2: 1 recruiter saves, 52 views, 95 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Customer Support at Globex Inc.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 90-day notice period."
+  },
+  {
+    "candidate_id": "CAND_0000047",
+    "candidate_name": "Avni Bansal",
+    "qualification_tier": "Honeypot",
+    "final_score": 0.0,
+    "strengths": [
+      "Candidate has limited but nonzero adjacent technical signals."
+    ],
+    "missing_requirements": [
+      "production retrieval evidence",
+      "ranking or learning-to-rank evidence",
+      "recommendation-system evidence",
+      "embeddings evidence",
+      "vector database or vector-search evidence",
+      "ranking evaluation or A/B testing evidence"
+    ],
+    "risks": [
+      "Profile claims JD-relevant skills but supporting career evidence was not found.",
+      "Domain gate applied because retrieval/ranking career relevance is absent.",
+      "Current profile is in IT services; JD prefers product-company applied ML depth."
+    ],
+    "evidence_found": [
+      "No strong JD-domain career evidence found."
+    ],
+    "recruitability_summary": "Recruitability 52.4: last active 2026-03-22, 39% recruiter response rate, 90-day notice period.",
+    "market_summary": "Market validation 25.2: 4 recruiter saves, 34 views, 14 search appearances.",
+    "decision_reason": "Evidence:\n- Worked as Project Manager at TCS.\n\nJD Match:\nMatches basic technical developer requirements.\n\nConcern:\n- 90-day notice period.\n- Low recruiter response rate (39%)."
+  }
+]

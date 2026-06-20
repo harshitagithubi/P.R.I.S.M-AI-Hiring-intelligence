@@ -1,0 +1,6 @@
+fastapi>=0.111
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+httpx>=0.28
+pandas>=2.0
+sentence-transformers>=3.0

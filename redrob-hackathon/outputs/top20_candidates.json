@@ -1,0 +1,4989 @@
+[
+  {
+    "candidate_id": "CAND_0000031",
+    "candidate_name": "Ela Singh",
+    "role_alignment_score": 42.22,
+    "skill_proof_score": 36.97,
+    "recruitability_score": 87.14,
+    "hireability_score": 86.75,
+    "market_validation_score": 71.57,
+    "score_breakdown": {
+      "role_alignment": 42.22,
+      "skill_proof": 36.97,
+      "recruitability": 87.14,
+      "hireability": 86.75,
+      "market_validation": 71.57,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 28.25,
+    "qualification_tier": "Strong Match",
+    "availability_multiplier": 1.097,
+    "effective_availability_multiplier": 1.097,
+    "final_score": 64.61,
+    "rank": 1,
+    "ranking_explanation": "Ela Singh is classified as a Strong Match. Shows demonstrated search/retrieval career history as Recommendation Systems Engineer at Swiggy, Search Engineer at Mad Street Den, supported by skills in Go, MLflow, FAISS, Pinecone, and is available with 60-day notice (flagged for duplicate career descriptions).",
+    "raw_semantic_score": 93.33,
+    "career_evidence_score": 28.25,
+    "domain_gate_penalty": 1.0,
+    "domain_gate_applied": false,
+    "self_claim_score": 26.54,
+    "contradiction_severity": 0,
+    "contradiction_penalty": 0.0,
+    "domain_relevance": 1.0,
+    "fraud_penalty": 11.43,
+    "degraded_confidence": false,
+    "capability_score": 57.17,
+    "confidence_score": 0.8,
+    "ownership_score": 100.0,
+    "capability_scores": {
+      "retrieval": 58.82,
+      "ranking": 75.81,
+      "recommendation": 56.44,
+      "search_infrastructure": 35.14,
+      "embeddings": 13.14,
+      "vector_databases": 12.65,
+      "evaluation": 24.21,
+      "production_ml": 14.76,
+      "backend_engineering": 1.75,
+      "data_engineering": 0.0,
+      "frontend_engineering": 0.0,
+      "qa_engineering": 0.0,
+      "cloud_engineering": 0.0
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 70.0,
+        "career_evidence": 53.27148074284195,
+        "skill_evidence": 70.0,
+        "assessment_evidence": 61.0,
+        "project_evidence": 71.04138493537903,
+        "confidence": 58.82116543278097,
+        "num_relevant_jobs": 1
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 100.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 79.04016335805258,
+        "confidence": 75.80803267161052,
+        "num_relevant_jobs": 4
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 74.2150514870882,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 59.53726927439372,
+        "confidence": 56.436484747131665,
+        "num_relevant_jobs": 1
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 58.57366044074297,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 35.14419626444578,
+        "num_relevant_jobs": 1
+      },
+      "embeddings": {
+        "claim_evidence": 100.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 100.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 40.68799773852031,
+        "confidence": 13.137599547704061,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 70.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 70.0,
+        "assessment_evidence": 61.0,
+        "project_evidence": 0.0,
+        "confidence": 12.65,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 75.1,
+        "project_evidence": 64.70932523409526,
+        "confidence": 24.206865046819054,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 70.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 70.0,
+        "assessment_evidence": 75.1,
+        "project_evidence": 0.0,
+        "confidence": 14.764999999999999,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "data_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "cloud_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 45.23,
+    "supporting_contribution": 19.38,
+    "title": "Recommendation Systems Engineer",
+    "current_company": "Swiggy",
+    "current_industry": "Food Delivery",
+    "location": "Hyderabad, Telangana",
+    "skills": [
+      "Go",
+      "MLflow",
+      "FAISS",
+      "Pinecone",
+      "Angular",
+      "Image Classification",
+      "Machine Learning",
+      "Speech Recognition",
+      "BentoML",
+      "MLOps",
+      "Embeddings",
+      "Information Retrieval",
+      "Hugging Face Transformers",
+      "Feature Engineering",
+      "Sentence Transformers",
+      "scikit-learn",
+      "Marketing"
+    ],
+    "open_to_work": true,
+    "notice_period_days": 60,
+    "years_of_experience": 6.0,
+    "flags": [],
+    "risks": [
+      {
+        "type": "overall",
+        "severity": "green",
+        "detail": "No major risk flags detected."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 42.22,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 22.5 from career/project text.",
+          "Semantic score gated from 93.3 to 93.3.",
+          "Domain relevance 1.00; career relevance 28.2."
+        ]
+      },
+      "proof": {
+        "score": 36.97,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 42.9; assessment evidence 74.7.",
+          "GitHub evidence 32.6 after domain gating.",
+          "Claim consistency multiplier 1.00; contradiction penalty -0."
+        ]
+      },
+      "recruitability": {
+        "score": 86.75,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 91.0; responsiveness 78.4.",
+          "Availability 84.2; logistics 89.2.",
+          "Availability multiplier 1.10."
+        ]
+      },
+      "market": {
+        "score": 71.57,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 74.6.",
+          "Discoverability 80.0; demand 50.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000010",
+    "candidate_name": "Aarav Kapoor",
+    "role_alignment_score": 6.44,
+    "skill_proof_score": 7.0,
+    "recruitability_score": 60.91,
+    "hireability_score": 50.8,
+    "market_validation_score": 47.2,
+    "score_breakdown": {
+      "role_alignment": 6.44,
+      "skill_proof": 7.0,
+      "recruitability": 60.91,
+      "hireability": 50.8,
+      "market_validation": 47.2,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 9.71,
+    "qualification_tier": "Near Match",
+    "availability_multiplier": 0.953,
+    "effective_availability_multiplier": 0.953,
+    "final_score": 19.3,
+    "rank": 2,
+    "ranking_explanation": "Aarav Kapoor is classified as a Near Match. Shows limited direct career history in search/retrieval, supported by skills in GCP, Spring Boot, Kubeflow, Java, and is available with 120-day notice.",
+    "raw_semantic_score": 67.33,
+    "career_evidence_score": 9.71,
+    "domain_gate_penalty": 1.0,
+    "domain_gate_applied": false,
+    "self_claim_score": 18.85,
+    "contradiction_severity": 0,
+    "contradiction_penalty": 0.0,
+    "domain_relevance": 1.0,
+    "fraud_penalty": 14.34,
+    "degraded_confidence": false,
+    "capability_score": 23.9,
+    "confidence_score": 1.0,
+    "ownership_score": 15.0,
+    "capability_scores": {
+      "retrieval": 3.5,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 9.53,
+      "vector_databases": 0.0,
+      "evaluation": 0.0,
+      "production_ml": 20.12,
+      "backend_engineering": 16.26,
+      "data_engineering": 20.0,
+      "frontend_engineering": 0.0,
+      "qa_engineering": 0.0,
+      "cloud_engineering": 41.79
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 70.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 70.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 3.5,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 63.55,
+        "project_evidence": 0.0,
+        "confidence": 9.532499999999999,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 73.4,
+        "project_evidence": 36.7965521812439,
+        "confidence": 20.11931043624878,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 70.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 70.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 63.79959841569265,
+        "confidence": 16.25991968313853,
+        "num_relevant_jobs": 0
+      },
+      "data_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 100.0,
+        "confidence": 20.0,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "cloud_engineering": {
+        "claim_evidence": 70.0,
+        "career_evidence": 48.89809405803679,
+        "skill_evidence": 70.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 44.77600713570913,
+        "confidence": 41.7940578619639,
+        "num_relevant_jobs": 1
+      }
+    },
+    "role_alignment_contribution": 13.51,
+    "supporting_contribution": 5.79,
+    "title": "Data Engineer",
+    "current_company": "Ola",
+    "current_industry": "Transportation",
+    "location": "London",
+    "skills": [
+      "GCP",
+      "Spring Boot",
+      "Kubeflow",
+      "Java",
+      "GANs",
+      "Figma",
+      "Elasticsearch",
+      "OpenCV",
+      "CNN",
+      "Azure",
+      "Prompt Engineering",
+      "Object Detection",
+      "MLOps",
+      "Python",
+      "BM25",
+      "Weights & Biases",
+      "Sales"
+    ],
+    "open_to_work": false,
+    "notice_period_days": 120,
+    "years_of_experience": 4.6,
+    "flags": [
+      {
+        "type": "audit_negative_signal",
+        "severity": "amber",
+        "label": "Review",
+        "claimed_skills": [],
+        "career_evidence": "Data Engineer at Ola",
+        "rule": "JD-relevant skills claimed but not supported by career evidence",
+        "detail": "JD-relevant skills claimed but not supported by career evidence"
+      }
+    ],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "honeypot",
+        "severity": "amber",
+        "detail": "JD-relevant skills claimed but not supported by career evidence"
+      },
+      {
+        "type": "notice",
+        "severity": "amber",
+        "detail": "120-day notice period; role likely prefers faster availability."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 6.44,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 8.6 from career/project text.",
+          "Semantic score gated from 67.3 to 67.3.",
+          "Domain relevance 1.00; career relevance 9.7."
+        ]
+      },
+      "proof": {
+        "score": 7.0,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 14.3; assessment evidence 0.0.",
+          "GitHub evidence 33.7 after domain gating.",
+          "Claim consistency multiplier 0.65; contradiction penalty -0."
+        ]
+      },
+      "recruitability": {
+        "score": 50.8,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 83.0; responsiveness 61.0.",
+          "Availability 31.5; logistics 55.0.",
+          "Availability multiplier 0.95."
+        ]
+      },
+      "market": {
+        "score": 47.2,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 16.0.",
+          "Discoverability 80.0; demand 60.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000001",
+    "candidate_name": "Ira Vora",
+    "role_alignment_score": 9.72,
+    "skill_proof_score": 16.33,
+    "recruitability_score": 61.66,
+    "hireability_score": 66.6,
+    "market_validation_score": 45.85,
+    "score_breakdown": {
+      "role_alignment": 9.72,
+      "skill_proof": 16.33,
+      "recruitability": 61.66,
+      "hireability": 66.6,
+      "market_validation": 45.85,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 15.28,
+    "qualification_tier": "Weak Signal",
+    "availability_multiplier": 1.016,
+    "effective_availability_multiplier": 1.016,
+    "final_score": 15.09,
+    "rank": 3,
+    "ranking_explanation": "Ira Vora is classified as a Weak Signal. Shows limited direct career history in search/retrieval, supported by skills in Tailwind, NLP, Image Classification, Fine-tuning LLMs, and is available with 60-day notice.",
+    "raw_semantic_score": 66.23,
+    "career_evidence_score": 15.28,
+    "domain_gate_penalty": 1.0,
+    "domain_gate_applied": false,
+    "self_claim_score": 10.77,
+    "contradiction_severity": 0,
+    "contradiction_penalty": 0.0,
+    "domain_relevance": 1.0,
+    "fraud_penalty": 19.23,
+    "degraded_confidence": false,
+    "capability_score": 32.04,
+    "confidence_score": 1.0,
+    "ownership_score": 45.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 6.03,
+      "vector_databases": 1.75,
+      "evaluation": 6.24,
+      "production_ml": 23.59,
+      "backend_engineering": 63.64,
+      "data_engineering": 80.0,
+      "frontend_engineering": 0.0,
+      "qa_engineering": 0.0,
+      "cloud_engineering": 14.95
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 40.2,
+        "project_evidence": 0.0,
+        "confidence": 6.03,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 41.6,
+        "project_evidence": 0.0,
+        "confidence": 6.24,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 35.0,
+        "career_evidence": 25.74716210365295,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 31.94488350550334,
+        "confidence": 23.58727396329244,
+        "num_relevant_jobs": 1
+      },
+      "backend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 76.23671386390923,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 89.51403458913168,
+        "confidence": 63.64483523617187,
+        "num_relevant_jobs": 1
+      },
+      "data_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 100.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 100.0,
+        "confidence": 80.0,
+        "num_relevant_jobs": 2
+      },
+      "frontend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "cloud_engineering": {
+        "claim_evidence": 70.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 70.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 57.256182630856834,
+        "confidence": 14.951236526171368,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 10.56,
+    "supporting_contribution": 4.53,
+    "title": "Backend Engineer",
+    "current_company": "Mindtree",
+    "current_industry": "IT Services",
+    "location": "Toronto",
+    "skills": [
+      "Tailwind",
+      "NLP",
+      "Image Classification",
+      "Fine-tuning LLMs",
+      "Weights & Biases",
+      "Speech Recognition",
+      "Photoshop",
+      "TTS",
+      "LoRA",
+      "Apache Beam",
+      "AWS",
+      "Flask",
+      "BentoML",
+      "Milvus",
+      "GANs",
+      "Statistical Modeling",
+      "GCP"
+    ],
+    "open_to_work": true,
+    "notice_period_days": 60,
+    "years_of_experience": 6.9,
+    "flags": [
+      {
+        "type": "audit_negative_signal",
+        "severity": "amber",
+        "label": "Review",
+        "claimed_skills": [
+          "Milvus"
+        ],
+        "career_evidence": "Backend Engineer at Mindtree -> Analytics Engineer at Dunder Mifflin",
+        "rule": "JD-relevant skills claimed but not supported by career evidence",
+        "detail": "JD-relevant skills claimed but not supported by career evidence"
+      }
+    ],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "honeypot",
+        "severity": "amber",
+        "detail": "JD-relevant skills claimed but not supported by career evidence"
+      },
+      {
+        "type": "response",
+        "severity": "red",
+        "detail": "34% recruiter response rate is low."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 9.72,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 15.1 from career/project text.",
+          "Semantic score gated from 66.2 to 66.2.",
+          "Domain relevance 1.00; career relevance 15.3."
+        ]
+      },
+      "proof": {
+        "score": 16.33,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 14.3; assessment evidence 46.2.",
+          "GitHub evidence 9.2 after domain gating.",
+          "Claim consistency multiplier 1.00; contradiction penalty -0."
+        ]
+      },
+      "recruitability": {
+        "score": 66.6,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 74.0; responsiveness 32.6.",
+          "Availability 84.2; logistics 49.8.",
+          "Availability multiplier 1.02."
+        ]
+      },
+      "market": {
+        "score": 45.85,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 17.4.",
+          "Discoverability 80.0; demand 50.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000018",
+    "candidate_name": "Vivaan Reddy",
+    "role_alignment_score": 4.31,
+    "skill_proof_score": 0.0,
+    "recruitability_score": 39.43,
+    "hireability_score": 29.0,
+    "market_validation_score": 47.92,
+    "score_breakdown": {
+      "role_alignment": 4.31,
+      "skill_proof": 0.0,
+      "recruitability": 39.43,
+      "hireability": 29.0,
+      "market_validation": 47.92,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 0.0,
+    "qualification_tier": "Weak Signal",
+    "availability_multiplier": 0.866,
+    "effective_availability_multiplier": 0.866,
+    "final_score": 3.48,
+    "rank": 4,
+    "ranking_explanation": "Vivaan Reddy is classified as a Weak Signal. Shows limited direct career history in search/retrieval, supported by skills in CNN, Java, Accounting, Data Pipelines, and is available with 120-day notice (flagged for duplicate career descriptions).",
+    "raw_semantic_score": 84.8,
+    "career_evidence_score": 0.0,
+    "domain_gate_penalty": 1.0,
+    "domain_gate_applied": false,
+    "self_claim_score": 5.38,
+    "contradiction_severity": 0,
+    "contradiction_penalty": 0.0,
+    "domain_relevance": 1.0,
+    "fraud_penalty": 17.25,
+    "degraded_confidence": false,
+    "capability_score": 22.69,
+    "confidence_score": 0.6,
+    "ownership_score": 45.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 0.0,
+      "vector_databases": 0.0,
+      "evaluation": 0.0,
+      "production_ml": 0.0,
+      "backend_engineering": 60.05,
+      "data_engineering": 1.75,
+      "frontend_engineering": 71.87,
+      "qa_engineering": 60.0,
+      "cloud_engineering": 0.0
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 66.62133242934942,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 91.61236643791199,
+        "confidence": 60.04527274519205,
+        "num_relevant_jobs": 1
+      },
+      "data_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 92.55372276529668,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 81.69668277104697,
+        "confidence": 71.8715702133874,
+        "num_relevant_jobs": 2
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 100.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 60.0,
+        "num_relevant_jobs": 2
+      },
+      "cloud_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 2.44,
+    "supporting_contribution": 1.04,
+    "title": "Frontend Engineer",
+    "current_company": "Acme Corp",
+    "current_industry": "Manufacturing",
+    "location": "Bhubaneswar, Odisha",
+    "skills": [
+      "CNN",
+      "Java",
+      "Accounting",
+      "Data Pipelines",
+      "Node.js",
+      "Tailwind"
+    ],
+    "open_to_work": false,
+    "notice_period_days": 120,
+    "years_of_experience": 6.6,
+    "flags": [],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "notice",
+        "severity": "amber",
+        "detail": "120-day notice period; role likely prefers faster availability."
+      },
+      {
+        "type": "response",
+        "severity": "red",
+        "detail": "16% recruiter response rate is low."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 4.31,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 14.9 from career/project text.",
+          "Semantic score gated from 84.8 to 84.8.",
+          "Domain relevance 1.00; career relevance 0.0."
+        ]
+      },
+      "proof": {
+        "score": 0.0,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 0.0; assessment evidence 0.0.",
+          "GitHub evidence 0.0 after domain gating.",
+          "Claim consistency multiplier 0.90; contradiction penalty -0."
+        ]
+      },
+      "recruitability": {
+        "score": 29.0,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 40.5; responsiveness 29.6.",
+          "Availability 31.5; logistics 61.0.",
+          "Availability multiplier 0.87."
+        ]
+      },
+      "market": {
+        "score": 47.92,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 69.2.",
+          "Discoverability 13.7; demand 60.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000048",
+    "candidate_name": "Vihaan Saxena",
+    "role_alignment_score": 3.71,
+    "skill_proof_score": 0.0,
+    "recruitability_score": 64.55,
+    "hireability_score": 54.45,
+    "market_validation_score": 42.07,
+    "score_breakdown": {
+      "role_alignment": 3.71,
+      "skill_proof": 0.0,
+      "recruitability": 64.55,
+      "hireability": 54.45,
+      "market_validation": 42.07,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 0.0,
+    "qualification_tier": "Weak Signal",
+    "availability_multiplier": 0.968,
+    "effective_availability_multiplier": 0.968,
+    "final_score": 3.17,
+    "rank": 5,
+    "ranking_explanation": "Vihaan Saxena is classified as a Weak Signal. Shows limited direct career history in search/retrieval, supported by skills in Hadoop, Terraform, Vue.js, Content Writing, and is available with 120-day notice (flagged for duplicate career descriptions).",
+    "raw_semantic_score": 52.14,
+    "career_evidence_score": 0.0,
+    "domain_gate_penalty": 1.0,
+    "domain_gate_applied": false,
+    "self_claim_score": 5.38,
+    "contradiction_severity": 0,
+    "contradiction_penalty": 0.0,
+    "domain_relevance": 1.0,
+    "fraud_penalty": 18.15,
+    "degraded_confidence": false,
+    "capability_score": 23.88,
+    "confidence_score": 0.6,
+    "ownership_score": 60.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 0.0,
+      "vector_databases": 0.0,
+      "evaluation": 0.0,
+      "production_ml": 0.0,
+      "backend_engineering": 75.39,
+      "data_engineering": 14.4,
+      "frontend_engineering": 65.95,
+      "qa_engineering": 32.84,
+      "cloud_engineering": 3.5
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 100.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 76.97000861167908,
+        "confidence": 75.39400172233582,
+        "num_relevant_jobs": 4
+      },
+      "data_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 23.99626150727272,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 14.397756904363632,
+        "num_relevant_jobs": 1
+      },
+      "frontend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 91.80000000000001,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 54.36846077442169,
+        "confidence": 65.95369215488435,
+        "num_relevant_jobs": 1
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 54.73310586065055,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 32.839863516390324,
+        "num_relevant_jobs": 1
+      },
+      "cloud_engineering": {
+        "claim_evidence": 70.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 70.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 3.5,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 2.22,
+    "supporting_contribution": 0.95,
+    "title": "Mobile Developer",
+    "current_company": "CRED",
+    "current_industry": "Fintech",
+    "location": "Hyderabad, Telangana",
+    "skills": [
+      "Hadoop",
+      "Terraform",
+      "Vue.js",
+      "Content Writing",
+      "AWS"
+    ],
+    "open_to_work": true,
+    "notice_period_days": 120,
+    "years_of_experience": 9.7,
+    "flags": [],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "notice",
+        "severity": "amber",
+        "detail": "120-day notice period; role likely prefers faster availability."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 3.71,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 14.8 from career/project text.",
+          "Semantic score gated from 52.1 to 52.1.",
+          "Domain relevance 1.00; career relevance 0.0."
+        ]
+      },
+      "proof": {
+        "score": 0.0,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 0.0; assessment evidence 0.0.",
+          "GitHub evidence 0.0 after domain gating.",
+          "Claim consistency multiplier 0.90; contradiction penalty -0."
+        ]
+      },
+      "recruitability": {
+        "score": 54.45,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 60.0; responsiveness 61.5.",
+          "Availability 61.8; logistics 80.2.",
+          "Availability multiplier 0.97."
+        ]
+      },
+      "market": {
+        "score": 42.07,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 26.2.",
+          "Discoverability 43.7; demand 75.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000043",
+    "candidate_name": "Aarav Sen",
+    "role_alignment_score": 5.24,
+    "skill_proof_score": 0.0,
+    "recruitability_score": 30.45,
+    "hireability_score": 26.2,
+    "market_validation_score": 37.2,
+    "score_breakdown": {
+      "role_alignment": 5.24,
+      "skill_proof": 0.0,
+      "recruitability": 30.45,
+      "hireability": 26.2,
+      "market_validation": 37.2,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 0.0,
+    "qualification_tier": "Weak Signal",
+    "availability_multiplier": 0.855,
+    "effective_availability_multiplier": 0.855,
+    "final_score": 1.92,
+    "rank": 6,
+    "ranking_explanation": "Aarav Sen is classified as a Weak Signal. Shows limited direct career history in search/retrieval, supported by skills in Elasticsearch, OpenSearch, Airflow, Kubeflow, and is available with 120-day notice (flagged for duplicate career descriptions).",
+    "raw_semantic_score": 78.06,
+    "career_evidence_score": 0.0,
+    "domain_gate_penalty": 1.0,
+    "domain_gate_applied": false,
+    "self_claim_score": 13.46,
+    "contradiction_severity": 1,
+    "contradiction_penalty": 15.0,
+    "domain_relevance": 1.0,
+    "fraud_penalty": 23.85,
+    "degraded_confidence": false,
+    "capability_score": 29.52,
+    "confidence_score": 0.48,
+    "ownership_score": 75.0,
+    "capability_scores": {
+      "retrieval": 3.5,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 1.75,
+      "vector_databases": 0.0,
+      "evaluation": 0.0,
+      "production_ml": 13.29,
+      "backend_engineering": 73.08,
+      "data_engineering": 1.75,
+      "frontend_engineering": 70.01,
+      "qa_engineering": 60.0,
+      "cloud_engineering": 78.3
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 70.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 70.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 3.5,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 35.0,
+        "career_evidence": 19.234785810112953,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 13.290871486067772,
+        "num_relevant_jobs": 1
+      },
+      "backend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 95.74395418167114,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 78.15304358800253,
+        "confidence": 73.0769812266032,
+        "num_relevant_jobs": 2
+      },
+      "data_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 100.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 50.05068838596344,
+        "confidence": 70.01013767719269,
+        "num_relevant_jobs": 1
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 100.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 60.0,
+        "num_relevant_jobs": 2
+      },
+      "cloud_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 100.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 91.51893417040507,
+        "confidence": 78.30378683408102,
+        "num_relevant_jobs": 3
+      }
+    },
+    "role_alignment_contribution": 1.34,
+    "supporting_contribution": 0.58,
+    "title": "Cloud Engineer",
+    "current_company": "Swiggy",
+    "current_industry": "Food Delivery",
+    "location": "Chandigarh, Chandigarh",
+    "skills": [
+      "Elasticsearch",
+      "OpenSearch",
+      "Airflow",
+      "Kubeflow",
+      "Fine-tuning LLMs",
+      "Haystack",
+      "OpenCV",
+      "TensorFlow",
+      "PEFT",
+      "LangChain",
+      "Weights & Biases",
+      "Reinforcement Learning",
+      "Deep Learning",
+      "Image Classification",
+      "Node.js",
+      "Project Management",
+      "Feature Engineering"
+    ],
+    "open_to_work": false,
+    "notice_period_days": 120,
+    "years_of_experience": 8.3,
+    "flags": [
+      {
+        "type": "claim_without_proof",
+        "severity": "red",
+        "label": "High Risk",
+        "claimed_skills": [
+          "LangChain"
+        ],
+        "career_evidence": "Cloud Engineer at Swiggy -> .NET Developer at HCL -> Frontend Engineer at Mindtree -> DevOps Engineer at Initech",
+        "rule": "AI/retrieval skills are claimed, but career history does not show matching production retrieval, ranking, recommendation, or vector-search work.",
+        "detail": "Aarav Sen claims LangChain, but career history reads as Cloud Engineer at Swiggy -> .NET Developer at HCL -> Frontend Engineer at Mindtree -> DevOps Engineer at Initech."
+      }
+    ],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "proof",
+        "severity": "red",
+        "detail": "Skill stuffing contradiction penalty applied: -15."
+      },
+      {
+        "type": "honeypot",
+        "severity": "red",
+        "detail": "Aarav Sen claims LangChain, but career history reads as Cloud Engineer at Swiggy -> .NET Developer at HCL -> Frontend Engineer at Mindtree -> DevOps Engineer at Initech."
+      },
+      {
+        "type": "notice",
+        "severity": "amber",
+        "detail": "120-day notice period; role likely prefers faster availability."
+      },
+      {
+        "type": "response",
+        "severity": "red",
+        "detail": "4% recruiter response rate is low."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 5.24,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 23.2 from career/project text.",
+          "Semantic score gated from 78.1 to 78.1.",
+          "Domain relevance 1.00; career relevance 0.0."
+        ]
+      },
+      "proof": {
+        "score": 0.0,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 0.0; assessment evidence 0.0.",
+          "GitHub evidence 0.0 after domain gating.",
+          "Claim consistency multiplier 0.65; contradiction penalty -15."
+        ]
+      },
+      "recruitability": {
+        "score": 26.2,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 35.0; responsiveness 13.1.",
+          "Availability 31.5; logistics 68.5.",
+          "Availability multiplier 0.85."
+        ]
+      },
+      "market": {
+        "score": 37.2,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 12.7.",
+          "Discoverability 55.7; demand 60.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000038",
+    "candidate_name": "Myra Trivedi",
+    "role_alignment_score": 4.59,
+    "skill_proof_score": 0.0,
+    "recruitability_score": 67.03,
+    "hireability_score": 51.5,
+    "market_validation_score": 75.0,
+    "score_breakdown": {
+      "role_alignment": 4.59,
+      "skill_proof": 0.0,
+      "recruitability": 67.03,
+      "hireability": 51.5,
+      "market_validation": 75.0,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 0.0,
+    "qualification_tier": "Weak Signal",
+    "availability_multiplier": 0.956,
+    "effective_availability_multiplier": 0.956,
+    "final_score": 1.81,
+    "rank": 7,
+    "ranking_explanation": "Myra Trivedi is classified as a Weak Signal. Shows limited direct career history in search/retrieval, supported by skills in Kubeflow, Django, Redux, Weaviate, and is available with 90-day notice (flagged for duplicate career descriptions).",
+    "raw_semantic_score": 65.61,
+    "career_evidence_score": 0.0,
+    "domain_gate_penalty": 1.0,
+    "domain_gate_applied": false,
+    "self_claim_score": 13.46,
+    "contradiction_severity": 1,
+    "contradiction_penalty": 15.0,
+    "domain_relevance": 0.8,
+    "fraud_penalty": 26.62,
+    "degraded_confidence": false,
+    "capability_score": 32.94,
+    "confidence_score": 0.48,
+    "ownership_score": 60.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 0.0,
+      "vector_databases": 1.75,
+      "evaluation": 0.0,
+      "production_ml": 1.75,
+      "backend_engineering": 81.75,
+      "data_engineering": 12.86,
+      "frontend_engineering": 61.75,
+      "qa_engineering": 32.11,
+      "cloud_engineering": 64.78
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 100.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 100.0,
+        "confidence": 81.75,
+        "num_relevant_jobs": 3
+      },
+      "data_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 21.436568722128865,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 12.861941233277319,
+        "num_relevant_jobs": 1
+      },
+      "frontend_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 100.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 61.75,
+        "num_relevant_jobs": 2
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 53.51316740736363,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 32.10790044441818,
+        "num_relevant_jobs": 2
+      },
+      "cloud_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 79.12375424057244,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 77.77621308962505,
+        "confidence": 64.77949516226847,
+        "num_relevant_jobs": 1
+      }
+    },
+    "role_alignment_contribution": 1.27,
+    "supporting_contribution": 0.54,
+    "title": "Java Developer",
+    "current_company": "Swiggy",
+    "current_industry": "Food Delivery",
+    "location": "Coimbatore, Tamil Nadu",
+    "skills": [
+      "Kubeflow",
+      "Django",
+      "Redux",
+      "Weaviate",
+      "PowerPoint",
+      "Figma",
+      "Docker",
+      "GraphQL",
+      "Agile",
+      "MLOps",
+      "Azure"
+    ],
+    "open_to_work": true,
+    "notice_period_days": 90,
+    "years_of_experience": 6.7,
+    "flags": [
+      {
+        "type": "claim_without_proof",
+        "severity": "red",
+        "label": "High Risk",
+        "claimed_skills": [
+          "Weaviate"
+        ],
+        "career_evidence": "Java Developer at Swiggy -> .NET Developer at Globex Inc -> DevOps Engineer at Hooli",
+        "rule": "AI/retrieval skills are claimed, but career history does not show matching production retrieval, ranking, recommendation, or vector-search work.",
+        "detail": "Myra Trivedi claims Weaviate, but career history reads as Java Developer at Swiggy -> .NET Developer at Globex Inc -> DevOps Engineer at Hooli."
+      }
+    ],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "proof",
+        "severity": "red",
+        "detail": "Skill stuffing contradiction penalty applied: -15."
+      },
+      {
+        "type": "honeypot",
+        "severity": "red",
+        "detail": "Myra Trivedi claims Weaviate, but career history reads as Java Developer at Swiggy -> .NET Developer at Globex Inc -> DevOps Engineer at Hooli."
+      },
+      {
+        "type": "notice",
+        "severity": "amber",
+        "detail": "90-day notice period; role likely prefers faster availability."
+      },
+      {
+        "type": "response",
+        "severity": "red",
+        "detail": "20% recruiter response rate is low."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 4.59,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 17.0 from career/project text.",
+          "Semantic score gated from 65.6 to 65.6.",
+          "Domain relevance 0.80; career relevance 0.0."
+        ]
+      },
+      "proof": {
+        "score": 0.0,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 0.0; assessment evidence 0.0.",
+          "GitHub evidence 11.3 after domain gating.",
+          "Claim consistency multiplier 0.65; contradiction penalty -15."
+        ]
+      },
+      "recruitability": {
+        "score": 51.5,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 66.0; responsiveness 41.0.",
+          "Availability 73.0; logistics 82.5.",
+          "Availability multiplier 0.96."
+        ]
+      },
+      "market": {
+        "score": 75.0,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 78.3.",
+          "Discoverability 80.0; demand 60.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000042",
+    "candidate_name": "Riya Mukherjee",
+    "role_alignment_score": 2.52,
+    "skill_proof_score": 5.71,
+    "recruitability_score": 40.21,
+    "hireability_score": 44.0,
+    "market_validation_score": 33.99,
+    "score_breakdown": {
+      "role_alignment": 2.52,
+      "skill_proof": 5.71,
+      "recruitability": 40.21,
+      "hireability": 44.0,
+      "market_validation": 33.99,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 0.92,
+    "qualification_tier": "Not Qualified",
+    "availability_multiplier": 0.926,
+    "effective_availability_multiplier": 0.926,
+    "final_score": 1.67,
+    "rank": 8,
+    "ranking_explanation": "Riya Mukherjee is classified as a Not Qualified. Shows limited direct career history in search/retrieval, supported by skills in Project Management, gRPC, Marketing, SAP, and is available with 30-day notice.",
+    "raw_semantic_score": 76.36,
+    "career_evidence_score": 0.6,
+    "domain_gate_penalty": 1.0,
+    "domain_gate_applied": false,
+    "self_claim_score": 0.0,
+    "contradiction_severity": 0,
+    "contradiction_penalty": 0.0,
+    "domain_relevance": 0.5,
+    "fraud_penalty": 13.11,
+    "degraded_confidence": false,
+    "capability_score": 21.84,
+    "confidence_score": 1.0,
+    "ownership_score": 75.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 9.19,
+      "vector_databases": 0.0,
+      "evaluation": 0.0,
+      "production_ml": 0.0,
+      "backend_engineering": 0.0,
+      "data_engineering": 0.0,
+      "frontend_engineering": 0.0,
+      "qa_engineering": 0.0,
+      "cloud_engineering": 0.0
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 15.322391316294668,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 9.1934347897768,
+        "num_relevant_jobs": 1
+      },
+      "vector_databases": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "data_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "cloud_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 1.17,
+    "supporting_contribution": 0.5,
+    "title": "HR Manager",
+    "current_company": "Wayne Enterprises",
+    "current_industry": "Conglomerate",
+    "location": "Berlin",
+    "skills": [
+      "Project Management",
+      "gRPC",
+      "Marketing",
+      "SAP",
+      "Illustrator",
+      "Node.js",
+      "YOLO",
+      "Tailwind",
+      "CSS",
+      "Figma"
+    ],
+    "open_to_work": false,
+    "notice_period_days": 30,
+    "years_of_experience": 5.0,
+    "flags": [],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "activity",
+        "severity": "amber",
+        "detail": "Platform activity is stale or weak."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 2.52,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 0.5 from career/project text.",
+          "Semantic score gated from 76.4 to 76.4.",
+          "Domain relevance 0.50; career relevance 0.6."
+        ]
+      },
+      "proof": {
+        "score": 5.71,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 14.3; assessment evidence 0.0.",
+          "GitHub evidence 0.0 after domain gating.",
+          "Claim consistency multiplier 1.00; contradiction penalty -0."
+        ]
+      },
+      "recruitability": {
+        "score": 44.0,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 20.0; responsiveness 65.7.",
+          "Availability 65.2; logistics 69.0.",
+          "Availability multiplier 0.93."
+        ]
+      },
+      "market": {
+        "score": 33.99,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 40.0.",
+          "Discoverability 11.3; demand 60.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000023",
+    "candidate_name": "Kavya Nair",
+    "role_alignment_score": 3.81,
+    "skill_proof_score": 0.0,
+    "recruitability_score": 62.09,
+    "hireability_score": 66.75,
+    "market_validation_score": 60.61,
+    "score_breakdown": {
+      "role_alignment": 3.81,
+      "skill_proof": 0.0,
+      "recruitability": 62.09,
+      "hireability": 66.75,
+      "market_validation": 60.61,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 0.0,
+    "qualification_tier": "Weak Signal",
+    "availability_multiplier": 1.017,
+    "effective_availability_multiplier": 1.017,
+    "final_score": 1.21,
+    "rank": 9,
+    "ranking_explanation": "Kavya Nair is classified as a Weak Signal. Shows limited direct career history in search/retrieval, supported by skills in BigQuery, Marketing, Node.js, Django, and is available with 30-day notice (flagged for claim track contradiction).",
+    "raw_semantic_score": 80.25,
+    "career_evidence_score": 0.0,
+    "domain_gate_penalty": 1.0,
+    "domain_gate_applied": false,
+    "self_claim_score": 10.77,
+    "contradiction_severity": 1,
+    "contradiction_penalty": 15.0,
+    "domain_relevance": 1.0,
+    "fraud_penalty": 20.37,
+    "degraded_confidence": false,
+    "capability_score": 29.96,
+    "confidence_score": 0.8,
+    "ownership_score": 30.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 0.0,
+      "vector_databases": 0.0,
+      "evaluation": 0.0,
+      "production_ml": 0.0,
+      "backend_engineering": 83.28,
+      "data_engineering": 3.5,
+      "frontend_engineering": 60.0,
+      "qa_engineering": 60.0,
+      "cloud_engineering": 18.66
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 70.0,
+        "career_evidence": 99.63616445660591,
+        "skill_evidence": 70.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 100.0,
+        "confidence": 83.28169867396355,
+        "num_relevant_jobs": 2
+      },
+      "data_engineering": {
+        "claim_evidence": 70.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 70.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 3.5,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 100.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 60.0,
+        "num_relevant_jobs": 1
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 100.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 60.0,
+        "num_relevant_jobs": 1
+      },
+      "cloud_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 93.27911297480266,
+        "confidence": 18.655822594960533,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 0.85,
+    "supporting_contribution": 0.36,
+    "title": "Software Engineer",
+    "current_company": "Acme Corp",
+    "current_industry": "Manufacturing",
+    "location": "New York",
+    "skills": [
+      "BigQuery",
+      "Marketing",
+      "Node.js",
+      "Django",
+      "Salesforce CRM",
+      "MongoDB",
+      "ETL",
+      "Redis",
+      "Illustrator",
+      "Rust"
+    ],
+    "open_to_work": false,
+    "notice_period_days": 30,
+    "years_of_experience": 3.7,
+    "flags": [],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "proof",
+        "severity": "red",
+        "detail": "Skill stuffing contradiction penalty applied: -15."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 3.81,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 17.3 from career/project text.",
+          "Semantic score gated from 80.2 to 80.2.",
+          "Domain relevance 1.00; career relevance 0.0."
+        ]
+      },
+      "proof": {
+        "score": 0.0,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 0.0; assessment evidence 0.0.",
+          "GitHub evidence 14.6 after domain gating.",
+          "Claim consistency multiplier 0.65; contradiction penalty -15."
+        ]
+      },
+      "recruitability": {
+        "score": 66.75,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 57.0; responsiveness 65.0.",
+          "Availability 65.2; logistics 53.2.",
+          "Availability multiplier 1.02."
+        ]
+      },
+      "market": {
+        "score": 60.61,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 50.5.",
+          "Discoverability 79.7; demand 50.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000026",
+    "candidate_name": "Neha Rao",
+    "role_alignment_score": 2.15,
+    "skill_proof_score": 3.71,
+    "recruitability_score": 40.77,
+    "hireability_score": 45.65,
+    "market_validation_score": 52.35,
+    "score_breakdown": {
+      "role_alignment": 2.15,
+      "skill_proof": 3.71,
+      "recruitability": 40.77,
+      "hireability": 45.65,
+      "market_validation": 52.35,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 1.54,
+    "qualification_tier": "Not Qualified",
+    "availability_multiplier": 0.933,
+    "effective_availability_multiplier": 0.933,
+    "final_score": 0.8,
+    "rank": 10,
+    "ranking_explanation": "Neha Rao is classified as a Not Qualified. Shows limited direct career history in search/retrieval, supported by skills in Apache Beam, Kubeflow, Scrum, ETL, and is available with 30-day notice.",
+    "raw_semantic_score": 72.31,
+    "career_evidence_score": 0.46,
+    "domain_gate_penalty": 0.8,
+    "domain_gate_applied": true,
+    "self_claim_score": 10.77,
+    "contradiction_severity": 0,
+    "contradiction_penalty": 0.0,
+    "domain_relevance": 0.0,
+    "fraud_penalty": 13.62,
+    "degraded_confidence": false,
+    "capability_score": 22.7,
+    "confidence_score": 1.0,
+    "ownership_score": 75.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 10.13,
+      "vector_databases": 0.0,
+      "evaluation": 0.0,
+      "production_ml": 1.75,
+      "backend_engineering": 1.75,
+      "data_engineering": 3.5,
+      "frontend_engineering": 0.0,
+      "qa_engineering": 0.0,
+      "cloud_engineering": 0.0
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 16.885023564100266,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 10.13101413846016,
+        "num_relevant_jobs": 1
+      },
+      "vector_databases": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "data_engineering": {
+        "claim_evidence": 70.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 70.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 3.5,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "cloud_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 0.56,
+    "supporting_contribution": 0.24,
+    "title": "Graphic Designer",
+    "current_company": "Initech",
+    "current_industry": "Software",
+    "location": "Kochi, Kerala",
+    "skills": [
+      "Apache Beam",
+      "Kubeflow",
+      "Scrum",
+      "ETL",
+      "Django",
+      "Docker",
+      "Airflow",
+      "Kubernetes"
+    ],
+    "open_to_work": false,
+    "notice_period_days": 30,
+    "years_of_experience": 6.8,
+    "flags": [],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "activity",
+        "severity": "amber",
+        "detail": "Platform activity is stale or weak."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 2.15,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 0.4 from career/project text.",
+          "Semantic score gated from 72.3 to 72.3.",
+          "Domain relevance 0.00; career relevance 0.5."
+        ]
+      },
+      "proof": {
+        "score": 3.71,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 14.3; assessment evidence 0.0.",
+          "GitHub evidence 0.0 after domain gating.",
+          "Claim consistency multiplier 0.65; contradiction penalty -0."
+        ]
+      },
+      "recruitability": {
+        "score": 45.65,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 20.0; responsiveness 66.3.",
+          "Availability 65.2; logistics 66.2.",
+          "Availability multiplier 0.93."
+        ]
+      },
+      "market": {
+        "score": 52.35,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 49.8.",
+          "Discoverability 51.3; demand 60.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000015",
+    "candidate_name": "Rahul Agarwal",
+    "role_alignment_score": 6.63,
+    "skill_proof_score": 0.0,
+    "recruitability_score": 47.13,
+    "hireability_score": 43.7,
+    "market_validation_score": 53.01,
+    "score_breakdown": {
+      "role_alignment": 6.63,
+      "skill_proof": 0.0,
+      "recruitability": 47.13,
+      "hireability": 43.7,
+      "market_validation": 53.01,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 9.0,
+    "qualification_tier": "Weak Signal",
+    "availability_multiplier": 0.925,
+    "effective_availability_multiplier": 0.925,
+    "final_score": 0.52,
+    "rank": 11,
+    "ranking_explanation": "Rahul Agarwal is classified as a Weak Signal. Shows limited direct career history in search/retrieval, supported by skills in PyTorch, Content Writing, Weights & Biases, Qdrant, and is available with 90-day notice (flagged for claim track contradiction).",
+    "raw_semantic_score": 65.48,
+    "career_evidence_score": 7.42,
+    "domain_gate_penalty": 1.0,
+    "domain_gate_applied": false,
+    "self_claim_score": 10.77,
+    "contradiction_severity": 1,
+    "contradiction_penalty": 15.0,
+    "domain_relevance": 0.75,
+    "fraud_penalty": 17.69,
+    "degraded_confidence": false,
+    "capability_score": 26.01,
+    "confidence_score": 0.8,
+    "ownership_score": 45.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 1.75,
+      "vector_databases": 1.75,
+      "evaluation": 0.0,
+      "production_ml": 13.07,
+      "backend_engineering": 77.76,
+      "data_engineering": 16.13,
+      "frontend_engineering": 13.89,
+      "qa_engineering": 15.93,
+      "cloud_engineering": 77.88
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 0.0,
+        "career_evidence": 21.778147011995316,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 13.06688820719719,
+        "num_relevant_jobs": 1
+      },
+      "backend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 100.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 88.799968957901,
+        "confidence": 77.7599937915802,
+        "num_relevant_jobs": 3
+      },
+      "data_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 23.968403413891792,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 16.131042048335075,
+        "num_relevant_jobs": 1
+      },
+      "frontend_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 60.692398349444076,
+        "confidence": 13.888479669888817,
+        "num_relevant_jobs": 0
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 26.55020292252302,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 15.930121753513811,
+        "num_relevant_jobs": 1
+      },
+      "cloud_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 100.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 89.39801613489787,
+        "confidence": 77.87960322697958,
+        "num_relevant_jobs": 2
+      }
+    },
+    "role_alignment_contribution": 0.36,
+    "supporting_contribution": 0.16,
+    "title": "Software Engineer",
+    "current_company": "Razorpay",
+    "current_industry": "Fintech",
+    "location": "Trivandrum, Kerala",
+    "skills": [
+      "PyTorch",
+      "Content Writing",
+      "Weights & Biases",
+      "Qdrant",
+      "Sales",
+      "Figma",
+      "BigQuery",
+      "Computer Vision",
+      "Next.js",
+      "SEO"
+    ],
+    "open_to_work": true,
+    "notice_period_days": 90,
+    "years_of_experience": 5.4,
+    "flags": [
+      {
+        "type": "claim_without_proof",
+        "severity": "red",
+        "label": "High Risk",
+        "claimed_skills": [
+          "Qdrant"
+        ],
+        "career_evidence": "Software Engineer at Razorpay -> Mobile Developer at Hooli -> DevOps Engineer at Globex Inc",
+        "rule": "AI/retrieval skills are claimed, but career history does not show matching production retrieval, ranking, recommendation, or vector-search work.",
+        "detail": "Rahul Agarwal claims Qdrant, but career history reads as Software Engineer at Razorpay -> Mobile Developer at Hooli -> DevOps Engineer at Globex Inc."
+      }
+    ],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "proof",
+        "severity": "red",
+        "detail": "Skill stuffing contradiction penalty applied: -15."
+      },
+      {
+        "type": "honeypot",
+        "severity": "red",
+        "detail": "Rahul Agarwal claims Qdrant, but career history reads as Software Engineer at Razorpay -> Mobile Developer at Hooli -> DevOps Engineer at Globex Inc."
+      },
+      {
+        "type": "notice",
+        "severity": "amber",
+        "detail": "90-day notice period; role likely prefers faster availability."
+      },
+      {
+        "type": "response",
+        "severity": "red",
+        "detail": "32% recruiter response rate is low."
+      },
+      {
+        "type": "activity",
+        "severity": "amber",
+        "detail": "Platform activity is stale or weak."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 6.63,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 13.8 from career/project text.",
+          "Semantic score gated from 65.5 to 65.5.",
+          "Domain relevance 0.75; career relevance 7.4."
+        ]
+      },
+      "proof": {
+        "score": 0.0,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 0.0; assessment evidence 0.0.",
+          "GitHub evidence 0.0 after domain gating.",
+          "Claim consistency multiplier 0.65; contradiction penalty -15."
+        ]
+      },
+      "recruitability": {
+        "score": 43.7,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 34.5; responsiveness 40.0.",
+          "Availability 73.0; logistics 50.5.",
+          "Availability multiplier 0.93."
+        ]
+      },
+      "market": {
+        "score": 53.01,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 42.0.",
+          "Discoverability 54.7; demand 75.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000046",
+    "candidate_name": "Dev Nair",
+    "role_alignment_score": 1.93,
+    "skill_proof_score": 0.85,
+    "recruitability_score": 50.9,
+    "hireability_score": 47.25,
+    "market_validation_score": 50.79,
+    "score_breakdown": {
+      "role_alignment": 1.93,
+      "skill_proof": 0.85,
+      "recruitability": 50.9,
+      "hireability": 47.25,
+      "market_validation": 50.79,
+      "career_consistency": 40.0
+    },
+    "technical_strength": 0.0,
+    "qualification_tier": "Not Qualified",
+    "availability_multiplier": 0.939,
+    "effective_availability_multiplier": 0.939,
+    "final_score": 0.25,
+    "rank": 12,
+    "ranking_explanation": "Dev Nair is classified as a Not Qualified. Shows limited direct career history in search/retrieval, supported by skills in Agile, Scrum, SAP, React, and is available with 30-day notice.",
+    "raw_semantic_score": 85.06,
+    "career_evidence_score": 0.0,
+    "domain_gate_penalty": 0.8,
+    "domain_gate_applied": true,
+    "self_claim_score": 8.08,
+    "contradiction_severity": 0,
+    "contradiction_penalty": 0.0,
+    "domain_relevance": 0.0,
+    "fraud_penalty": 17.65,
+    "degraded_confidence": false,
+    "capability_score": 26.74,
+    "confidence_score": 0.85,
+    "ownership_score": 100.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 0.0,
+      "vector_databases": 0.0,
+      "evaluation": 0.0,
+      "production_ml": 0.0,
+      "backend_engineering": 0.0,
+      "data_engineering": 1.75,
+      "frontend_engineering": 1.75,
+      "qa_engineering": 0.0,
+      "cloud_engineering": 1.75
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "data_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "cloud_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 0.18,
+    "supporting_contribution": 0.08,
+    "title": "Mechanical Engineer",
+    "current_company": "Hooli",
+    "current_industry": "Software",
+    "location": "London",
+    "skills": [
+      "Agile",
+      "Scrum",
+      "SAP",
+      "React",
+      "Azure",
+      "ETL"
+    ],
+    "open_to_work": false,
+    "notice_period_days": 30,
+    "years_of_experience": 7.8,
+    "flags": [],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 1.93,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 0.1 from career/project text.",
+          "Semantic score gated from 85.1 to 85.1.",
+          "Domain relevance 0.00; career relevance 0.0."
+        ]
+      },
+      "proof": {
+        "score": 0.85,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 0.0; assessment evidence 0.0.",
+          "GitHub evidence 6.3 after domain gating.",
+          "Claim consistency multiplier 0.90; contradiction penalty -0."
+        ]
+      },
+      "recruitability": {
+        "score": 47.25,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 40.5; responsiveness 37.1.",
+          "Availability 65.2; logistics 55.0.",
+          "Availability multiplier 0.94."
+        ]
+      },
+      "market": {
+        "score": 50.79,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 36.5.",
+          "Discoverability 55.3; demand 75.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000014",
+    "candidate_name": "Atharv Joshi",
+    "role_alignment_score": 4.65,
+    "skill_proof_score": 3.54,
+    "recruitability_score": 59.06,
+    "hireability_score": 59.0,
+    "market_validation_score": 7.82,
+    "score_breakdown": {
+      "role_alignment": 4.65,
+      "skill_proof": 3.54,
+      "recruitability": 59.06,
+      "hireability": 59.0,
+      "market_validation": 7.82,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 0.0,
+    "qualification_tier": "Weak Signal",
+    "availability_multiplier": 0.986,
+    "effective_availability_multiplier": 0.986,
+    "final_score": 0.09,
+    "rank": 13,
+    "ranking_explanation": "Atharv Joshi is classified as a Weak Signal. Shows limited direct career history in search/retrieval, supported by skills in FAISS, BigQuery, React, OpenSearch, and is available with 90-day notice (flagged for claim track contradiction).",
+    "raw_semantic_score": 80.11,
+    "career_evidence_score": 0.0,
+    "domain_gate_penalty": 1.0,
+    "domain_gate_applied": false,
+    "self_claim_score": 13.46,
+    "contradiction_severity": 1,
+    "contradiction_penalty": 15.0,
+    "domain_relevance": 1.0,
+    "fraud_penalty": 5.74,
+    "degraded_confidence": false,
+    "capability_score": 28.71,
+    "confidence_score": 0.8,
+    "ownership_score": 60.0,
+    "capability_scores": {
+      "retrieval": 13.39,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 0.0,
+      "vector_databases": 13.39,
+      "evaluation": 0.0,
+      "production_ml": 0.0,
+      "backend_engineering": 80.01,
+      "data_engineering": 1.75,
+      "frontend_engineering": 73.18,
+      "qa_engineering": 60.0,
+      "cloud_engineering": 0.0
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 77.6,
+        "project_evidence": 0.0,
+        "confidence": 13.389999999999999,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 77.6,
+        "project_evidence": 0.0,
+        "confidence": 13.389999999999999,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 100.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 91.29369815190634,
+        "confidence": 80.00873963038127,
+        "num_relevant_jobs": 3
+      },
+      "data_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 91.80000000000001,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 81.7614511648814,
+        "confidence": 73.18229023297629,
+        "num_relevant_jobs": 1
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 100.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 60.0,
+        "num_relevant_jobs": 2
+      },
+      "cloud_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 0.06,
+    "supporting_contribution": 0.03,
+    "title": "Frontend Engineer",
+    "current_company": "Zomato",
+    "current_industry": "Food Delivery",
+    "location": "Hyderabad, Telangana",
+    "skills": [
+      "FAISS",
+      "BigQuery",
+      "React",
+      "OpenSearch",
+      "OpenCV",
+      "YOLO",
+      "SAP",
+      "SEO",
+      "REST APIs",
+      "GANs",
+      "dbt",
+      "Photoshop",
+      "Tailwind"
+    ],
+    "open_to_work": false,
+    "notice_period_days": 90,
+    "years_of_experience": 8.4,
+    "flags": [
+      {
+        "type": "claim_without_proof",
+        "severity": "red",
+        "label": "High Risk",
+        "claimed_skills": [
+          "FAISS"
+        ],
+        "career_evidence": "Frontend Engineer at Zomato -> Software Engineer at Dunder Mifflin -> Java Developer at Acme Corp",
+        "rule": "AI/retrieval skills are claimed, but career history does not show matching production retrieval, ranking, recommendation, or vector-search work.",
+        "detail": "Atharv Joshi claims FAISS, but career history reads as Frontend Engineer at Zomato -> Software Engineer at Dunder Mifflin -> Java Developer at Acme Corp."
+      }
+    ],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "proof",
+        "severity": "red",
+        "detail": "Skill stuffing contradiction penalty applied: -15."
+      },
+      {
+        "type": "honeypot",
+        "severity": "red",
+        "detail": "Atharv Joshi claims FAISS, but career history reads as Frontend Engineer at Zomato -> Software Engineer at Dunder Mifflin -> Java Developer at Acme Corp."
+      },
+      {
+        "type": "notice",
+        "severity": "amber",
+        "detail": "90-day notice period; role likely prefers faster availability."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 4.65,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 18.6 from career/project text.",
+          "Semantic score gated from 80.1 to 80.1.",
+          "Domain relevance 1.00; career relevance 0.0."
+        ]
+      },
+      "proof": {
+        "score": 3.54,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 0.0; assessment evidence 80.6.",
+          "GitHub evidence 0.0 after domain gating.",
+          "Claim consistency multiplier 1.15; contradiction penalty -15."
+        ]
+      },
+      "recruitability": {
+        "score": 59.0,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 54.0; responsiveness 87.0.",
+          "Availability 42.8; logistics 66.2.",
+          "Availability multiplier 0.99."
+        ]
+      },
+      "market": {
+        "score": 7.82,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 3.1.",
+          "Discoverability 4.0; demand 25.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000002",
+    "candidate_name": "Saanvi Sethi",
+    "role_alignment_score": 0.8,
+    "skill_proof_score": 0.0,
+    "recruitability_score": 32.66,
+    "hireability_score": 39.95,
+    "market_validation_score": 33.71,
+    "score_breakdown": {
+      "role_alignment": 0.8,
+      "skill_proof": 0.0,
+      "recruitability": 32.66,
+      "hireability": 39.95,
+      "market_validation": 33.71,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 1.24,
+    "qualification_tier": "Not Qualified",
+    "availability_multiplier": 0.91,
+    "effective_availability_multiplier": 0.91,
+    "final_score": 0.0,
+    "rank": 14,
+    "ranking_explanation": "Saanvi Sethi is classified as a Not Qualified. Shows limited direct career history in search/retrieval, supported by skills in Project Management, React, Photoshop, TypeScript, and is available with 60-day notice.",
+    "raw_semantic_score": 79.84,
+    "career_evidence_score": 0.37,
+    "domain_gate_penalty": 0.8,
+    "domain_gate_applied": true,
+    "self_claim_score": 13.08,
+    "contradiction_severity": 0,
+    "contradiction_penalty": 0.0,
+    "domain_relevance": 0.0,
+    "fraud_penalty": 14.22,
+    "degraded_confidence": false,
+    "capability_score": 23.69,
+    "confidence_score": 1.0,
+    "ownership_score": 100.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 11.92,
+      "vector_databases": 0.0,
+      "evaluation": 0.0,
+      "production_ml": 0.0,
+      "backend_engineering": 1.75,
+      "data_engineering": 0.0,
+      "frontend_engineering": 5.0,
+      "qa_engineering": 0.0,
+      "cloud_engineering": 1.75
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 19.8607936501503,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 11.91647619009018,
+        "num_relevant_jobs": 1
+      },
+      "vector_databases": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "data_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 100.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 100.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 5.0,
+        "num_relevant_jobs": 0
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "cloud_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 0.0,
+    "supporting_contribution": 0.0,
+    "title": "Operations Manager",
+    "current_company": "Wipro",
+    "current_industry": "IT Services",
+    "location": "Chennai, Tamil Nadu",
+    "skills": [
+      "Project Management",
+      "React",
+      "Photoshop",
+      "TypeScript",
+      "Marketing",
+      "Kafka",
+      "JavaScript",
+      "Feature Engineering",
+      "GCP"
+    ],
+    "open_to_work": true,
+    "notice_period_days": 60,
+    "years_of_experience": 12.5,
+    "flags": [],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "response",
+        "severity": "red",
+        "detail": "29% recruiter response rate is low."
+      },
+      {
+        "type": "activity",
+        "severity": "amber",
+        "detail": "Platform activity is stale or weak."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 0.8,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 0.5 from career/project text.",
+          "Semantic score gated from 79.8 to 79.8.",
+          "Domain relevance 0.00; career relevance 0.4."
+        ]
+      },
+      "proof": {
+        "score": 0.0,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 0.0; assessment evidence 0.0.",
+          "GitHub evidence 0.0 after domain gating.",
+          "Claim consistency multiplier 0.90; contradiction penalty -0."
+        ]
+      },
+      "recruitability": {
+        "score": 39.95,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 11.5; responsiveness 29.4.",
+          "Availability 84.2; logistics 64.5.",
+          "Availability multiplier 0.91."
+        ]
+      },
+      "market": {
+        "score": 33.71,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 36.0.",
+          "Discoverability 35.7; demand 25.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000003",
+    "candidate_name": "Yash Agarwal",
+    "role_alignment_score": 0.66,
+    "skill_proof_score": 0.0,
+    "recruitability_score": 41.5,
+    "hireability_score": 38.1,
+    "market_validation_score": 21.63,
+    "score_breakdown": {
+      "role_alignment": 0.66,
+      "skill_proof": 0.0,
+      "recruitability": 41.5,
+      "hireability": 38.1,
+      "market_validation": 21.63,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 0.0,
+    "qualification_tier": "Not Qualified",
+    "availability_multiplier": 0.902,
+    "effective_availability_multiplier": 0.902,
+    "final_score": 0.0,
+    "rank": 15,
+    "ranking_explanation": "Yash Agarwal is classified as a Not Qualified. Shows limited direct career history in search/retrieval, supported by skills in Angular, SEO, Excel, Accounting, and is available with 150-day notice.",
+    "raw_semantic_score": 59.3,
+    "career_evidence_score": 0.0,
+    "domain_gate_penalty": 1.0,
+    "domain_gate_applied": false,
+    "self_claim_score": 0.0,
+    "contradiction_severity": 0,
+    "contradiction_penalty": 0.0,
+    "domain_relevance": 0.5,
+    "fraud_penalty": 8.5,
+    "degraded_confidence": false,
+    "capability_score": 12.51,
+    "confidence_score": 0.8,
+    "ownership_score": 0.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 0.0,
+      "vector_databases": 0.0,
+      "evaluation": 0.0,
+      "production_ml": 0.0,
+      "backend_engineering": 0.0,
+      "data_engineering": 0.0,
+      "frontend_engineering": 0.0,
+      "qa_engineering": 0.0,
+      "cloud_engineering": 0.0
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "data_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "cloud_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 0.0,
+    "supporting_contribution": 0.0,
+    "title": "Customer Support",
+    "current_company": "TCS",
+    "current_industry": "IT Services",
+    "location": "Austin",
+    "skills": [
+      "Angular",
+      "SEO",
+      "Excel",
+      "Accounting",
+      "Kubernetes",
+      "Databricks"
+    ],
+    "open_to_work": false,
+    "notice_period_days": 150,
+    "years_of_experience": 1.1,
+    "flags": [],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "notice",
+        "severity": "amber",
+        "detail": "150-day notice period; role likely prefers faster availability."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 0.66,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 0.0 from career/project text.",
+          "Semantic score gated from 59.3 to 59.3.",
+          "Domain relevance 0.50; career relevance 0.0."
+        ]
+      },
+      "proof": {
+        "score": 0.0,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 0.0; assessment evidence 0.0.",
+          "GitHub evidence 0.0 after domain gating.",
+          "Claim consistency multiplier 0.90; contradiction penalty -0."
+        ]
+      },
+      "recruitability": {
+        "score": 38.1,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 40.5; responsiveness 49.1.",
+          "Availability 31.5; logistics 55.0.",
+          "Availability multiplier 0.90."
+        ]
+      },
+      "market": {
+        "score": 21.63,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 14.2.",
+          "Discoverability 9.3; demand 60.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000005",
+    "candidate_name": "Aisha Sethi",
+    "role_alignment_score": 1.38,
+    "skill_proof_score": 0.0,
+    "recruitability_score": 37.85,
+    "hireability_score": 48.15,
+    "market_validation_score": 20.2,
+    "score_breakdown": {
+      "role_alignment": 1.38,
+      "skill_proof": 0.0,
+      "recruitability": 37.85,
+      "hireability": 48.15,
+      "market_validation": 20.2,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 0.0,
+    "qualification_tier": "Not Qualified",
+    "availability_multiplier": 0.943,
+    "effective_availability_multiplier": 0.943,
+    "final_score": 0.0,
+    "rank": 16,
+    "ranking_explanation": "Aisha Sethi is classified as a Not Qualified. Shows limited direct career history in search/retrieval, supported by skills in SQL, PowerPoint, Photoshop, Tailwind, and is available with 30-day notice (flagged for duplicate career descriptions).",
+    "raw_semantic_score": 51.42,
+    "career_evidence_score": 0.0,
+    "domain_gate_penalty": 1.0,
+    "domain_gate_applied": false,
+    "self_claim_score": 0.0,
+    "contradiction_severity": 0,
+    "contradiction_penalty": 0.0,
+    "domain_relevance": 0.5,
+    "fraud_penalty": 14.64,
+    "degraded_confidence": false,
+    "capability_score": 19.26,
+    "confidence_score": 0.6,
+    "ownership_score": 90.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 0.0,
+      "vector_databases": 0.0,
+      "evaluation": 0.0,
+      "production_ml": 0.0,
+      "backend_engineering": 0.0,
+      "data_engineering": 0.0,
+      "frontend_engineering": 0.0,
+      "qa_engineering": 0.0,
+      "cloud_engineering": 0.0
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "data_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "cloud_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 0.0,
+    "supporting_contribution": 0.0,
+    "title": "Accountant",
+    "current_company": "Stark Industries",
+    "current_industry": "Manufacturing",
+    "location": "Gurgaon, Haryana",
+    "skills": [
+      "SQL",
+      "PowerPoint",
+      "Photoshop",
+      "Tailwind",
+      "Apache Flink",
+      "Image Classification"
+    ],
+    "open_to_work": true,
+    "notice_period_days": 30,
+    "years_of_experience": 11.0,
+    "flags": [],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "activity",
+        "severity": "amber",
+        "detail": "Platform activity is stale or weak."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 1.38,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 0.0 from career/project text.",
+          "Semantic score gated from 51.4 to 51.4.",
+          "Domain relevance 0.50; career relevance 0.0."
+        ]
+      },
+      "proof": {
+        "score": 0.0,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 0.0; assessment evidence 0.0.",
+          "GitHub evidence 0.0 after domain gating.",
+          "Claim consistency multiplier 0.90; contradiction penalty -0."
+        ]
+      },
+      "recruitability": {
+        "score": 48.15,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 14.5; responsiveness 43.3.",
+          "Availability 95.5; logistics 91.0.",
+          "Availability multiplier 0.94."
+        ]
+      },
+      "market": {
+        "score": 20.2,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 5.3.",
+          "Discoverability 22.3; demand 50.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000006",
+    "candidate_name": "Rajesh Desai",
+    "role_alignment_score": 1.91,
+    "skill_proof_score": 0.0,
+    "recruitability_score": 39.87,
+    "hireability_score": 26.7,
+    "market_validation_score": 45.04,
+    "score_breakdown": {
+      "role_alignment": 1.91,
+      "skill_proof": 0.0,
+      "recruitability": 39.87,
+      "hireability": 26.7,
+      "market_validation": 45.04,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 0.0,
+    "qualification_tier": "Not Qualified",
+    "availability_multiplier": 0.857,
+    "effective_availability_multiplier": 0.857,
+    "final_score": 0.0,
+    "rank": 17,
+    "ranking_explanation": "Rajesh Desai is classified as a Not Qualified. Shows limited direct career history in search/retrieval, supported by skills in Content Writing, SEO, Redux, SQL, and is available with 150-day notice (flagged for claim track contradiction).",
+    "raw_semantic_score": 50.96,
+    "career_evidence_score": 0.0,
+    "domain_gate_penalty": 0.8,
+    "domain_gate_applied": true,
+    "self_claim_score": 8.08,
+    "contradiction_severity": 2,
+    "contradiction_penalty": 30.0,
+    "domain_relevance": 0.0,
+    "fraud_penalty": 12.64,
+    "degraded_confidence": false,
+    "capability_score": 16.63,
+    "confidence_score": 0.6,
+    "ownership_score": 45.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 0.0,
+      "vector_databases": 0.0,
+      "evaluation": 0.0,
+      "production_ml": 0.0,
+      "backend_engineering": 1.75,
+      "data_engineering": 0.0,
+      "frontend_engineering": 1.75,
+      "qa_engineering": 0.0,
+      "cloud_engineering": 1.75
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "data_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "cloud_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 0.0,
+    "supporting_contribution": 0.0,
+    "title": "Business Analyst",
+    "current_company": "Wayne Enterprises",
+    "current_industry": "Conglomerate",
+    "location": "Austin",
+    "skills": [
+      "Content Writing",
+      "SEO",
+      "Redux",
+      "SQL",
+      "Sales",
+      "gRPC",
+      "Django",
+      "Terraform"
+    ],
+    "open_to_work": false,
+    "notice_period_days": 150,
+    "years_of_experience": 6.0,
+    "flags": [],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "proof",
+        "severity": "red",
+        "detail": "Skill stuffing contradiction penalty applied: -30."
+      },
+      {
+        "type": "notice",
+        "severity": "amber",
+        "detail": "150-day notice period; role likely prefers faster availability."
+      },
+      {
+        "type": "response",
+        "severity": "red",
+        "detail": "12% recruiter response rate is low."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 1.91,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 0.1 from career/project text.",
+          "Semantic score gated from 51.0 to 51.0.",
+          "Domain relevance 0.00; career relevance 0.0."
+        ]
+      },
+      "proof": {
+        "score": 0.0,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 0.0; assessment evidence 0.0.",
+          "GitHub evidence 0.0 after domain gating.",
+          "Claim consistency multiplier 0.65; contradiction penalty -30."
+        ]
+      },
+      "recruitability": {
+        "score": 26.7,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 40.5; responsiveness 18.3.",
+          "Availability 31.5; logistics 55.0.",
+          "Availability multiplier 0.86."
+        ]
+      },
+      "market": {
+        "score": 45.04,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 39.5.",
+          "Discoverability 43.7; demand 60.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000007",
+    "candidate_name": "Vihaan Bose",
+    "role_alignment_score": 1.88,
+    "skill_proof_score": 0.0,
+    "recruitability_score": 74.81,
+    "hireability_score": 77.7,
+    "market_validation_score": 29.87,
+    "score_breakdown": {
+      "role_alignment": 1.88,
+      "skill_proof": 0.0,
+      "recruitability": 74.81,
+      "hireability": 77.7,
+      "market_validation": 29.87,
+      "career_consistency": 40.0
+    },
+    "technical_strength": 0.26,
+    "qualification_tier": "Not Qualified",
+    "availability_multiplier": 1.061,
+    "effective_availability_multiplier": 1.061,
+    "final_score": 0.0,
+    "rank": 18,
+    "ranking_explanation": "Vihaan Bose is classified as a Not Qualified. Shows limited direct career history in search/retrieval, supported by skills in Content Writing, MongoDB, Sales, Spark, and is available with 30-day notice.",
+    "raw_semantic_score": 72.79,
+    "career_evidence_score": 0.08,
+    "domain_gate_penalty": 0.8,
+    "domain_gate_applied": true,
+    "self_claim_score": 5.38,
+    "contradiction_severity": 0,
+    "contradiction_penalty": 0.0,
+    "domain_relevance": 0.0,
+    "fraud_penalty": 17.8,
+    "degraded_confidence": false,
+    "capability_score": 26.98,
+    "confidence_score": 0.85,
+    "ownership_score": 90.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 0.0,
+      "vector_databases": 0.0,
+      "evaluation": 0.0,
+      "production_ml": 0.0,
+      "backend_engineering": 1.75,
+      "data_engineering": 1.75,
+      "frontend_engineering": 0.0,
+      "qa_engineering": 0.0,
+      "cloud_engineering": 0.0
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "data_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "cloud_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 0.0,
+    "supporting_contribution": 0.0,
+    "title": "Civil Engineer",
+    "current_company": "Wipro",
+    "current_industry": "IT Services",
+    "location": "Gurgaon, Haryana",
+    "skills": [
+      "Content Writing",
+      "MongoDB",
+      "Sales",
+      "Spark",
+      "Scrum",
+      "Apache Beam",
+      "Illustrator"
+    ],
+    "open_to_work": false,
+    "notice_period_days": 30,
+    "years_of_experience": 5.5,
+    "flags": [],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 1.88,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 0.1 from career/project text.",
+          "Semantic score gated from 72.8 to 72.8.",
+          "Domain relevance 0.00; career relevance 0.1."
+        ]
+      },
+      "proof": {
+        "score": 0.0,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 0.0; assessment evidence 0.0.",
+          "GitHub evidence 0.0 after domain gating.",
+          "Claim consistency multiplier 0.90; contradiction penalty -0."
+        ]
+      },
+      "recruitability": {
+        "score": 77.7,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 88.0; responsiveness 68.3.",
+          "Availability 65.2; logistics 85.8.",
+          "Availability multiplier 1.06."
+        ]
+      },
+      "market": {
+        "score": 29.87,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 28.3.",
+          "Discoverability 34.7; demand 25.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000008",
+    "candidate_name": "Shaurya Chatterjee",
+    "role_alignment_score": 1.31,
+    "skill_proof_score": 0.0,
+    "recruitability_score": 32.11,
+    "hireability_score": 33.9,
+    "market_validation_score": 27.51,
+    "score_breakdown": {
+      "role_alignment": 1.31,
+      "skill_proof": 0.0,
+      "recruitability": 32.11,
+      "hireability": 33.9,
+      "market_validation": 27.51,
+      "career_consistency": 100.0
+    },
+    "technical_strength": 0.09,
+    "qualification_tier": "Not Qualified",
+    "availability_multiplier": 0.886,
+    "effective_availability_multiplier": 0.886,
+    "final_score": 0.0,
+    "rank": 19,
+    "ranking_explanation": "Shaurya Chatterjee is classified as a Not Qualified. Shows limited direct career history in search/retrieval, supported by skills in Java, BigQuery, Spark, Accounting, and is available with 90-day notice.",
+    "raw_semantic_score": 71.01,
+    "career_evidence_score": 0.03,
+    "domain_gate_penalty": 0.8,
+    "domain_gate_applied": true,
+    "self_claim_score": 13.46,
+    "contradiction_severity": 0,
+    "contradiction_penalty": 0.0,
+    "domain_relevance": 0.0,
+    "fraud_penalty": 11.48,
+    "degraded_confidence": false,
+    "capability_score": 16.88,
+    "confidence_score": 0.8,
+    "ownership_score": 45.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 0.0,
+      "vector_databases": 0.0,
+      "evaluation": 0.0,
+      "production_ml": 0.0,
+      "backend_engineering": 3.5,
+      "data_engineering": 3.5,
+      "frontend_engineering": 1.75,
+      "qa_engineering": 0.0,
+      "cloud_engineering": 0.0
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 70.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 70.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 3.5,
+        "num_relevant_jobs": 0
+      },
+      "data_engineering": {
+        "claim_evidence": 70.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 70.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 3.5,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "cloud_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 0.0,
+    "supporting_contribution": 0.0,
+    "title": "Operations Manager",
+    "current_company": "Wipro",
+    "current_industry": "IT Services",
+    "location": "Noida, Uttar Pradesh",
+    "skills": [
+      "Java",
+      "BigQuery",
+      "Spark",
+      "Accounting",
+      "Kubernetes",
+      "TypeScript",
+      "Rust",
+      "HTML"
+    ],
+    "open_to_work": false,
+    "notice_period_days": 90,
+    "years_of_experience": 3.6,
+    "flags": [],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "notice",
+        "severity": "amber",
+        "detail": "90-day notice period; role likely prefers faster availability."
+      },
+      {
+        "type": "activity",
+        "severity": "amber",
+        "detail": "Platform activity is stale or weak."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 1.31,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 0.2 from career/project text.",
+          "Semantic score gated from 71.0 to 71.0.",
+          "Domain relevance 0.00; career relevance 0.0."
+        ]
+      },
+      "proof": {
+        "score": 0.0,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 0.0; assessment evidence 0.0.",
+          "GitHub evidence 0.0 after domain gating.",
+          "Claim consistency multiplier 0.90; contradiction penalty -0."
+        ]
+      },
+      "recruitability": {
+        "score": 33.9,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 20.0; responsiveness 46.5.",
+          "Availability 42.8; logistics 85.8.",
+          "Availability multiplier 0.89."
+        ]
+      },
+      "market": {
+        "score": 27.51,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 4.2.",
+          "Discoverability 30.3; demand 75.0."
+        ]
+      }
+    }
+  },
+  {
+    "candidate_id": "CAND_0000009",
+    "candidate_name": "Amit Shah",
+    "role_alignment_score": 1.12,
+    "skill_proof_score": 0.0,
+    "recruitability_score": 36.55,
+    "hireability_score": 36.65,
+    "market_validation_score": 25.58,
+    "score_breakdown": {
+      "role_alignment": 1.12,
+      "skill_proof": 0.0,
+      "recruitability": 36.55,
+      "hireability": 36.65,
+      "market_validation": 25.58,
+      "career_consistency": 40.0
+    },
+    "technical_strength": 0.0,
+    "qualification_tier": "Not Qualified",
+    "availability_multiplier": 0.897,
+    "effective_availability_multiplier": 0.897,
+    "final_score": 0.0,
+    "rank": 20,
+    "ranking_explanation": "Amit Shah is classified as a Not Qualified. Shows limited direct career history in search/retrieval, supported by skills in Snowflake, gRPC, JavaScript, OpenCV, and is available with 150-day notice.",
+    "raw_semantic_score": 75.62,
+    "career_evidence_score": 0.0,
+    "domain_gate_penalty": 0.8,
+    "domain_gate_applied": true,
+    "self_claim_score": 10.77,
+    "contradiction_severity": 0,
+    "contradiction_penalty": 0.0,
+    "domain_relevance": 0.0,
+    "fraud_penalty": 13.53,
+    "degraded_confidence": false,
+    "capability_score": 20.49,
+    "confidence_score": 0.85,
+    "ownership_score": 75.0,
+    "capability_scores": {
+      "retrieval": 0.0,
+      "ranking": 0.0,
+      "recommendation": 0.0,
+      "search_infrastructure": 0.0,
+      "embeddings": 0.0,
+      "vector_databases": 0.0,
+      "evaluation": 0.0,
+      "production_ml": 0.0,
+      "backend_engineering": 3.5,
+      "data_engineering": 1.75,
+      "frontend_engineering": 1.75,
+      "qa_engineering": 0.0,
+      "cloud_engineering": 0.0
+    },
+    "capability_breakdowns": {
+      "retrieval": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "ranking": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "recommendation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "search_infrastructure": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "embeddings": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "vector_databases": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "evaluation": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "production_ml": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "backend_engineering": {
+        "claim_evidence": 70.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 70.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 3.5,
+        "num_relevant_jobs": 0
+      },
+      "data_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "frontend_engineering": {
+        "claim_evidence": 35.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 35.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 1.75,
+        "num_relevant_jobs": 0
+      },
+      "qa_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      },
+      "cloud_engineering": {
+        "claim_evidence": 0.0,
+        "career_evidence": 0.0,
+        "skill_evidence": 0.0,
+        "assessment_evidence": 0.0,
+        "project_evidence": 0.0,
+        "confidence": 0.0,
+        "num_relevant_jobs": 0
+      }
+    },
+    "role_alignment_contribution": 0.0,
+    "supporting_contribution": 0.0,
+    "title": "Mechanical Engineer",
+    "current_company": "Dunder Mifflin",
+    "current_industry": "Paper Products",
+    "location": "New York",
+    "skills": [
+      "Snowflake",
+      "gRPC",
+      "JavaScript",
+      "OpenCV",
+      "Go",
+      "PowerPoint"
+    ],
+    "open_to_work": false,
+    "notice_period_days": 150,
+    "years_of_experience": 11.0,
+    "flags": [],
+    "risks": [
+      {
+        "type": "fit",
+        "severity": "red",
+        "detail": "Role alignment is below 15; recruitability is not allowed to rescue this profile."
+      },
+      {
+        "type": "notice",
+        "severity": "amber",
+        "detail": "150-day notice period; role likely prefers faster availability."
+      }
+    ],
+    "score_reasons": {
+      "role": {
+        "score": 1.12,
+        "summary": "Role alignment is driven by evidence, gated semantic similarity, career relevance, and experience fit.",
+        "reasons": [
+          "Evidence score 0.2 from career/project text.",
+          "Semantic score gated from 75.6 to 75.6.",
+          "Domain relevance 0.00; career relevance 0.0."
+        ]
+      },
+      "proof": {
+        "score": 0.0,
+        "summary": "Skill proof checks whether claimed JD skills are backed by career, projects, assessments, and GitHub.",
+        "reasons": [
+          "Career evidence 0.0; assessment evidence 0.0.",
+          "GitHub evidence 0.0 after domain gating.",
+          "Claim consistency multiplier 0.90; contradiction penalty -0."
+        ]
+      },
+      "recruitability": {
+        "score": 36.65,
+        "summary": "Hireability captures activity, responsiveness, availability, logistics, and market interest.",
+        "reasons": [
+          "Activity 40.5; responsiveness 45.0.",
+          "Availability 31.5; logistics 39.2.",
+          "Availability multiplier 0.90."
+        ]
+      },
+      "market": {
+        "score": 25.58,
+        "summary": "Market validation is capped so recruiter popularity cannot outweigh technical fit.",
+        "reasons": [
+          "Recruiter interest 11.0.",
+          "Discoverability 24.7; demand 60.0."
+        ]
+      }
+    }
+  }
+]

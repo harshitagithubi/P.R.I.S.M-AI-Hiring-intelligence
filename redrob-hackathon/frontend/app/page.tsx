@@ -1,23 +1,88 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Card } from "@/components/ui/card";
 import { screen, uploadCandidates, uploadJD } from "@/lib/api";
+
+const STORAGE_KEY = "prism-upload-session";
+
+type UploadSession = {
+  jdFileName?: string;
+  candidateFileName?: string;
+  status?: string;
+  summary?: any;
+  screeningComplete?: boolean;
+};
+
+function loadUploadSession(): UploadSession | null {
+  if (typeof window === "undefined") return null;
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "null");
+  } catch {
+    return null;
+  }
+}
+
+function saveUploadSession(session: UploadSession) {
+  if (typeof window === "undefined") return;
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(session));
+}
+
+function clearUploadSession() {
+  if (typeof window === "undefined") return;
+  localStorage.removeItem(STORAGE_KEY);
+}
 
 export default function LandingPage() {
   const [jdFile, setJdFile] = useState<File | null>(null);
   const [candidateFile, setCandidateFile] = useState<File | null>(null);
+  const [jdFileName, setJdFileName] = useState("");
+  const [candidateFileName, setCandidateFileName] = useState("");
   const [summary, setSummary] = useState<any>(null);
   const [status, setStatus] = useState("Ready");
+  const [screeningComplete, setScreeningComplete] = useState(false);
+
+  useEffect(() => {
+    const stored = loadUploadSession();
+    if (!stored) return;
+    if (stored.jdFileName) setJdFileName(stored.jdFileName);
+    if (stored.candidateFileName) setCandidateFileName(stored.candidateFileName);
+    if (stored.status) setStatus(stored.status);
+    if (stored.summary) setSummary(stored.summary);
+    if (stored.screeningComplete) setScreeningComplete(stored.screeningComplete);
+  }, []);
+
+  useEffect(() => {
+    saveUploadSession({
+      jdFileName,
+      candidateFileName,
+      status,
+      summary,
+      screeningComplete,
+    });
+  }, [jdFileName, candidateFileName, status, summary, screeningComplete]);
 
   async function runScreening() {
+    if (screeningComplete) return;
     setStatus("Running PRISM screening...");
     if (jdFile) await uploadJD(jdFile);
     if (candidateFile) await uploadCandidates(candidateFile);
     const result = await screen();
     setSummary(result);
     setStatus("Screening complete");
+    setScreeningComplete(true);
+  }
+
+  function resetSession() {
+    setJdFile(null);
+    setCandidateFile(null);
+    setJdFileName("");
+    setCandidateFileName("");
+    setSummary(null);
+    setStatus("Ready");
+    setScreeningComplete(false);
+    clearUploadSession();
   }
 
   const counts = {
@@ -42,17 +107,38 @@ export default function LandingPage() {
           <div className="mt-8 grid gap-3 md:grid-cols-2">
             <label className="rounded-card border border-prism-line bg-slate-950/50 px-4 py-3 text-sm text-slate-300">
               Upload JD
-              <input className="mt-2 block w-full text-xs" type="file" accept=".docx,.txt,.md" onChange={(event) => setJdFile(event.target.files?.[0] ?? null)} />
+              <input
+                className="mt-2 block w-full text-xs"
+                type="file"
+                accept=".docx,.txt,.md"
+                onChange={(event) => {
+                  const file = event.target.files?.[0] ?? null;
+                  setJdFile(file);
+                  setJdFileName(file?.name ?? "");
+                }}
+              />
+              {jdFileName ? <p className="mt-2 text-xs text-slate-400">Selected: {jdFileName}</p> : null}
             </label>
             <label className="rounded-card border border-prism-line bg-slate-950/50 px-4 py-3 text-sm text-slate-300">
               Upload Candidates
-              <input className="mt-2 block w-full text-xs" type="file" accept=".json" onChange={(event) => setCandidateFile(event.target.files?.[0] ?? null)} />
+              <input
+                className="mt-2 block w-full text-xs"
+                type="file"
+                accept=".json"
+                onChange={(event) => {
+                  const file = event.target.files?.[0] ?? null;
+                  setCandidateFile(file);
+                  setCandidateFileName(file?.name ?? "");
+                }}
+              />
+              {candidateFileName ? <p className="mt-2 text-xs text-slate-400">Selected: {candidateFileName}</p> : null}
             </label>
           </div>
           <div className="mt-5 flex flex-wrap items-center gap-3">
             <button onClick={runScreening} className="rounded-card bg-prism-cyan px-4 py-2 font-medium text-slate-950">Run Screening</button>
             <Link href="/rankings" className="rounded-card border border-prism-line px-4 py-2 text-slate-200">Open Rankings</Link>
             <Link href="/audit" className="rounded-card border border-prism-line px-4 py-2 text-slate-200">Inspect Audit</Link>
+            <button onClick={resetSession} className="rounded-card border border-prism-line px-4 py-2 text-slate-200">Start New Screening</button>
           </div>
           <p className="mt-3 text-sm text-slate-400">{status}</p>
         </div>

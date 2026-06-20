@@ -12,7 +12,7 @@ export default function ComparePage() {
   const [explanations, setExplanations] = useState<Record<string, any>>({});
 
   useEffect(() => {
-    screen().then(() => getRankings()).then((res) => {
+    getRankings().then((res) => {
       setRankings(res.rankings);
       setLeft(res.rankings[0]?.candidate_id ?? "");
       setRight(res.rankings[1]?.candidate_id ?? "");

@@ -11,7 +11,7 @@ export default function AuditPage() {
   const [metadata, setMetadata] = useState<any>(null);
 
   useEffect(() => {
-    screen().then(() => getRankings()).then((res) => {
+    getRankings().then((res) => {
       setRankings(res.rankings);
       setMetadata(res.metadata);
       setSelected(res.rankings[0]?.candidate_id ?? "");

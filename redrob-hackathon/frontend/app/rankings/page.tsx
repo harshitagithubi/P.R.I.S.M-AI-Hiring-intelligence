@@ -26,7 +26,7 @@ export default function RankingsPage() {
   const [noticePeriod, setNoticePeriod] = useState("All");
 
   useEffect(() => {
-    screen().then(() => getRankings()).then((res) => {
+    getRankings().then((res) => {
       setRankings(res.rankings);
       setMetadata(res.metadata);
       const items = res.rankings;

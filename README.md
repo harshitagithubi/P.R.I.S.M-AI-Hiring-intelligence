@@ -1,4 +1,5 @@
-# P.R.I.S.M AI  LIVE DEMO: https://p-r-i-s-m-ai-hiring-intelligence.vercel.app/
+# P.R.I.S.M AI  
+LIVE DEMO: https://p-r-i-s-m-ai-hiring-intelligence.vercel.app/
 
 **P**rofile **R**eliability & **I**ntelligent **S**kill **M**apping — an evidence-first candidate ranking system built for the Redrob Intelligent Candidate Discovery & Ranking Challenge.
 

@@ -1,6 +1,9 @@
 # P.R.I.S.M AI  
 LIVE DEMO: https://p-r-i-s-m-ai-hiring-intelligence.vercel.app/
 
+demo:
+https://youtu.be/aJiRSFleBs8
+
 **P**rofile **R**eliability & **I**ntelligent **S**kill **M**apping — an evidence-first candidate ranking system built for the Redrob Intelligent Candidate Discovery & Ranking Challenge.
 
 PRISM doesn't ask *"does this resume contain the right keywords?"* It asks *"would an experienced recruiter actually pick up the phone for this person?"* — by separating what a candidate **claims** from what their career history actually **proves**, and by modeling whether a strong-looking candidate is realistically reachable at all.

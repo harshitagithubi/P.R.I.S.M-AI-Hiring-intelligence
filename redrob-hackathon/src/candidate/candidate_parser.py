@@ -32,10 +32,7 @@ except ImportError:
     )
 
 
-DEFAULT_SAMPLE_CANDIDATES_PATH = Path(
-    "/Users/harshitagupta/Downloads/[PUB] India_runs_data_and_ai_challenge/"
-    "India_runs_data_and_ai_challenge/sample_candidates.json"
-)
+DEFAULT_SAMPLE_CANDIDATES_PATH = Path(__file__).resolve().parents[2] / "data" / "uploads" / "sample_candidates.json"
 
 
 class CandidateParser:

@@ -32,10 +32,7 @@ except ImportError:
     from jd_schema import JDProfile  # type: ignore[no-redef]
 
 
-DEFAULT_JD_PATH = Path(
-    "/Users/harshitagupta/Downloads/[PUB] India_runs_data_and_ai_challenge/"
-    "India_runs_data_and_ai_challenge/job_description.docx"
-)
+DEFAULT_JD_PATH = Path(__file__).resolve().parents[2] / "data" / "uploads" / "job_description.docx"
 
 
 class JDParser:

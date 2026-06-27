@@ -66,7 +66,12 @@ CAPABILITY_DESCRIPTIONS: dict[str, str] = {
         "recall@k, precision@k."
     ),
     "production_ml": (
-        "Production machine learning, model deployment, real-time inference, Triton, "
+        "MLOps platform engineering, model serving infrastructure, feature stores, "
+        "experiment tracking, model registry, drift monitoring, distributed training, "
+        "CI/CD for ML, PyTorch DDP, DeepSpeed, vLLM, LoRA fine-tuning, Ray Serve, "
+        "Feast, Tecton, MLflow, Kubernetes for ML workloads, inference optimisation, "
+        "TensorRT, quantisation, real-time feature pipelines, model deployment at scale, "
+        "production machine learning, model deployment, real-time inference, Triton, "
         "SageMaker, BentoML, ML pipelines, scale, model monitoring."
     ),
     "backend_engineering": (
@@ -165,9 +170,24 @@ CAPABILITY_GATES: dict[str, dict[str, list[str]]] = {
         "anchor": ["weights & biases", "mlflow"]
     },
     "production_ml": {
-        "direct": ["production ml", "deployed", "model deployment"],
-        "strong_adjacent": ["kubeflow", "mlflow", "bentoml", "sagemaker"],
-        "anchor": ["docker", "kubernetes", "airflow"]
+        "direct": [
+            "production ml", "deployed", "model deployment",
+            "mlops", "ml platform", "model serving", "feature store",
+            "drift monitoring", "model registry", "experiment tracking",
+            "distributed training", "model serving infrastructure",
+            "ci/cd for ml", "ml pipeline", "model monitoring",
+            "retraining", "inference optimisation", "inference optimization"
+        ],
+        "strong_adjacent": [
+            "kubeflow", "mlflow", "bentoml", "sagemaker",
+            "deepspeed", "ray serve", "vllm", "pytorch ddp", "pytorch distributed",
+            "lora", "qlora", "tensorrt", "feast", "tecton", "evidently",
+            "torchserve", "triton", "seldon", "bento", "ray train"
+        ],
+        "anchor": [
+            "docker", "kubernetes", "airflow", "mlflow", "wandb",
+            "weights & biases", "ci/cd", "github actions", "jenkins"
+        ]
     },
     "backend_engineering": {
         "direct": ["backend", "software engineer", "api", "microservices"],
@@ -279,45 +299,69 @@ class RoleAlignmentEngine:
         return 0.0
 
     def extract_role_requirements(self, jd_profile: JDProfile) -> dict[str, list[str]]:
-        """Classify capabilities into Mandatory, Important, Optional, and Low Value."""
-        title_lower = jd_profile.title.lower()
-        must_have_text = " ".join(jd_profile.must_have).lower()
-        good_to_have_text = " ".join(jd_profile.good_to_have).lower()
-        full_jd_text = f"{title_lower} {must_have_text} {good_to_have_text}"
-
-        is_retrieval_jd = any(term in full_jd_text for term in ("retrieval", "search", "ranking", "recommendation", "recommender", "matching"))
-
-        if is_retrieval_jd:
-            mandatory = ["retrieval", "ranking", "recommendation", "vector_databases", "embeddings", "search_infrastructure"]
-            important = ["production_ml", "evaluation", "data_engineering", "backend_engineering"]
-            optional = ["cloud_engineering"]
-            low_value = ["frontend_engineering", "qa_engineering"]
+        """
+        EXPERIMENT: Dynamic semantic capability selection.
+        
+        Previous retrieval-specific hardcoded logic has been commented out below.
+        This new implementation uses embedding similarity to dynamically select
+        capabilities based on JD content, enabling generalization to unseen JD types.
+        """
+        
+        # ── CHANGE 3 ──────────────────────────────────────────────────────────
+        # Use full raw JD text for generic cap selection across any JD type.
+        # Falls back to title+must_have+good_to_have when raw_text unavailable.
+        if hasattr(jd_profile, "raw_text") and jd_profile.raw_text.strip():
+            full_jd_text = jd_profile.raw_text
         else:
-            # Dynamic fallback classification
-            mandatory = []
-            important = []
-            for cap in CAPABILITY_DESCRIPTIONS:
-                cap_emb = self.embedding_manager.get_embedding(CAPABILITY_DESCRIPTIONS[cap])
-                jd_emb = self.embedding_manager.get_embedding(full_jd_text)
-                sim = cosine_similarity(jd_emb, cap_emb)
-                if sim >= 0.40:
-                    mandatory.append(cap)
-                elif sim >= 0.25:
-                    important.append(cap)
-            
-            if not mandatory:
-                mandatory = ["retrieval", "ranking", "vector_databases"]
-            if not important:
-                important = ["production_ml", "evaluation", "data_engineering", "backend_engineering"]
-                
-            optional = [c for c in CAPABILITY_DESCRIPTIONS if c not in mandatory and c not in important and c not in ("frontend_engineering", "qa_engineering")]
-            low_value = ["frontend_engineering", "qa_engineering"]
+            title_lower = jd_profile.title.lower()
+            must_have_text = " ".join(jd_profile.must_have).lower()
+            good_to_have_text = " ".join(jd_profile.good_to_have).lower()
+            full_jd_text = f"{title_lower} {must_have_text} {good_to_have_text}"
+        # ──────────────────────────────────────────────────────────────────────
+
+        # Embed JD once
+        jd_emb = self.embedding_manager.get_embedding(full_jd_text)
+
+        # Compare JD against every capability description
+        cap_sims = []
+        for cap, cap_desc in CAPABILITY_DESCRIPTIONS.items():
+            cap_emb = self.embedding_manager.get_embedding(cap_desc)
+            sim = cosine_similarity(jd_emb, cap_emb)
+            cap_sims.append((cap, sim))
+
+        # Sort descending by similarity
+        cap_sims.sort(key=lambda x: x[1], reverse=True)
+
+        # Top 4 capabilities -> mandatory
+        mandatory = [cap for cap, _ in cap_sims[:4]]
+
+        # Next 4 capabilities -> important
+        important = [cap for cap, _ in cap_sims[4:8]]
+
+        # Remaining capabilities -> optional (excluding frontend/qa)
+        optional = [
+            cap
+            for cap in CAPABILITY_DESCRIPTIONS
+            if cap not in mandatory
+            and cap not in important
+            and cap not in ("frontend_engineering", "qa_engineering")
+        ]
+
+        # Keep frontend/qa in low_value
+        low_value = ["frontend_engineering", "qa_engineering"]
+
+        # Debug logging for A/B experiment
+        print("\n========================")
+        print("JD:", jd_profile.title)
+        print("Mandatory:", mandatory)
+        print("Important:", important)
+        print("========================\n")
 
         return {
             "mandatory": mandatory,
             "important": important,
             "optional": optional,
-            "low_value": low_value
+            "low_value": low_value,
         }
 
     def score(self, jd_profile: JDProfile, candidate: CandidateProfile) -> RoleAlignmentResult:

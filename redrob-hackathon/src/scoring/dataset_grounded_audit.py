@@ -19,10 +19,7 @@ except ImportError:
     from src.jd.jd_parser import JDParser
 
 
-DATA_PATH = Path(
-    "/Users/harshitagupta/Downloads/[PUB] India_runs_data_and_ai_challenge/"
-    "India_runs_data_and_ai_challenge/sample_candidates.json"
-)
+DATA_PATH = Path(__file__).resolve().parents[2] / "data" / "uploads" / "sample_candidates.json"
 OUTPUT_DIR = Path("outputs")
 
 

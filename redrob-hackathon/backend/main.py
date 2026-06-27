@@ -29,12 +29,9 @@ from scoring.skill_proof import SkillProofEngine
 from scoring.sanity_checks import run_post_ranking_audit
 
 
-DEFAULT_CANDIDATES_PATH = Path(
-    "/Users/harshitagupta/Downloads/[PUB] India_runs_data_and_ai_challenge/"
-    "India_runs_data_and_ai_challenge/sample_candidates.json"
-)
 UPLOAD_DIR = PROJECT_ROOT / "data" / "uploads"
 OUTPUT_DIR = PROJECT_ROOT / "outputs"
+DEFAULT_CANDIDATES_PATH = UPLOAD_DIR / "sample_candidates.json"
 
 app = FastAPI(title="P.R.I.S.M AI API", version="1.0.0")
 app.add_middleware(
@@ -56,8 +53,17 @@ STATE: dict[str, Any] = {
 async def upload_jd(file: UploadFile = File(...)) -> dict[str, str]:
     """Upload a JD file."""
     path = await save_upload(file)
+
     STATE["jd_path"] = path
     STATE["cache"] = None
+
+    print("=" * 60)
+    print("JD UPLOADED")
+    print("Filename:", file.filename)
+    print("Saved Path:", path)
+    print("Current STATE jd_path:", STATE["jd_path"])
+    print("=" * 60)
+
     return {"status": "ok", "path": str(path)}
 
 
@@ -65,8 +71,17 @@ async def upload_jd(file: UploadFile = File(...)) -> dict[str, str]:
 async def upload_candidates(file: UploadFile = File(...)) -> dict[str, str]:
     """Upload a candidate JSON file."""
     path = await save_upload(file)
+
     STATE["candidate_path"] = path
     STATE["cache"] = None
+
+    print("=" * 60)
+    print("CANDIDATE FILE UPLOADED")
+    print("Filename:", file.filename)
+    print("Saved Path:", path)
+    print("Current STATE candidate_path:", STATE["candidate_path"])
+    print("=" * 60)
+
     return {"status": "ok", "path": str(path)}
 
 
@@ -163,6 +178,12 @@ def run_screening(jd_path: Path, candidate_path: Path) -> dict[str, Any]:
     """Run all PRISM modules and persist outputs."""
     import time
 
+    print("=" * 60)
+    print("RUN SCREENING")
+    print("JD PATH USED:", jd_path)
+    print("CANDIDATE PATH USED:", candidate_path)
+    print("=" * 60)
+
     # 1. JD parsing
     print("[JD Parsing] START")
     t0_jd = time.time()
@@ -172,39 +193,85 @@ def run_screening(jd_path: Path, candidate_path: Path) -> dict[str, Any]:
     if t_jd > 5.0:
         print("[SLOW STAGE DETECTED] JD Parsing exceeded 5 seconds")
 
+    
     # 2. Candidate loading
     print("[Candidate Loading] START")
     t0_load = time.time()
+
     candidates = CandidateParser(candidate_path).parse_all()
-    raw_candidates = json.loads(candidate_path.read_text(encoding="utf-8"))
+
+    print("FIRST 3 CANDIDATE IDS:")
+    for c in candidates[:3]:
+        print(c.candidate_id)
+
+    raw_candidates = json.loads(
+        candidate_path.read_text(encoding="utf-8")
+    )
+
+    # Create lookup dictionaries for fast access
+    candidate_by_id = {candidate.candidate_id: candidate for candidate in candidates}
+    raw_candidate_by_id = {candidate["candidate_id"]: candidate for candidate in raw_candidates}
+
+    # Initialize result containers
+    rankings_payload: list[dict[str, Any]] = []
+    components: dict[str, Any] = {}
+    explanations: list[dict[str, Any]] = []
+
     t_load = time.time() - t0_load
+
     print(f"[Candidate Loading] END. ELAPSED TIME: {t_load:.4f}s")
     print(f"Candidate count processed: {len(candidates)}")
+
     if t_load > 5.0:
-        print("[SLOW STAGE DETECTED] Candidate Loading exceeded 5 seconds")
+        print("[SLOW STAGE DETECTED] Candidate Loading exceeded 5 seconds")# 2. Candidate loading
+    # print("[Candidate Loading] START")
+    # candidates = CandidateParser(candidate_path).parse_all()
+
+    # print("FIRST 3 CANDIDATE IDS:")
+    # for c in candidates[:3]:
+    #     print(c.candidate_id)
+    # raw_candidates = json.loads(candidate_path.read_text(encoding="utf-8"))
+    # t_load = time.time() - t0_load
+    # print(f"[Candidate Loading] END. ELAPSED TIME: {t_load:.4f}s")
+    # print(f"Candidate count processed: {len(candidates)}")
+    # if t_load > 5.0:
+    #     print("[SLOW STAGE DETECTED] Candidate Loading exceeded 5 seconds")
 
     # 3. Scoring loop
     print("[Scoring Loop] START")
     t0_score = time.time()
+
     role = RoleAlignmentEngine()
     skill = SkillProofEngine()
     recruitability = RecruitabilityEngine()
     market = MarketValidationEngine()
-    ranker = PRISMRankingEngine(role, skill, recruitability, market)
+
+    ranker = PRISMRankingEngine(
+        role,
+        skill,
+        recruitability,
+        market,
+    )
+
     explainer = ExplainabilityEngine()
-    ranking_results = ranker.rank_candidates(jd, candidates, limit=100)
+
+    ranking_results = ranker.rank_candidates(
+        jd,
+        candidates,
+        limit=100,
+   )
+
+    print("TOP 5 RANKED:")
+    for r in ranking_results[:5]:
+        print(r.candidate_id)
+
     t_score = time.time() - t0_score
+
     print(f"[Scoring Loop] END. ELAPSED TIME: {t_score:.4f}s")
     print(f"Candidate count processed: {len(candidates)}")
+
     if t_score > 5.0:
         print("[SLOW STAGE DETECTED] Scoring Loop exceeded 5 seconds")
-
-    candidate_by_id = {candidate.candidate_id: candidate for candidate in candidates}
-    raw_candidate_by_id = {candidate["candidate_id"]: candidate for candidate in raw_candidates}
-
-    rankings_payload: list[dict[str, Any]] = []
-    components: dict[str, Any] = {}
-    explanations: list[dict[str, Any]] = []
 
     # 4. Fraud detection
     print("[Fraud Detection] START")

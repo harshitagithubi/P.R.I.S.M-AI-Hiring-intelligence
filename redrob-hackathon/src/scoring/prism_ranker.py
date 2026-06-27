@@ -322,18 +322,22 @@ class PRISMRankingEngine:
             honeypot_mult *= 0.75
 
         # 3. Multiple Current Jobs
+        # More than one active full-time job is highly suspicious and indicates potential fraud
         current_jobs = sum(1 for job in candidate.career_history if job.is_current)
         is_multiple = current_jobs > 1
         if is_multiple:
-            honeypot_mult *= 0.70
+            # Cap authenticity factor at 0.05 for multiple current jobs
+            honeypot_mult = min(honeypot_mult, 0.05)
 
-        # 4. Fake Experience Detection
+        # 4. Fake Experience Detection (YOE Inflation)
+        # Allow up to 4 years tolerance; anything beyond is highly suspicious
         total_duration_months = sum(job.duration_months for job in candidate.career_history)
         actual_years = total_duration_months / 12
         claimed_yoe = candidate.years_of_experience
         is_fake_yoe = claimed_yoe > actual_years + 4
         if is_fake_yoe:
-            honeypot_mult *= 0.75
+            # Cap authenticity factor at 0.20 for YOE inflation
+            honeypot_mult = min(honeypot_mult, 0.20)
 
         # 5. Wrong Domain Professionals claiming AI expertise
         retrieval_skills = sum(1 for s in candidate.skills if any(self._term_matches(s.name.lower(), t) for t in AI_CLAIM_TERMS))
@@ -375,6 +379,14 @@ class PRISMRankingEngine:
         confidence_score = honeypot_mult
         
         breakdowns = getattr(role_alignment, "capability_breakdowns", {})
+
+        reqs = getattr(role_alignment, "requirements", {})
+        mandatory_caps = reqs.get(
+            "mandatory",
+            ["retrieval", "ranking", "vector_databases"]
+        )
+        important_caps = reqs.get("important", [])
+
         
         # Penalize contradictions
         if skill_proof.contradiction_severity == 2:
@@ -388,10 +400,14 @@ class PRISMRankingEngine:
         # - repeated verified core evidence
         # - multiple relevant roles
         # - strong ownership
-        # - not catastrophic fraud (ghost, multiple current jobs, fake YOE, wrong domain, severe contradiction)
+        # - not catastrophic fraud
+        # Uses DYNAMIC mandatory_caps so ML Platform candidates get the floor too.
         has_core_verified_evidence = False
         has_core_recurrence = False
-        for cap in ["retrieval", "ranking", "recommendation", "search_infrastructure"]:
+        _dynamic_core_caps_conf = mandatory_caps if mandatory_caps else [
+            "retrieval", "ranking", "recommendation", "search_infrastructure"
+        ]
+        for cap in _dynamic_core_caps_conf:
             bd = breakdowns.get(cap, {})
             career_ev = bd.get("career_evidence", 0.0)
             project_ev = bd.get("project_evidence", 0.0)
@@ -412,12 +428,25 @@ class PRISMRankingEngine:
 
             # Recurrence check:
             # - multiple career roles
-            # OR
-            # - career + project
-            # OR
-            # - career + assessment
+            # OR career + project
+            # OR career + assessment
             if (num_jobs >= 2) or (has_career and has_project) or (has_career and has_assess):
                 has_core_recurrence = True
+
+        # Count red flags for stronger penalty escalation
+        red_flag_count = sum([
+            is_behavioral_twin,
+            is_ghost,
+            is_multiple,
+            is_fake_yoe,
+            is_wrong_domain,
+            skill_proof.contradiction_severity == 2
+        ])
+        
+        # Stronger penalty for profiles with 4+ major contradictions
+        # Such profiles should almost never survive ranking
+        if red_flag_count >= 4:
+            honeypot_mult = min(honeypot_mult, 0.05)
 
         is_catastrophic_fraud = is_ghost or is_multiple or is_fake_yoe or is_wrong_domain or (skill_proof.contradiction_severity == 2)
         if has_core_verified_evidence and has_core_recurrence and (not is_catastrophic_fraud):
@@ -425,22 +454,30 @@ class PRISMRankingEngine:
 
         final_score = capability_score * confidence_score
         
+        # Apply long inactivity penalty (730+ days) directly to final score
+        # This penalty applies regardless of all other signals
+        if days_since_last_active is not None and days_since_last_active > 730:
+            final_score *= 0.10
+        
         # Apply Generic Candidate/No-core-evidence penalty directly to final_score
+        # Uses DYNAMIC mandatory_caps from JD, not hardcoded retrieval-only list.
+        # For retrieval JDs: mandatory_caps is retrieval/ranking/... (same as before).
+        # For ML Platform JD: mandatory_caps is production_ml/... (correct behaviour).
         has_any_core_evidence = False
-        for cap in ["retrieval", "ranking", "recommendation", "search_infrastructure"]:
+        _core_check_caps = mandatory_caps if mandatory_caps else [
+            "retrieval", "ranking", "recommendation", "search_infrastructure"
+        ]
+        for cap in _core_check_caps:
             bd = breakdowns.get(cap, {})
-            if bd.get("career_evidence", 0.0) > 0.0 or bd.get("project_evidence", 0.0) > 0.0 or bd.get("assessment_evidence", 0.0) > 0.0:
+            if (bd.get("career_evidence", 0.0) > 0.0
+                    or bd.get("project_evidence", 0.0) > 0.0
+                    or bd.get("assessment_evidence", 0.0) > 0.0):
                 has_any_core_evidence = True
                 break
         if not has_any_core_evidence:
             final_score *= 0.40
 
         original_final_score = min(100.0, max(0.0, final_score))
-
-        # Dynamic evidence-driven verdicts (using original_final_score to keep verdicts frozen)
-        reqs = getattr(role_alignment, "requirements", {})
-        mandatory_caps = reqs.get("mandatory", ["retrieval", "ranking", "vector_databases"])
-        important_caps = reqs.get("important", [])
 
         has_core_mandatory_evidence = False
         for cap in mandatory_caps:
@@ -460,11 +497,14 @@ class PRISMRankingEngine:
         is_catastrophic_fraud = is_ghost or is_multiple or is_fake_yoe or is_wrong_domain or (skill_proof.contradiction_severity == 2)
 
         # Core Capabilities verification & recurrence check
+        # Uses DYNAMIC mandatory_caps from JD — not hardcoded retrieval caps.
         has_core_verified_evidence = False
         has_core_recurrence = False
 
-        core_caps = ["retrieval", "ranking", "recommendation", "search_infrastructure"]
-        for cap in core_caps:
+        _dynamic_core_caps = mandatory_caps if mandatory_caps else [
+            "retrieval", "ranking", "recommendation", "search_infrastructure"
+        ]
+        for cap in _dynamic_core_caps:
             bd = breakdowns.get(cap, {})
             career_ev = bd.get("career_evidence", 0.0)
             project_ev = bd.get("project_evidence", 0.0)
@@ -478,7 +518,7 @@ class PRISMRankingEngine:
             # Verified evidence must originate from:
             # - Career history OR Career + Project OR Career + Assessment
             has_valid_origin = has_career or (has_career and has_project) or (has_career and has_assess)
-            
+
             # Meaningful ownership or implementation check
             has_ownership = (own >= 15.0)
 
@@ -487,14 +527,36 @@ class PRISMRankingEngine:
 
             # Recurrence check:
             # - multiple career roles
-            # OR
-            # - career + project
-            # OR
-            # - career + assessment
+            # OR career + project
+            # OR career + assessment
             if (num_jobs >= 2) or (has_career and has_project) or (has_career and has_assess):
                 has_core_recurrence = True
 
         is_strong_match_eligible = has_core_verified_evidence and has_core_recurrence and (not is_catastrophic_fraud)
+
+        # ========================================================================
+        # HARD QUALIFICATION GATES - Prevent unrelated candidates from surviving
+        # ========================================================================
+        
+        # Rule 1: Zero-Evidence Disqualification
+        # Candidates with both low role alignment and low skill proof have no evidence for the role
+        if role_alignment.final_score < 5 and skill_proof.skill_proof_score < 5:
+            final_score *= 0.10
+            forced_verdict = "Not Qualified"
+        else:
+            forced_verdict = None
+        
+        # Rule 2: Severe Mismatch Penalty
+        # Prevents hireability and market validation from rescuing unrelated profiles
+        if role_alignment.final_score < 15 and skill_proof.skill_proof_score < 15:
+            final_score *= 0.25
+        
+        # Rule 3: Verdict Cap
+        # Even with high market validation or hireability, cannot exceed Not Qualified without minimum role evidence
+        if role_alignment.final_score < 5:
+            max_verdict = "Not Qualified"
+        else:
+            max_verdict = None
 
         restored_final_score = self._restored_recruiter_score(
             candidate=candidate,
@@ -529,11 +591,13 @@ class PRISMRankingEngine:
         career_evidence_score = role_alignment.career_evidence_score
         contradiction_penalty = skill_proof.contradiction_penalty
 
+        # Fix 7B: removed "and not is_technical" — a mobile/java developer
+        # claiming expert FAISS/RAG skills with zero career evidence IS a stuffer
+        # regardless of having a technical job title.
         honeypot_case1 = (
             jd_claim_strength >= self.HIGH_CLAIM_THRESHOLD
             and career_evidence_score <= self.LOW_EVIDENCE_THRESHOLD
             and contradiction_penalty >= self.CONTRADICTION_THRESHOLD
-            and not is_technical
         )
         honeypot_case2 = (
             non_technical_background
@@ -555,7 +619,14 @@ class PRISMRankingEngine:
         # contradiction/fraud patterns, while ordinary low-fit candidates remain
         # Weak Signal or Not Qualified.
         # Final ordering remains driven by technical fit and proof.
-        if is_strong_match_eligible and restored_final_score >= 35.0:
+        # Apply forced verdict from Rule 1 (Zero-Evidence Disqualification)
+        if forced_verdict is not None:
+            qualification_tier = forced_verdict
+        # Apply verdict cap from Rule 3 (role_alignment < 10)
+        elif max_verdict is not None:
+            qualification_tier = max_verdict
+        # Normal verdict assignment
+        elif is_strong_match_eligible and restored_final_score >= 35.0:
             qualification_tier = "Strong Match"
         elif self._is_restored_near_match(
             candidate=candidate,

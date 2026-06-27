@@ -6,13 +6,19 @@ import { Card } from "@/components/ui/card";
 import { screen, uploadCandidates, uploadJD } from "@/lib/api";
 
 const STORAGE_KEY = "prism-upload-session";
+const PROGRESS_MESSAGES = [
+  "Analyzing job description...",
+  "Extracting candidate evidence...",
+  "Computing recruiter ranking...",
+  "Generating explanations...",
+  "Finalizing results...",
+];
 
 type UploadSession = {
   jdFileName?: string;
   candidateFileName?: string;
   status?: string;
   summary?: any;
-  screeningComplete?: boolean;
 };
 
 function loadUploadSession(): UploadSession | null {
@@ -41,7 +47,8 @@ export default function LandingPage() {
   const [candidateFileName, setCandidateFileName] = useState("");
   const [summary, setSummary] = useState<any>(null);
   const [status, setStatus] = useState("Ready");
-  const [screeningComplete, setScreeningComplete] = useState(false);
+  const [processing, setProcessing] = useState(false);
+  const [progressIndex, setProgressIndex] = useState(0);
 
   useEffect(() => {
     const stored = loadUploadSession();
@@ -50,7 +57,6 @@ export default function LandingPage() {
     if (stored.candidateFileName) setCandidateFileName(stored.candidateFileName);
     if (stored.status) setStatus(stored.status);
     if (stored.summary) setSummary(stored.summary);
-    if (stored.screeningComplete) setScreeningComplete(stored.screeningComplete);
   }, []);
 
   useEffect(() => {
@@ -59,19 +65,41 @@ export default function LandingPage() {
       candidateFileName,
       status,
       summary,
-      screeningComplete,
     });
-  }, [jdFileName, candidateFileName, status, summary, screeningComplete]);
+  }, [jdFileName, candidateFileName, status, summary]);
+
+  useEffect(() => {
+    if (!processing) return;
+    const interval = window.setInterval(() => {
+      setProgressIndex((index) => (index + 1) % PROGRESS_MESSAGES.length);
+    }, 2200);
+    return () => window.clearInterval(interval);
+  }, [processing]);
 
   async function runScreening() {
-    if (screeningComplete) return;
     setStatus("Running PRISM screening...");
-    if (jdFile) await uploadJD(jdFile);
-    if (candidateFile) await uploadCandidates(candidateFile);
-    const result = await screen();
-    setSummary(result);
-    setStatus("Screening complete");
-    setScreeningComplete(true);
+    setProcessing(true);
+    setProgressIndex(0);
+    setSummary(null);
+
+    try {
+      if (jdFile) {
+        await uploadJD(jdFile);
+      }
+
+      if (candidateFile) {
+        await uploadCandidates(candidateFile);
+      }
+
+      const result = await screen();
+      setSummary(result);
+      setStatus("Screening complete");
+    } catch (error) {
+      console.error(error);
+      setStatus("Screening failed. Please try again.");
+    } finally {
+      setProcessing(false);
+    }
   }
 
   function resetSession() {
@@ -81,7 +109,6 @@ export default function LandingPage() {
     setCandidateFileName("");
     setSummary(null);
     setStatus("Ready");
-    setScreeningComplete(false);
     clearUploadSession();
   }
 
@@ -136,11 +163,14 @@ export default function LandingPage() {
           </div>
           <div className="mt-5 flex flex-wrap items-center gap-3">
             <button onClick={runScreening} className="rounded-card bg-prism-cyan px-4 py-2 font-medium text-slate-950">Run Screening</button>
+            
             <Link href="/rankings" className="rounded-card border border-prism-line px-4 py-2 text-slate-200">Open Rankings</Link>
             <Link href="/audit" className="rounded-card border border-prism-line px-4 py-2 text-slate-200">Inspect Audit</Link>
-            <button onClick={resetSession} className="rounded-card border border-prism-line px-4 py-2 text-slate-200">Start New Screening</button>
           </div>
           <p className="mt-3 text-sm text-slate-400">{status}</p>
+          {processing && (
+            <p className="text-sm text-slate-400">{PROGRESS_MESSAGES[progressIndex]}</p>
+          )}
         </div>
       </section>
       {summary && (

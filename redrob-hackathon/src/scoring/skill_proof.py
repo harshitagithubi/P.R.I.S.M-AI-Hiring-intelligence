@@ -117,7 +117,11 @@ NON_TECH_TERMS = (
 
 MILD_TERMS = (
     "frontend", "qa", "quality assurance", "devops", "site reliability", "sre",
-    "test automation", "testing", "support engineer"
+    "test automation", "testing", "support engineer",
+    "mobile developer", "android developer", "ios developer",
+    "mobile engineer", "android engineer", "ios engineer",
+    "full stack", "fullstack", "java developer", ".net developer",
+    "dot net", "sap developer", "cloud engineer"
 )
 
 # Pre-compiled regex patterns for speed optimization

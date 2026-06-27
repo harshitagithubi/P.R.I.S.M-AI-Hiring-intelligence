@@ -112,10 +112,7 @@ def main() -> None:
         "--jd",
         type=str,
         default=str(
-            Path(
-                "/Users/harshitagupta/Downloads/[PUB] India_runs_data_and_ai_challenge/"
-                "India_runs_data_and_ai_challenge/job_description.docx"
-            )
+            Path(__file__).resolve().parent / "data" / "uploads" / "job_description.docx"
         ),
         help="Path to the Job Description docx or txt file",
     )

@@ -24,3 +24,5 @@ class CandidateRanker:
         """Rank candidates using precomputed scoring signals."""
         raise NotImplementedError("Candidate ranking is not implemented yet.")
 
+
+

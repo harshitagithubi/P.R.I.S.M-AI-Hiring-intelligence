@@ -29,7 +29,15 @@ from scoring.skill_proof import SkillProofEngine
 from scoring.sanity_checks import run_post_ranking_audit
 
 
-UPLOAD_DIR = PROJECT_ROOT / "data" / "uploads"
+import tempfile
+
+try:
+    UPLOAD_DIR = PROJECT_ROOT / "data" / "uploads"
+    UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+except Exception:
+    UPLOAD_DIR = Path(tempfile.gettempdir()) / "prism_uploads"
+    UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+
 OUTPUT_DIR = PROJECT_ROOT / "outputs"
 DEFAULT_CANDIDATES_PATH = UPLOAD_DIR / "sample_candidates.json"
 
@@ -159,10 +167,16 @@ def candidate_audit(candidate_id: str) -> dict[str, Any]:
 
 
 async def save_upload(file: UploadFile) -> Path:
-    """Save uploaded file safely and completely."""
-    import os
-    UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
-    path = UPLOAD_DIR / file.filename
+    """Save uploaded file safely and completely with fallback path handling."""
+    import os, tempfile
+    try:
+        UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+        path = UPLOAD_DIR / file.filename
+    except Exception:
+        fallback = Path(tempfile.gettempdir()) / "prism_uploads"
+        fallback.mkdir(parents=True, exist_ok=True)
+        path = fallback / file.filename
+
     await file.seek(0)
     content = await file.read()
     with path.open("wb") as handle:

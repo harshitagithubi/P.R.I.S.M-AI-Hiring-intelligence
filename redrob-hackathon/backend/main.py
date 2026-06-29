@@ -50,26 +50,55 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-STATE: dict[str, Any] = {
-    "jd_path": DEFAULT_JD_PATH,
-    "candidate_path": DEFAULT_CANDIDATES_PATH,
-    "cache": None,
-}
+STATE_FILE = UPLOAD_DIR / "active_state.json"
+IN_MEMORY_CACHE: dict[str, Any] | None = None
+
+def get_state() -> dict[str, Any]:
+    """Read shared persistent state across worker processes."""
+    jd_p = DEFAULT_JD_PATH
+    cand_p = DEFAULT_CANDIDATES_PATH
+    if STATE_FILE.exists():
+        try:
+            data = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+            if data.get("jd_path") and Path(data["jd_path"]).exists():
+                jd_p = Path(data["jd_path"])
+            if data.get("candidate_path") and Path(data["candidate_path"]).exists():
+                cand_p = Path(data["candidate_path"])
+        except Exception:
+            pass
+    return {"jd_path": jd_p, "candidate_path": cand_p}
+
+def update_state(jd_path: Path | None = None, candidate_path: Path | None = None) -> None:
+    """Update shared persistent state across worker processes."""
+    current = get_state()
+    if jd_path:
+        current["jd_path"] = jd_path
+    if candidate_path:
+        current["candidate_path"] = candidate_path
+    
+    data = {
+        "jd_path": str(current["jd_path"]),
+        "candidate_path": str(current["candidate_path"]),
+    }
+    try:
+        STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        STATE_FILE.write_text(json.dumps(data, indent=2), encoding="utf-8")
+    except Exception as e:
+        print("Error saving STATE_FILE:", e)
+    
+    global IN_MEMORY_CACHE
+    IN_MEMORY_CACHE = None
 
 
 @app.post("/upload-jd")
 async def upload_jd(file: UploadFile = File(...)) -> dict[str, str]:
     """Upload a JD file."""
     path = await save_upload(file)
-
-    STATE["jd_path"] = path
-    STATE["cache"] = None
+    update_state(jd_path=path)
 
     print("=" * 60)
-    print("JD UPLOADED")
-    print("Filename:", file.filename)
+    print("JD UPLOADED:", file.filename)
     print("Saved Path:", path)
-    print("Current STATE jd_path:", STATE["jd_path"])
     print("=" * 60)
 
     return {"status": "ok", "path": str(path)}
@@ -79,15 +108,11 @@ async def upload_jd(file: UploadFile = File(...)) -> dict[str, str]:
 async def upload_candidates(file: UploadFile = File(...)) -> dict[str, str]:
     """Upload a candidate JSON file."""
     path = await save_upload(file)
-
-    STATE["candidate_path"] = path
-    STATE["cache"] = None
+    update_state(candidate_path=path)
 
     print("=" * 60)
-    print("CANDIDATE FILE UPLOADED")
-    print("Filename:", file.filename)
+    print("CANDIDATE FILE UPLOADED:", file.filename)
     print("Saved Path:", path)
-    print("Current STATE candidate_path:", STATE["candidate_path"])
     print("=" * 60)
 
     return {"status": "ok", "path": str(path)}
@@ -99,21 +124,23 @@ def screen() -> dict[str, Any]:
     import time
     print("[API Response Serialization] START")
     t0 = time.time()
-    STATE["cache"] = run_screening(Path(STATE["jd_path"]), Path(STATE["candidate_path"]))
-    tier_counts = count_tiers(STATE["cache"]["rankings"])
+    st = get_state()
+    global IN_MEMORY_CACHE
+    IN_MEMORY_CACHE = run_screening(st["jd_path"], st["candidate_path"])
+    tier_counts = count_tiers(IN_MEMORY_CACHE["rankings"])
     response = {
         "status": "ok",
-        "total_candidates": len(STATE["cache"]["candidates"]),
+        "total_candidates": len(IN_MEMORY_CACHE["candidates"]),
         "tier_counts": tier_counts,
-        "rankings": STATE["cache"]["rankings"][:20],
+        "rankings": IN_MEMORY_CACHE["rankings"][:20],
         "metadata": {
-            "model_status": STATE["cache"].get("model_status"),
-            "audit_report": STATE["cache"].get("audit_report"),
+            "model_status": IN_MEMORY_CACHE.get("model_status"),
+            "audit_report": IN_MEMORY_CACHE.get("audit_report"),
         }
     }
     t_api = time.time() - t0
     print(f"[API Response Serialization] END. ELAPSED TIME: {t_api:.4f}s")
-    print(f"Candidate count processed: {len(STATE['cache']['candidates'])}")
+    print(f"Candidate count processed: {len(IN_MEMORY_CACHE['candidates'])}")
     if t_api > 5.0:
         print("[SLOW STAGE DETECTED] API Response Serialization exceeded 5 seconds")
     return response
@@ -191,9 +218,11 @@ async def save_upload(file: UploadFile) -> Path:
 
 def ensure_cache() -> dict[str, Any]:
     """Return screening cache, running if needed."""
-    if STATE["cache"] is None:
-        STATE["cache"] = run_screening(Path(STATE["jd_path"]), Path(STATE["candidate_path"]))
-    return STATE["cache"]
+    global IN_MEMORY_CACHE
+    if IN_MEMORY_CACHE is None:
+        st = get_state()
+        IN_MEMORY_CACHE = run_screening(st["jd_path"], st["candidate_path"])
+    return IN_MEMORY_CACHE
 
 
 def run_screening(jd_path: Path, candidate_path: Path) -> dict[str, Any]:

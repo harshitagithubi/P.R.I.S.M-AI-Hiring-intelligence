@@ -294,14 +294,21 @@ class PRISMRankingEngine:
         lexical = role_alignment.lexical_similarity_score
         capability_score = (0.90 * base_score + 0.10 * lexical)
 
-        # Product Company Bonus (Soft preference)
+        # Product Company Bonus — only when ML relevance exists.
+        # A Java developer at Swiggy is not an ML platform engineer.
+        # Gate on role_alignment showing meaningful signal before granting brand benefit.
         product_companies = {"flipkart", "swiggy", "meesho", "setu", "nykaa"}
         has_product_exp = any(
             any(prod in job.company.lower() for prod in product_companies)
             for job in candidate.career_history
         )
-        if has_product_exp:
+        has_meaningful_alignment = (
+            role_alignment.final_score >= 10.0
+            or role_alignment.career_relevance_score >= 20.0
+        )
+        if has_product_exp and has_meaningful_alignment:
             capability_score += 5.0
+
 
         capability_score = min(100.0, max(0.0, capability_score))
 
@@ -605,7 +612,16 @@ class PRISMRankingEngine:
             and career_evidence_score <= self.LOW_EVIDENCE_THRESHOLD
             and contradiction_penalty >= 5.0
         )
-        is_honeypot_candidate = honeypot_case1 or honeypot_case2
+        # Case 3: Non-AI-domain professional (title in NON_AI_TITLES) claiming
+        # 5+ AI skills with zero career evidence. is_wrong_domain already checks
+        # title ∈ NON_AI_TITLES AND retrieval_skills > 5. This case promotes them
+        # from "Not Qualified" (score penalty only) to "Honeypot" (tier + -100 rank).
+        honeypot_case3 = (
+            is_wrong_domain
+            and career_evidence_score <= self.LOW_EVIDENCE_THRESHOLD
+        )
+        is_honeypot_candidate = honeypot_case1 or honeypot_case2 or honeypot_case3
+
 
         is_weak_signal_candidate = (
             is_technical
@@ -619,8 +635,10 @@ class PRISMRankingEngine:
         # contradiction/fraud patterns, while ordinary low-fit candidates remain
         # Weak Signal or Not Qualified.
         # Final ordering remains driven by technical fit and proof.
+        if is_honeypot_candidate:
+            qualification_tier = "Honeypot"
         # Apply forced verdict from Rule 1 (Zero-Evidence Disqualification)
-        if forced_verdict is not None:
+        elif forced_verdict is not None:
             qualification_tier = forced_verdict
         # Apply verdict cap from Rule 3 (role_alignment < 10)
         elif max_verdict is not None:
@@ -636,8 +654,6 @@ class PRISMRankingEngine:
             is_catastrophic_fraud=is_catastrophic_fraud,
         ):
             qualification_tier = "Near Match"
-        elif is_honeypot_candidate:
-            qualification_tier = "Honeypot"
         elif is_weak_signal_candidate:
             qualification_tier = "Weak Signal"
         else:
@@ -805,24 +821,54 @@ class PRISMRankingEngine:
 
     @staticmethod
     def _has_duplicate_descriptions(candidate: CandidateProfile) -> bool:
-        """Detect duplicate career descriptions (Jaccard similarity > 0.85)."""
-        descriptions = [job.description.lower().strip() for job in candidate.career_history if job.description]
-        if len(descriptions) < 2:
+        """Detect duplicate career descriptions (behavioral twin / copy-paste fraud).
+
+        If >= 45% of cross-company description pairs are near-identical, the
+        whole profile is templated (dataset artifact) — not actionable fraud.
+        Real behavioral twins copy 1-2 specific roles, so their duplicate ratio
+        is low (< 45%) while the pair count is still >= 1.
+        """
+        descriptions = [
+            (job.description.lower().strip(), job.company.lower().strip())
+            for job in candidate.career_history
+            if job.description
+        ]
+        n = len(descriptions)
+        if n < 2:
             return False
-        for i in range(len(descriptions)):
-            words_i = set(re.findall(r"\w+", descriptions[i]))
+
+        duplicate_pairs = 0
+        total_cross_company_pairs = 0
+
+        for i in range(n):
+            text_i, company_i = descriptions[i]
+            words_i = set(re.findall(r"\w+", text_i))
             if not words_i:
                 continue
-            for j in range(i + 1, len(descriptions)):
-                words_j = set(re.findall(r"\w+", descriptions[j]))
+            for j in range(i + 1, n):
+                text_j, company_j = descriptions[j]
+                if company_i == company_j:
+                    continue  # same-company matches are templates, not fraud
+                total_cross_company_pairs += 1
+                words_j = set(re.findall(r"\w+", text_j))
                 if not words_j:
                     continue
                 intersection = words_i & words_j
                 union = words_i | words_j
                 jaccard = len(intersection) / len(union)
                 if jaccard > 0.85:
-                    return True
-        return False
+                    duplicate_pairs += 1
+
+        if total_cross_company_pairs == 0 or duplicate_pairs == 0:
+            return False
+
+        duplicate_ratio = duplicate_pairs / total_cross_company_pairs
+        # High ratio (>= 0.45) = dataset-wide template artifact — not fraud
+        if duplicate_ratio >= 0.45:
+            return False
+
+        return True  # targeted copy-paste: minority of pairs match
+
 
     @staticmethod
     def _term_matches(text: str, term: str) -> bool:

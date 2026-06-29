@@ -159,11 +159,19 @@ def candidate_audit(candidate_id: str) -> dict[str, Any]:
 
 
 async def save_upload(file: UploadFile) -> Path:
-    """Save uploaded file."""
+    """Save uploaded file safely and completely."""
+    import os
     UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
     path = UPLOAD_DIR / file.filename
+    await file.seek(0)
+    content = await file.read()
     with path.open("wb") as handle:
-        shutil.copyfileobj(file.file, handle)
+        handle.write(content)
+        handle.flush()
+        try:
+            os.fsync(handle.fileno())
+        except OSError:
+            pass
     return path
 
 

@@ -8,4 +8,7 @@ frontend/node_modules/
 frontend/.next/
 frontend/out/
 
-data/uploads/
+data/uploads/*
+!data/uploads/.gitkeep
+!data/uploads/job_description.docx
+!data/uploads/sample_candidates.json

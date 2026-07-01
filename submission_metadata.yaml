@@ -1,0 +1,96 @@
+# Redrob Hackathon — Submission Metadata
+# Team: PRISM AI
+# Filed by: Harshita Gupta
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "PRISM AI"
+
+primary_contact:
+  name: "Harshita Gupta"
+  email: "harshitaigcs@gmail.com"
+  phone: "+91-8595983188"
+
+team_members:
+  - name: "Harshita Gupta"
+    email: "harshitaigcs@gmail.com"
+    role: "Solo — Full Stack ML Engineer"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/harshitagithubi/P.R.I.S.M-AI-Hiring-intelligence"
+
+sandbox_link: "https://p-r-i-s-m-ai-hiring-intelligence.vercel.app/"
+
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --jd ./data/uploads/job_description.docx --out ./submission.csv"
+# Runs end-to-end within 5 minutes on CPU with 16GB RAM.
+# The SentenceTransformer model (all-MiniLM-L6-v2) and candidate embeddings
+# are pre-cached in .embeddings_cache.pkl — no network calls are made during ranking.
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "MacBook Air M5"
+  cpu_cores: 10
+  ram_gb: 16
+  python_version: "3.11"
+  os: "macOS 15"
+  uses_gpu_for_inference: false        # CPU-only — M5 Neural Engine not used
+  has_network_during_ranking: false    # Model and embeddings loaded from disk cache
+  pre_computation_required: true       # Embedding cache must be built once before ranking
+  pre_computation_time_minutes: 3      # ~3 min to encode all 100K profiles on first run
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "Claude"
+  - "GitHub Copilot"
+  - "Gemini"
+
+ai_usage_summary: |
+  Claude was used for architectural discussion, code review, and debugging
+  the multi-stage scoring pipeline. Gemini was used for general Python
+  debugging and refactoring suggestions. GitHub Copilot was used for
+  autocomplete during implementation. No candidate profile data was fed
+  to any LLM at any point. All scoring logic, capability gate definitions,
+  evidence hierarchies, and fraud detection rules were written and validated
+  by the developer. AI tools were used as engineering aids, not to generate
+  the ranking output itself.
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  P.R.I.S.M (Profile Reliability & Intelligent Skill Mapping) is a
+  five-component evidence-first candidate ranking system. Role Alignment
+  (45%) uses SentenceTransformer (all-MiniLM-L6-v2) semantic similarity
+  across 13 capability domains, with JD-adaptive mandatory capability
+  selection — the system reads the full raw JD text to decide which
+  capabilities matter for each role, making it generalisable beyond the
+  Redrob retrieval JD. Evidence Strength (20%) applies a weighted hierarchy:
+  career descriptions 60%, project evidence 20%, platform assessments 15%,
+  bare skill claims 5% — ensuring a skill listed but never evidenced in
+  work history contributes almost nothing. Hireability (15%) models
+  recruiter-reachability using open-to-work status, days since last active,
+  recruiter response rate, notice period, and interview completion rate.
+  Ownership (10%) detects action-verb evidence in career descriptions.
+  Market Validation (5%) uses recruiter-side signals. A separate fraud and
+  contradiction detection pass applies confidence multipliers for duplicate
+  career descriptions, simultaneous current jobs, YOE inflation, wrong-domain
+  AI claims, and keyword stuffing — with a fixed large penalty for confirmed
+  honeypot profiles so they cannot recover into the top 100. Runtime: under
+  60 seconds on CPU once embeddings are cached.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

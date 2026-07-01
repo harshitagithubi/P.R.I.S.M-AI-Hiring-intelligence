@@ -3,9 +3,11 @@
 from __future__ import annotations
 
 import json
+import os
 import re
-import shutil
 import sys
+import tempfile
+from uuid import uuid4
 from pathlib import Path
 from typing import Any
 
@@ -27,9 +29,6 @@ from scoring.recruitability import RecruitabilityEngine
 from scoring.role_alignment import RoleAlignmentEngine
 from scoring.skill_proof import SkillProofEngine
 from scoring.sanity_checks import run_post_ranking_audit
-
-
-import tempfile
 
 try:
     UPLOAD_DIR = PROJECT_ROOT / "data" / "uploads"
@@ -82,7 +81,9 @@ def update_state(jd_path: Path | None = None, candidate_path: Path | None = None
     }
     try:
         STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
-        STATE_FILE.write_text(json.dumps(data, indent=2), encoding="utf-8")
+        temp_state = STATE_FILE.with_name(f".{STATE_FILE.name}.{uuid4().hex}.tmp")
+        temp_state.write_text(json.dumps(data, indent=2), encoding="utf-8")
+        temp_state.replace(STATE_FILE)
     except Exception as e:
         print("Error saving STATE_FILE:", e)
     
@@ -107,7 +108,7 @@ async def upload_jd(file: UploadFile = File(...)) -> dict[str, str]:
 @app.post("/upload-candidates")
 async def upload_candidates(file: UploadFile = File(...)) -> dict[str, str]:
     """Upload a candidate JSON file."""
-    path = await save_upload(file)
+    path = await save_upload(file, validate_json=True)
     update_state(candidate_path=path)
 
     print("=" * 60)
@@ -193,27 +194,115 @@ def candidate_audit(candidate_id: str) -> dict[str, Any]:
     return audit_candidate(raw).to_dict()
 
 
-async def save_upload(file: UploadFile) -> Path:
-    """Save uploaded file safely and completely with fallback path handling."""
-    import os, tempfile
+def _safe_upload_name(filename: str | None) -> str:
+    """Return a safe local filename for an uploaded file."""
+    candidate = Path(filename or f"upload-{uuid4().hex}").name.strip()
+    candidate = re.sub(r"[^A-Za-z0-9._-]+", "_", candidate)
+    return candidate or f"upload-{uuid4().hex}"
+
+
+async def save_upload(file: UploadFile, *, validate_json: bool = False) -> Path:
+    """Save an uploaded file completely and safely.
+
+    The upload is streamed to a temporary file in binary mode, flushed and
+    fsync'd, then atomically moved into place. This prevents ``/screen`` from
+    reading a half-written candidate JSON file on Render or under concurrent
+    requests.
+    """
+    # Resolve a writable destination path.
     try:
         UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
-        path = UPLOAD_DIR / file.filename
+        upload_dir = UPLOAD_DIR
     except Exception:
-        fallback = Path(tempfile.gettempdir()) / "prism_uploads"
-        fallback.mkdir(parents=True, exist_ok=True)
-        path = fallback / file.filename
+        upload_dir = Path(tempfile.gettempdir()) / "prism_uploads"
+        upload_dir.mkdir(parents=True, exist_ok=True)
 
-    await file.seek(0)
-    content = await file.read()
-    with path.open("wb") as handle:
-        handle.write(content)
-        handle.flush()
-        try:
-            os.fsync(handle.fileno())
-        except OSError:
-            pass
+    filename = _safe_upload_name(file.filename)
+    path = upload_dir / filename
+    temp_path = upload_dir / f".{filename}.{uuid4().hex}.uploading"
+
+    try:
+        # Always start reading from the beginning of the upload stream.
+        await file.seek(0)
+
+        # Drain the entire multipart stream. ``await file.read(size)`` returns
+        # bytes; writing chunks avoids memory spikes for larger datasets.
+        chunk_size = 1024 * 1024  # 1 MiB
+        total_written = 0
+        with temp_path.open("wb") as handle:
+            while True:
+                chunk = await file.read(chunk_size)
+                if not chunk:
+                    break
+                handle.write(chunk)
+                total_written += len(chunk)
+            handle.flush()
+            try:
+                os.fsync(handle.fileno())
+            except OSError:
+                pass
+
+        on_temp_disk = temp_path.stat().st_size
+        if on_temp_disk == 0 or on_temp_disk != total_written:
+            raise HTTPException(
+                status_code=500,
+                detail=(
+                    f"Upload was truncated before commit: read {total_written} "
+                    f"bytes but {on_temp_disk} bytes are on disk for {filename}."
+                ),
+            )
+
+        text = temp_path.read_text(encoding="utf-8", errors="replace")
+
+        if validate_json:
+            try:
+                payload = json.loads(text)
+            except json.JSONDecodeError as exc:
+                raise HTTPException(
+                    status_code=400,
+                    detail=(
+                        "Uploaded candidate JSON was saved but is invalid: "
+                        f"{exc.msg} at line {exc.lineno}, column {exc.colno}."
+                    ),
+                ) from exc
+            if not isinstance(payload, (list, dict)):
+                raise HTTPException(
+                    status_code=400,
+                    detail="Candidate JSON must contain an object or a list of objects.",
+                )
+
+        # Atomic commit: readers either see the previous complete file or this
+        # complete file, never a partially written upload.
+        temp_path.replace(path)
+
+        on_disk = path.stat().st_size
+        if on_disk == 0 or on_disk != total_written:
+            raise HTTPException(
+                status_code=500,
+                detail=(
+                    f"Upload was truncated after commit: read {total_written} "
+                    f"bytes but {on_disk} bytes are on disk for {filename}."
+                ),
+            )
+
+        print("Saved file:", path)
+        print("Size:", on_disk)
+        print("Last 500 chars:")
+        print(text[-500:])
+
+    except HTTPException:
+        if temp_path.exists():
+            temp_path.unlink(missing_ok=True)
+        raise
+    except Exception as exc:
+        if temp_path.exists():
+            temp_path.unlink(missing_ok=True)
+        raise HTTPException(status_code=500, detail=f"Failed to save upload: {exc}") from exc
+    finally:
+        await file.close()
+
     return path
+
 
 
 def ensure_cache() -> dict[str, Any]:
